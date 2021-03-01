@@ -1,0 +1,63 @@
+body {
+    background-color: #464343;
+  }
+  .armor-item:hover {
+      background-color: #ee1f1f;
+  }
+  .general-mod-slot:hover {
+      background-color: #fd0076;
+      
+  }
+  .affinity-slot:hover {
+      background-color: #18c259;
+      transition: 2s;
+  }
+  .combat-mod-slot:hover {
+      background-color: #410488;
+  }
+  .raid-mod-slot:hover {
+      background-color: #0ce1e9;
+  }
+  .helmet-mod-slot:hover{
+      background-color: #cefa0a;
+  }
+  .gauntlet-mod-slot:hover{
+      background-color: #face0a;
+  }
+  .chest-mod-slot:hover{
+      background-color: #fa2e0a;
+  }
+  .boots-mod-slot:hover{
+      background-color: #fa0a32;
+  }
+  .class-mod-slot:hover{
+      background-color: #cf3a3a;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 450ms, visibility 450ms;
+    white-space: nowrap;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .hoverable:hover .tooltiptext{
+    visibility: visible;
+    opacity: 1;
+    
+}
