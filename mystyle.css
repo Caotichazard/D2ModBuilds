@@ -1,39 +1,40 @@
 body {
-    background-color: #464343;
-  }
-  .armor-item:hover {
-      background-color: #ee1f1f;
-  }
-  .general-mod-slot:hover {
-      background-color: #fd0076;
-      
-  }
-  .affinity-slot:hover {
-      background-color: #18c259;
-      transition: 2s;
-  }
-  .combat-mod-slot:hover {
-      background-color: #410488;
-  }
-  .raid-mod-slot:hover {
-      background-color: #0ce1e9;
-  }
-  .helmet-mod-slot:hover{
-      background-color: #cefa0a;
-  }
-  .gauntlet-mod-slot:hover{
-      background-color: #face0a;
-  }
-  .chest-mod-slot:hover{
-      background-color: #fa2e0a;
-  }
-  .boots-mod-slot:hover{
-      background-color: #fa0a32;
-  }
-  .class-mod-slot:hover{
-      background-color: #cf3a3a;
+    background-color: #411c1c;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
   }
 
+  .slots{
+      
+      background-color: black;
+  }
+  
+  .node{
+      display: inline-block;
+      background-color: brown;
+  }
+
+  .dropdown {
+    position: relative;
+    display: flex;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    float:left;
+    flex-wrap: wrap;
+    background-color: brown;
+    width: 75%;
+    opacity: 1;
+    
+  }
+  .dropdown:hover .dropdown-content {display: flex;}
+/*
   .tooltip {
     position: relative;
     display: inline-block;
@@ -51,13 +52,22 @@ body {
     opacity: 0;
     transition: opacity 450ms, visibility 450ms;
     white-space: nowrap;
-    /* Position the tooltip text - see examples below! */
+     Position the tooltip text - see examples below! 
     position: absolute;
     z-index: 1;
   }
 
-  .hoverable:hover .tooltiptext{
+  .tutorial:hover .tooltiptext{
     visibility: visible;
     opacity: 1;
     
 }
+
+.affinity-selector{
+    
+   
+    
+    background-color: #df0c0c;
+      
+}
+*/
