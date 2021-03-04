@@ -3,10 +3,7 @@ body {
 }
 
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
+
 
   .slots{
       
@@ -15,12 +12,13 @@ body {
   
   .node{
       display: inline-block;
-      background-color: brown;
+      
   }
 
   .dropdown {
     position: relative;
     display: flex;
+    padding: 1px;
   }
   
   .dropdown-content {
@@ -28,7 +26,7 @@ body {
     position: absolute;
     float:left;
     flex-wrap: wrap;
-    background-color: brown;
+    
     width: 75%;
     opacity: 1;
     
@@ -52,6 +50,29 @@ body {
     left: 0;
   }
   
+  .energy_counter{
+    display: flex;
+  }
+
+  .energy_unit{
+    width: 50px;
+    height: 20px;
+    
+    border-width:2px;
+    border-style:solid;
+    border-color:white;
+  }
+  .energy_unit.empty{
+    background-color: transparent;
+  }
+  .energy_unit.full{
+    
+    background-color: rgb(255, 255, 255);
+  }
+  .selected{
+    display: flex;
+    padding: 5px;
+  }
   
 /*
   .tooltip {
