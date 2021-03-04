@@ -5,9 +5,62 @@ function removeTooltips(){
     element[0].className=element[0].className.replace('tutorial','');
 }
 
+
+var current_build = {
+    ".helmet": {
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
+    },
+    ".gauntlet": {
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
+    },
+    ".chest":{
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
+    },
+    ".boots":{
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
+    },
+    ".class":{
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
+    }
+}
+
+function setBuildValue(armor,slot,value){
+    current_build[armor][slot] = parseInt(value)
+}
+
 $(document).ready(function(){
     
-    var arr = [".helmet",".gauntlet",".chest",".boots",".class"]
+    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
 
 
     loadData()
@@ -15,23 +68,29 @@ $(document).ready(function(){
 
     var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
     
-    mod_slots.forEach(function(element){
-        $(".armor").children(".selectors").each(function(){
-            $(this).children(element).children().each(function(){
-                $(this).click(() =>{
-                    $(this).parents(".armor").children(".selected").children(element).empty()
-                    $(this).parents(".armor").children(".selected").children(element).append($(this).clone())
-                    
+    armor_pieces.forEach(function(armor){
+        mod_slots.forEach(function(slot){
+            $(armor).children(".selectors").each(function(){
+                $(this).children(slot).children().each(function(){
+                    $(this).click(() =>{
+                        var value = $(this).children(".value").html()
+                        setBuildValue(armor,slot,value)
+                        console.log(current_build)
+                        $(this).parents(".armor").children(".selected").children(slot).empty()
+                        $(this).parents(".armor").children(".selected").children(slot).append($(this).clone())
+                        
+                    })
                 })
             })
+             
         })
-         
     })
+    
 
 
 
     
-    arr.forEach(function(element){
+    armor_pieces.forEach(function(element){
         var arrSlots = [".affinity",".general", ".armor-1", ".armor-2", ".combat", ".activity"]
         arrSlots.forEach(function(slot){
             $(element).children().children(".dropdown"+slot).hover(function(){
@@ -58,76 +117,78 @@ $(document).ready(function(){
 
 function getAffinitySelector(){
     var string = ""
-    affinities.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='element-"+element["name"] + "'>" + "</div>"
+    affinities.forEach(function(element, i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='element-"+element["name"] + "'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getGeneralSelector(){
     var string = ""
-    general_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='general-mod'>" + "</div>"
+    general_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='general-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getCombatSelector(){
     var string = ""
-    combat_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='combat-mod'>" + "</div>"
+    combat_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='combat-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getActivitySelector(){
     var string = ""
-    activity_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='activity-mod'>" + "</div>"
+    activity_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='activity-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getHelmetSelector(){
     var string = ""
-    helmet_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "</div>"
+    helmet_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getGauntletSelector(){
     var string = ""
-    gauntlet_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "</div>"
+    gauntlet_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getChestSelector(){
     var string = ""
-    chest_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "</div>"
+    chest_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function getBootsSelector(){
     var string = ""
-    boots_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "</div>"
+    boots_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 function getClassSelector(){
     var string = ""
-    class_mods.forEach(function(element){
-        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "</div>"
+    class_mods.forEach(function(element,i){
+        string += "<div >" + "<img src='"+element["img"]+ "' alt='helmet-mod'>" + "<span hidden class='value'>" +i+"</span>" + "</div>"
     })
     return string
 }
 
 function loadData(){
+    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
+    var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
     $(".armor").children(".selectors").each(function(){
         $(this).children(".affinity").each(function(){
             $(this).append(getAffinitySelector())
@@ -187,13 +248,14 @@ function loadData(){
 
 var affinities = [
     {
-        "name": "solar",
-        "img": "https://www.bungie.net/common/destiny2_content/icons/ea89705796a93504412e041c1b5931c0.png"
-    },
-    {
         "name": "arc",
         "img": "https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png"
     },
+    {
+        "name": "solar",
+        "img": "https://www.bungie.net/common/destiny2_content/icons/ea89705796a93504412e041c1b5931c0.png"
+    },
+    
     {
         "name":"void",
         "img": "https://www.bungie.net/common/destiny2_content/icons/d0b6369c27cea3a71f059665ba397720.png"
