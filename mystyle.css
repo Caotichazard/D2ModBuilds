@@ -18,7 +18,7 @@ body {
   .dropdown {
     position: relative;
     display: flex;
-    padding: 1px;
+    
   }
   
   .dropdown-content {
@@ -71,6 +71,6 @@ body {
   }
   .selected{
     display: flex;
-    padding: 5px;
+    
   }
   
