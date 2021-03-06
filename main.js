@@ -1,12 +1,7 @@
-function removeTooltips(){
-    
-    element= document.querySelectorAll('.tutorial');
-    console.log(element[0].className)
-    element[0].className=element[0].className.replace('tutorial','');
-}
 
 
-var current_build = {
+
+var default_build = {
     ".helmet": {
         ".affinity": 1,
         ".general": 0,
@@ -26,18 +21,18 @@ var current_build = {
         "total_energy": 0
     },
     ".chest":{
-        ".affinity": 3,
+        ".affinity": 1,
         ".general": 0,
         ".combat": 0,
         ".activity": 0,
         ".armor-1": 0,
-        ".armor-2": 1,
+        ".armor-2": 0,
         "total_energy": 0
     },
     ".boots":{
         ".affinity": 1,
         ".general": 0,
-        ".combat": 2,
+        ".combat": 0,
         ".activity": 0,
         ".armor-1": 0,
         ".armor-2": 0,
@@ -54,65 +49,348 @@ var current_build = {
     }
 }
 
-current_build_errors = {
+
+var current_build
+var test_build ={
     ".helmet": {
-        "has_error": false,
-        "error_message" : ""
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
     },
     ".gauntlet": {
-        "has_error": false,
-        "error_message" : ""
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
     },
     ".chest":{
-        "has_error": false,
-        "error_message" : ""
+        ".affinity": 1,
+        ".general": 1,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 2,
+        ".armor-2": 2,
+        "total_energy": 0
     },
     ".boots":{
-        "has_error": false,
-        "error_message" : ""
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
     },
     ".class":{
-        "has_error": false,
-        "error_message" : ""
+        ".affinity": 0,
+        ".general": 0,
+        ".combat": 0,
+        ".activity": 0,
+        ".armor-1": 0,
+        ".armor-2": 0,
+        "total_energy": 0
     }
-}
-
-function setBuildValue(armor,slot,value){
-    var tmp_build = current_build
-    tmp_build[armor][slot] = parseInt(value)
-    isValid = checkBuild(tmp_build)
-    if(isValid){
-        loadData(current_build)
-        loadBuild(current_build)
-    }
-    else{
-        //console.log("TA ERRADO PORRA")
-    }
-    return
-    
 }
 
 $(document).ready(function(){
     
     
-
-
-    loadData(current_build)
-    checkBuild(current_build)
+    current_build = readBuild()
+    
+    current_build = checkBuild(test_build)
+    
+    loadSelectors(current_build)
     loadBuild(current_build)
 
-    
-    
-    
-    
-
-
-
-    
-    
-    
-    
   });
+
+/**
+ * 
+ * @param {String} possible_build 
+ * @returns build object, default_build if invalid or null string, else returns the possible_build from the string
+ */
+function readBuild(possible_build=null){
+    if(possible_build==null){
+        return default_build
+    }else{
+        return default_build
+    }
+}
+/**
+ * 
+ * @param {build} tmp_build 
+ * @returns returns a valid build
+ */
+function checkBuild(tmp_build){
+    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
+    var mod_slots = [".general",".combat",".activity",".armor-1",".armor-2"]
+
+    var hadError = false
+    armor_pieces.forEach(function(armor){
+        
+        if(tmp_build[armor][".affinity"] > 3 || tmp_build[armor][".affinity"] < 1){
+            tmp_build[armor] = default_build[armor]
+        }else{
+            var slot_total_energy = 0
+            var costly_mod_slot
+            var costly_mod_cost = 0
+            var cur_mod
+            mod_slots.forEach(function(slot){
+                if(slot == ".armor-1" || slot==".armor-2"){
+                    if(tmp_build[armor][slot] > all_mods[slot][armor].length ||tmp_build[armor][slot] < 0){
+                        tmp_build[armor][slot] = 0
+                    }
+                    cur_mod = all_mods[slot][armor][tmp_build[armor][slot]]
+                }else{
+                    if(tmp_build[armor][slot] > all_mods[slot].length ||tmp_build[armor][slot] < 0){
+                        tmp_build[armor][slot] = 0
+                    }
+                    cur_mod = all_mods[slot][tmp_build[armor][slot]]
+                }
+
+                if(isAffinityCompatible(tmp_build[armor][".affinity"],cur_mod["affinity"])){
+                    if(cur_mod["cost"] > 0){
+                        slot_total_energy += cur_mod["cost"] - 1
+                        if(cur_mod["cost"] > costly_mod_cost){
+                            costly_mod_slot = slot
+                            costly_mod_cost = cur_mod["cost"] - 1
+                        }
+                    }
+                }else{
+                    tmp_build[armor][slot] = 0
+                }
+            })
+
+            if(slot_total_energy > 10){
+                tmp_build[armor][costly_mod_slot] = 0
+                slot_total_energy -= costly_mod_cost
+            }
+            tmp_build[armor]["total_energy"] = slot_total_energy
+        }
+        
+    })
+
+    return tmp_build
+    
+}
+
+function loadBuild(current_build){
+    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
+    var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
+
+    armor_pieces.forEach(function(armor){
+        $(armor).children(".selected").each(function(){
+            $(this).children(".armor-1").each(function(){
+                $(this).empty()
+                $(this).append(getArmorSelected(armor,current_build[armor][".affinity"],current_build[armor][".armor-1"]))
+            })
+            $(this).children(".armor-2").each(function(){
+                $(this).empty()
+                $(this).append(getArmorSelected(armor,current_build[armor][".affinity"],current_build[armor][".armor-2"]))
+            })
+            $(this).children(".affinity").each(function(){
+                $(this).empty()
+                $(this).append(getAffinitySelected(current_build[armor][".affinity"]))
+            })
+            $(this).children(".general").each(function(){
+                $(this).empty()
+                $(this).append(getGeneralSelected(current_build[armor][".affinity"],current_build[armor][".general"]))
+            })
+            $(this).children(".combat").each(function(){
+                $(this).empty()
+                $(this).append(getCombatSelected(current_build[armor][".affinity"],current_build[armor][".combat"]))
+            })
+            $(this).children(".activity").each(function(){
+                $(this).empty()
+                $(this).append(getActivitySelected(current_build[armor][".affinity"],current_build[armor][".activity"]))
+            })
+        })
+        $(armor).children("div").children(".energy_counter").each(function(){
+            
+            $(this).children().children().children().each(function(){
+                $(this).children().addClass("empty").removeClass("full")
+            })
+            for(let index = 0; index < current_build[armor]["total_energy"]; index++) {
+                $(this).children().children().children().children(".u"+index).addClass("full").removeClass("empty")
+                
+            }
+        })
+
+    })
+}
+
+function loadSelectors(current_build){
+    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
+    var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
+    
+    armor_pieces.forEach(function(armor){
+        $(armor).children(".selectors").each(function(){
+            $(this).children(".armor-1").each(function(){
+                $(this).empty()
+                $(this).append(getArmorSelector(armor,current_build[armor][".affinity"]))
+            })
+            $(this).children(".armor-2").each(function(){
+                $(this).empty()
+                $(this).append(getArmorSelector(armor,current_build[armor][".affinity"]))
+            })
+            $(this).children(".affinity").each(function(){
+                $(this).empty()
+                $(this).append(getAffinitySelector())
+            })
+            $(this).children(".general").each(function(){
+                $(this).empty()
+                $(this).append(getGeneralSelector(current_build[armor][".affinity"]))
+            })
+            $(this).children(".combat").each(function(){
+                $(this).empty()
+                $(this).append(getCombatSelector(current_build[armor][".affinity"]))
+            })
+            $(this).children(".activity").each(function(){
+                $(this).empty()
+                $(this).append(getActivitySelector(current_build[armor][".affinity"]))
+            })
+        })
+    })
+
+    armor_pieces.forEach(function(armor){
+        mod_slots.forEach(function(slot){
+            $(armor).children(".selectors").each(function(){
+                $(this).children(slot).children().each(function(){
+                    $(this).click(() =>{
+                        var value = $(this).children(".value").html()
+                        updateBuild(armor,slot,value)
+                        
+                        
+                    })
+                })
+            })
+             
+        })
+    })
+
+    
+
+    armor_pieces.forEach(function(element){
+        var arrSlots = [".affinity",".general", ".armor-1", ".armor-2", ".combat", ".activity"]
+        arrSlots.forEach(function(slot){
+            $(element).children().children(".dropdown"+slot).hover(function(){
+                $(element).children().children(".dropdown-content"+slot).css("display", "flex");
+                $(".spacer"+element).css("height",$(element).children().children(".dropdown-content"+slot).css("height"))
+            }, function(){
+                $(element).children().children(".dropdown-content"+slot).css("display", "none");
+                $(".spacer"+element).css("height","0")
+            });
+            $(element).children().children(".dropdown-content"+slot).hover(function(){
+                $(element).children().children(".dropdown-content"+slot).css("display", "flex");
+                $(".spacer"+element).css("height",$(element).children().children(".dropdown-content"+slot).css("height"))
+            }, function(){
+                $(element).children().children(".dropdown-content"+slot).css("display", "none");
+                $(".spacer"+element).css("height","0")
+            });
+            
+        })
+        
+    })
+
+    
+    
+}
+
+function loadData(current_build){
+    loadBuild(current_build)
+    loadSelectors(current_build)
+}
+
+function canChangeSlot(armor,slot,value){
+    var tmp_build = current_build
+    var cur_mod
+
+    if(slot == '.affinity'){
+        return true
+    }else{
+        if(slot == ".armor-1" ||slot == ".armor-2"){
+            
+            cur_mod = all_mods[slot][armor][value]
+        }else{
+            
+            cur_mod = all_mods[slot][value]
+        }
+        
+        if(isAffinityCompatible(tmp_build[armor][".affinity"],cur_mod["affinity"])){
+            if(cur_mod["cost"] > 0){
+                if(tmp_build[armor]["total_energy"] + (cur_mod["cost"] -1) <= 10){
+                    return true
+                }
+            }else{
+                return true
+            }
+        }
+    }
+    
+    return false
+    
+}
+
+function updateBuild(armor,slot,value){
+    if(canChangeSlot(armor,slot,value)){
+        changeSlot(armor,slot,value)
+    }else{
+        console.log("num pode")
+    }
+
+    loadData(current_build)
+}
+
+function changeSlot(armor,slot,value){
+    var nxt_mod,cur_mod
+    if(slot == '.affinity'){
+        current_build[armor] = default_build[armor]
+        current_build[armor][slot] = value
+        
+    }else{
+        
+        if(slot == ".armor-1" ||slot == ".armor-2"){
+            cur_mod = all_mods[slot][armor][current_build[armor][slot]]
+            nxt_mod = all_mods[slot][armor][value]
+        }else{
+            cur_mod = all_mods[slot][current_build[armor][slot]]
+            nxt_mod = all_mods[slot][value]
+        }
+
+        if(cur_mod["cost"] == 0){
+            current_build[armor][slot] = value
+            current_build[armor]["total_energy"] += nxt_mod["cost"] -1
+        }else{
+            if(nxt_mod["cost"] == 0){
+                current_build[armor][slot] = value
+                current_build[armor]["total_energy"] -= (cur_mod["cost"] -1)
+            }else{
+                current_build[armor][slot] = value
+                current_build[armor]["total_energy"] -= (cur_mod["cost"] -1)
+                current_build[armor]["total_energy"] += nxt_mod["cost"] -1
+            }
+        }
+        
+
+    }
+}
+
+function isAffinityCompatible(armor_affinity,mod_affinity){
+    if(armor_affinity == mod_affinity || mod_affinity == 0){
+        return true
+    }else{
+        return false
+    }
+}
+
+
 
 function getAffinitySelector(){
     var string = ""
@@ -134,6 +412,8 @@ function getGeneralSelector(affinity){
     })
     return string
 }
+
+
 
 function getCombatSelector(affinity){
     var string = ""
@@ -289,180 +569,11 @@ function getArmorSelected(armor,affinity,index){
     return string
 }
 
-function isAffinityCompatible(armor_affinity,mod_affinity){
-    if(armor_affinity == mod_affinity || mod_affinity == 0){
-        return true
-    }else{
-        return false
-    }
-}
-function checkBuild(current_build){
-    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
-    var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
 
-    var hadError = false
-    armor_pieces.forEach(function(armor){
-        //console.log(armor)
-        var energy_spent = 0
-        mod_slots.forEach(function(slot){
-            var index = current_build[armor][slot]
-            var mod_energy = 0
-            if(slot != ".affinity"){
-                if(slot == ".general"){
-                    mod_energy += general_mods[index]["cost"]
-                }else if(slot == ".combat"){
-                    mod_energy += combat_mods[index]["cost"]
-                }
-                else if(slot == ".activity"){
-                    mod_energy += activity_mods[index]["cost"]
-                }
-                else{
-                    mod_energy += armor_mods[armor][index]["cost"]
-                }
-            }
 
-            if(mod_energy > 0){
-                energy_spent += mod_energy -1
-            }
-            
-        })
-        current_build[armor]["total_energy"] = energy_spent
-        
-        //console.log(energy_spent)
-        if(energy_spent > 10){
-            hadError = true
-            current_build_errors[armor]["has_error"] = true
-            current_build_errors[armor]["error_message"] = "Too much energy needed!"
-            
-        }
-    })
-    if (hadError){
-        return false
-    }
-    return true
-}
-function loadBuild(current_build){
-    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
-    var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
 
-    armor_pieces.forEach(function(armor){
-        $(armor).children(".selected").each(function(){
-            $(this).children(".armor-1").each(function(){
-                $(this).empty()
-                $(this).append(getArmorSelected(armor,current_build[armor][".affinity"],current_build[armor][".armor-1"]))
-            })
-            $(this).children(".armor-2").each(function(){
-                $(this).empty()
-                $(this).append(getArmorSelected(armor,current_build[armor][".affinity"],current_build[armor][".armor-2"]))
-            })
-            $(this).children(".affinity").each(function(){
-                $(this).empty()
-                $(this).append(getAffinitySelected(current_build[armor][".affinity"]))
-            })
-            $(this).children(".general").each(function(){
-                $(this).empty()
-                $(this).append(getGeneralSelected(current_build[armor][".affinity"],current_build[armor][".general"]))
-            })
-            $(this).children(".combat").each(function(){
-                $(this).empty()
-                $(this).append(getCombatSelected(current_build[armor][".affinity"],current_build[armor][".combat"]))
-            })
-            $(this).children(".activity").each(function(){
-                $(this).empty()
-                $(this).append(getActivitySelected(current_build[armor][".affinity"],current_build[armor][".activity"]))
-            })
-        })
-        $(armor).children("div").children(".energy_counter").each(function(){
-            console.log(current_build[armor]["total_energy"])
-            $(this).children().children().children().each(function(){
-                $(this).children().addClass("empty").removeClass("full")
-            })
-            for(let index = 0; index < current_build[armor]["total_energy"]; index++) {
-                console.log($(this).children().children().children().children(".u"+index).addClass("full").removeClass("empty"))
-                
-            }
-        })
 
-    })
-}
 
-function loadData(current_build){
-    var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
-    var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
-    
-    armor_pieces.forEach(function(armor){
-        $(armor).children(".selectors").each(function(){
-            $(this).children(".armor-1").each(function(){
-                $(this).empty()
-                $(this).append(getArmorSelector(armor,current_build[armor][".affinity"]))
-            })
-            $(this).children(".armor-2").each(function(){
-                $(this).empty()
-                $(this).append(getArmorSelector(armor,current_build[armor][".affinity"]))
-            })
-            $(this).children(".affinity").each(function(){
-                $(this).empty()
-                $(this).append(getAffinitySelector())
-            })
-            $(this).children(".general").each(function(){
-                $(this).empty()
-                $(this).append(getGeneralSelector(current_build[armor][".affinity"]))
-            })
-            $(this).children(".combat").each(function(){
-                $(this).empty()
-                $(this).append(getCombatSelector(current_build[armor][".affinity"]))
-            })
-            $(this).children(".activity").each(function(){
-                $(this).empty()
-                $(this).append(getActivitySelector(current_build[armor][".affinity"]))
-            })
-        })
-    })
-
-    armor_pieces.forEach(function(armor){
-        mod_slots.forEach(function(slot){
-            $(armor).children(".selectors").each(function(){
-                $(this).children(slot).children().each(function(){
-                    $(this).click(() =>{
-                        
-                        
-                        $(this).parents(".armor").children(".selected").children(slot).empty()
-                        $(this).parents(".armor").children(".selected").children(slot).append($(this).clone())
-                        var value = $(this).children(".value").html()
-                        setBuildValue(armor,slot,value)
-                        
-                    })
-                })
-            })
-             
-        })
-    })
-
-    armor_pieces.forEach(function(element){
-        var arrSlots = [".affinity",".general", ".armor-1", ".armor-2", ".combat", ".activity"]
-        arrSlots.forEach(function(slot){
-            $(element).children().children(".dropdown"+slot).hover(function(){
-                $(element).children().children(".dropdown-content"+slot).css("display", "flex");
-                $(".spacer"+element).css("height",$(element).children().children(".dropdown-content"+slot).css("height"))
-            }, function(){
-                $(element).children().children(".dropdown-content"+slot).css("display", "none");
-                $(".spacer"+element).css("height","0")
-            });
-            $(element).children().children(".dropdown-content"+slot).hover(function(){
-                $(element).children().children(".dropdown-content"+slot).css("display", "flex");
-                $(".spacer"+element).css("height",$(element).children().children(".dropdown-content"+slot).css("height"))
-            }, function(){
-                $(element).children().children(".dropdown-content"+slot).css("display", "none");
-                $(".spacer"+element).css("height","0")
-            });
-            
-        })
-        
-    })
-
-    
-    
-}
 
 var mod_affinities = [
     {
@@ -786,4 +897,12 @@ var armor_mods = {
     ".chest": chest_mods,
     ".boots": boots_mods,
     ".class": class_mods
+}
+
+var all_mods = {
+    ".general": general_mods,
+    ".armor-1": armor_mods,
+    ".armor-2": armor_mods,
+    ".combat": combat_mods,
+    ".activity": activity_mods
 }
