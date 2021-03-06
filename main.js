@@ -351,8 +351,12 @@ function updateBuild(armor,slot,value){
 function changeSlot(armor,slot,value){
     var nxt_mod,cur_mod
     if(slot == '.affinity'){
-        current_build[armor] = default_build[armor]
+        var mod_slots = [,".general",".combat",".activity",".armor-1",".armor-2"]
         current_build[armor][slot] = value
+        mod_slots.forEach(function(slot){
+            current_build[armor][slot] = 0
+        })
+        current_build[armor]["total_energy"] = 0
         
     }else{
         
