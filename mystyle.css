@@ -91,9 +91,9 @@ body {
     
     color: #fff;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    opacity: 90%;
+    
+    
+    opacity: 95%;
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
@@ -112,7 +112,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(70, 69, 69);
     text-align: left;
     padding: 10px;
     
@@ -121,7 +121,7 @@ body {
   .mod-body{
      display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(48, 47, 47);
     text-align: left;
     padding: 10px;
   }

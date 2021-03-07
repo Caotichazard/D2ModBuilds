@@ -6,7 +6,18 @@
 <body>
     <div style="display: flex;">
         <div>
-            <h1 class="text">Destiny 2 BreadBuilds</h1>
+            <div style="height: 200px;">
+                <h1 class="text">Destiny 2 BreadBuilds</h1>
+                <button onclick="resetBuild()">Reset Build</button>
+                <br>
+                <br>
+                <input type="text" name="build-string" id="build-string" style="width: 650px;">
+                <br>
+                <button onclick="buildToString()" >Export Build</button>
+                <button onclick="importBuild()" >Import Build</button>
+            </div>
+            
+            
             <div class="helmet armor" >
                 <div>
                     <img src="https://www.bungie.net/common/destiny2_content/icons/898624eb5964b7456a03bfa70467fe2d.jpg" alt="titan-helmet">
@@ -318,9 +329,8 @@
             - Tooltips <br>
             -- Look could be better but works for now <br> <br>
 
-            - Reset Build button <br>
             - Complete mod list <br>
-            - Export/Import build button <br>
+            
             
             - Class Armor Selection <br>
         </p>
