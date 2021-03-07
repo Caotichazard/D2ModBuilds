@@ -466,7 +466,10 @@ function getSelector(affinity,slot,armor){
             string += "<img src='" + mod_affinities[element["affinity"]]["img"] + "' alt='mod-affinity'>"
             string += "<img src='" + mod_costs[element["cost"]]["img"] + "' alt='mod-cost'>"
             string += "<span hidden class='value'>" +i+"</span>" + "</div>"
-            string += "<div class='text mod-tooltip-text'>" + element["name"] +"</div>"
+            string += "<div class='text mod-tooltip-text'>" 
+            string += "<div class='mod-header'> <h3>" + element["name"] + "</h3>" + element["type"] + "</div>"
+            string += "<div class='mod-body'> <p>" + "description" + "<br>" + "description" + "</p>" + "</div>"
+            string += "</div>"
             string += "</div>"
         }
     })

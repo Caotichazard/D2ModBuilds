@@ -99,4 +99,16 @@ body {
   .mod-tooltip:hover .mod-tooltip-text {
     visibility: visible;
   }
-  
+  .mod-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(40, 40, 40);
+    
+ }
+
+  .mod-body{
+     display: flex;
+    flex-direction: column;
+    background-color: gray;
+  }
