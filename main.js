@@ -264,7 +264,7 @@ function loadSelectors(current_build){
     armor_pieces.forEach(function(armor){
         all_slots.forEach(function(slot){
             $(armor).children(".selectors").each(function(){
-                $(this).children(slot).children().each(function(){
+                $(this).children(slot).children().children().each(function(){
                     $(this).click(() =>{
                         var value = $(this).children(".value").html()
                         updateBuild(armor,slot,value)     
@@ -443,7 +443,9 @@ function isAffinityCompatible(armor_affinity,mod_affinity){
 function getAffinitySelector(){
     var string = ""
     affinities.forEach(function(element, i){
+        string+= "<div>"
         string += "<div >" + "<img src='"+element["img"]+ "' alt='element-"+element["name"] + "'>" + "<span hidden class='value'>" +(i+1)+"</span>" + "</div>"
+        string += "</div>"
     })
     return string
 }
@@ -459,10 +461,13 @@ function getSelector(affinity,slot,armor){
     var string = ""
     mod_list.forEach(function(element,i){
         if(isAffinityCompatible(affinity,element["affinity"])){
+            string += "<div class='mod-tooltip'>"
             string += "<div class='mod-showcase'>" + "<img src='"+element["img"]+ "' alt='mod'>"
             string += "<img src='" + mod_affinities[element["affinity"]]["img"] + "' alt='mod-affinity'>"
             string += "<img src='" + mod_costs[element["cost"]]["img"] + "' alt='mod-cost'>"
             string += "<span hidden class='value'>" +i+"</span>" + "</div>"
+            string += "<div class='text mod-tooltip-text'>" + element["name"] +"</div>"
+            string += "</div>"
         }
     })
     return string
