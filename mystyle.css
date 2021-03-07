@@ -84,26 +84,37 @@ body {
   
   .mod-tooltip .mod-tooltip-text {
     visibility: hidden;
-    width: 120px;
-    background-color: black;
+    /*background-color: gray;*/
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
-  
+    opacity: 90%;
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
+  }
+
+  .mod-tooltip-upper{
+    bottom: 100%;
   }
   
   .mod-tooltip:hover .mod-tooltip-text {
     visibility: visible;
   }
+  
+  
   .mod-header{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: rgb(40, 40, 40);
+    text-align: left;
+    padding: 10px;
     
  }
 
@@ -111,4 +122,13 @@ body {
      display: flex;
     flex-direction: column;
     background-color: gray;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  span.name{
+    font-size: 30px;
+  }
+  span.type{
+    font-size: 15px;
   }

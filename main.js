@@ -416,9 +416,7 @@ function showErrorMsg(armor){
     $(".error"+armor).append(error_messages[armor]["message"])
 }
 function showTooltip(type){
-    if(type == "None"){
-
-    }else if(type =="Warmind cell"){
+    if(type =="Warmind cell"){
         $(".tooltip").append("<p> You need to have a Ikelos or Seventh Seraph weapon to take advantage of this mod</p>") 
     }else if(type == "Charged with light generator"){
         $(".tooltip").append("<p> You need to have a Charged with light consumer mod to take advantage of this mod</p>") 
@@ -467,8 +465,14 @@ function getSelector(affinity,slot,armor){
             string += "<img src='" + mod_costs[element["cost"]]["img"] + "' alt='mod-cost'>"
             string += "<span hidden class='value'>" +i+"</span>" + "</div>"
             string += "<div class='text mod-tooltip-text'>" 
-            string += "<div class='mod-header'> <h3>" + element["name"] + "</h3>" + element["type"] + "</div>"
-            string += "<div class='mod-body'> <p>" + "description" + "<br>" + "description" + "</p>" + "</div>"
+            string += "<div class='mod-header'> <span class='name'>" + element["name"] + "</span><span class='type'>" + element["type"] + "</span></div>"
+            if(element["description"].length > 0){
+                string += "<div class='mod-body'>" 
+                element["description"].forEach(function(description){
+                    string += "<span>" + description + "</span>" + "<br>"
+                })
+                string +=  "</div>"
+            }
             string += "</div>"
             string += "</div>"
         }
@@ -503,10 +507,22 @@ function getSelected(affinity,slot,armor,index){
     }else{
         element = mod_list[index]
         if(isAffinityCompatible(affinity,element["affinity"])){
+            string += "<div class='mod-tooltip'>"
             string += "<div class='mod-showcase'>" + "<img src='"+element["img"]+ "' alt='general-mod'>"
             string += "<img src='" + mod_affinities[element["affinity"]]["img"] + "' alt='mod-affinity'>"
             string += "<img src='" + mod_costs[element["cost"]]["img"] + "' alt='mod-cost'>"
             string += "<span hidden class='value'>" +index+"</span>" + "</div>"
+            string += "<div class='text mod-tooltip-text mod-tooltip-upper'>" 
+            string += "<div class='mod-header'> <span class='name'>" + element["name"] + "</span><span class='type'>" + element["type"] + "</span></div>"
+            if(element["description"].length > 0){
+                string += "<div class='mod-body'>" 
+                element["description"].forEach(function(description){
+                    string += "<span>" + description + "</span>" + "<br>"
+                })
+                string +=  "</div>"
+            }
+            string += "</div>"
+            string += "</div>"
         }else {
             string += "<div class='mod-showcase'>" + "<img src='"+mod_list[0]["img"]+ "' alt='general-mod'>"
             string += "<img src='" + mod_affinities[mod_list[0]["affinity"]]["img"] + "' alt='mod-affinity'>"
@@ -598,14 +614,20 @@ var general_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/3a1e41ae2e2cbe33611481665f7d0378.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Intellect Mod",
         "img": "https://bungie.net/common/destiny2_content/icons/9fd56c3b42923c9df23edf585b0107bf.png",
         "affinity": 0,
         "cost": 5+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
 
     },
     {
@@ -613,14 +635,20 @@ var general_mods = [
         "img":"https://bungie.net/common/destiny2_content/icons/d8da60458e3355ddf7123be5ffe3dc3c.png",
         "affinity": 0,
         "cost": 2+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Discipline Mod",
         "img": "https://bungie.net/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png",
         "affinity": 0,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
 
     },
     {
@@ -628,14 +656,20 @@ var general_mods = [
         "img":"https://bungie.net/common/destiny2_content/icons/8fa2d4e4c82586668210e12c5115575a.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Strength Mod",
         "img": "https://www.bungie.net/common/destiny2_content/icons/07f2361532c79e773909220e5884ab07.png",
         "affinity": 0,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
 
     },
     {
@@ -643,7 +677,10 @@ var general_mods = [
         "img":"https://www.bungie.net/common/destiny2_content/icons/ec0b298ec4dac0023604e467a58c3868.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     }
 ]
 
@@ -655,7 +692,10 @@ var combat_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
 
     },
     {
@@ -663,28 +703,41 @@ var combat_mods = [
         "img": "https://bungie.net/common/destiny2_content/icons/41e2c3607cef7cc665417dde5172ea32.png",
         "affinity": 2,
         "cost": 5+1,
-        "type": "Warmind cell mod"
+        "type": "Warmind cell mod",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Reactive Pulse",
         "img": "https://www.bungie.net/common/destiny2_content/icons/19fc1544595d371c631855656c9f31b7.png",
         "affinity": 1,
         "cost": 3+1,
-        "type": "Charged with light consumer"
+        "type": "Charged with light consumer",
+        "description": [
+            "When charged with light, if attacked by a nearby enemy, emits a pulse of arc energy damaging combatants",
+            "If another arc mod is equipped, gain an overshield when using your finisher"
+        ],
     },
     {
         "name": "Charge Harvester",
         "img": "https://bungie.net/common/destiny2_content/icons/a8acc2b6cf36527f879051a38622e310.png",
         "affinity": 3,
         "cost": 3+1,
-        "type": "Charged with light generator"
+        "type": "Charged with light generator",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Global Reach",
         "img": "https://www.bungie.net/common/destiny2_content/icons/9106c7e977dc578319d636c9566047de.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "Warmind cell"
+        "type": "Warmind cell",
+        "description": [
+            ""
+        ],
     }
 ]
 
@@ -694,35 +747,50 @@ var activity_mods = [
         "img":"https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png",
         "affinity": 0,
         "cost": 0,
-        "type": "Raid"
+        "type": "Raid",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Scanner Augment",
         "img": "https://www.bungie.net/common/destiny2_content/icons/e01f849d196fa1d63cfc95dede616038.png",
         "affinity": 1,
         "cost": 1+1,
-        "type": "Raid"
+        "type": "Raid",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Supressor Augment",
         "img": "https://bungie.net/common/destiny2_content/icons/3da4be3a2c3609aafbee3655e902c0b2.png",
         "affinity": 3,
         "cost": 1+1,
-        "type": "Raid"
+        "type": "Raid",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Operator Augment",
         "img": "https://bungie.net/common/destiny2_content/icons/24a82ebb135726111e3c99073871cdaa.png",
         "affinity": 2,
         "cost": 1+1,
-        "type": "Raid"
+        "type": "Raid",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Herd Thinner",
         "img": "https://bungie.net/common/destiny2_content/icons/68e54e0d7beab4eaa228a522c85a6d60.png",
         "affinity": 0,
         "cost": 2+1,
-        "type": "Raid"
+        "type": "Raid",
+        "description": [
+            ""
+        ],
     }
 ]
 
@@ -734,42 +802,60 @@ var helmet_mods = [
         "img":"https://www.bungie.net/common/destiny2_content/icons/d89699e6307ac5d2a306cf054978e251.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Sidearm Ammo Finder",
         "img":"https://www.bungie.net/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Shotgun Ammo Finder",
         "img":"https://www.bungie.net/common/destiny2_content/icons/5ab48ede85a6972d2c0b1f4bc5bcb640.png",
         "affinity": 0,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Bow Targeting",
         "img":"https://www.bungie.net/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png",
         "affinity": 0,
         "cost": 4+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"Submachine Gun Targeting",
         "img":"https://www.bungie.net/common/destiny2_content/icons/73c7b20dacf59b2e2bb460184f22c11d.png",
         "affinity": 0,
         "cost": 2+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Hands-On",
         "img": "https://www.bungie.net/common/destiny2_content/icons/f47540dc70a9aad624a8936c7e82fcbd.png",
         "affinity": 1,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     }
 ]
 
@@ -779,21 +865,30 @@ var gauntlet_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/18bb744532b78a20164f150c770c5f89.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name":"submachine gun loader",
         "img": "https://bungie.net/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png",
         "affinity": 0,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Impact Induction",
         "img": "https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png",
         "affinity": 2,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     }
 
 ]
@@ -804,21 +899,30 @@ var chest_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/6bf61607ffa8198cdabdf0fa3b5feab1.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Void Resistance",
         "img": "https://bungie.net/common/destiny2_content/icons/5a3cc0bd1709b28147ec5fbc497360f8.png",
         "affinity": 3,
         "cost": 1+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Sniper Rifle Reserves",
         "img": "https://www.bungie.net/common/destiny2_content/icons/8700b5f6f2a832d513f81746d796f439.png",
         "affinity": 0,
         "cost": 3+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     }
 ]
 
@@ -828,21 +932,30 @@ var boots_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/c4b573f9dd4892f6eb3bfb9b194170d0.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Recuperation",
         "img": "https://www.bungie.net/common/destiny2_content/icons/ca8ea4c398dbf809bcec8a24b1c37180.png",
         "affinity": 2,
         "cost": 1+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Auto Rifle Scavenger",
         "img": "https://bungie.net/common/destiny2_content/icons/5a8063288c58c6d329cd66fffde4e350.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     }
 ]
 
@@ -852,21 +965,30 @@ var class_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/3cfff0f2aa68784762f553eb7997e909.png",
         "affinity": 0,
         "cost": 0,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Perpetuation",
         "img": "https://bungie.net/common/destiny2_content/icons/2d61f6d5e5199a84189227d392105e3d.png",
         "affinity": 3,
         "cost": 2+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     },
     {
         "name": "Distribution",
         "img": "https://bungie.net/common/destiny2_content/icons/a116725dc6ebe6a35866ecc7c681cef4.png",
         "affinity": 0,
         "cost": 4+1,
-        "type": "None"
+        "type": "None",
+        "description": [
+            ""
+        ],
     }
 
 ]
