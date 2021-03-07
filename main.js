@@ -48,7 +48,23 @@ var default_build = {
         "total_energy": 0
     }
 }
-
+var error_messages = {
+    ".helmet": {
+        "message": '' 
+    },
+    ".gauntlet": {
+        "message": '' 
+    },
+    ".chest":{
+        "message": '' 
+    },
+    ".boots":{
+        "message": '' 
+    },
+    ".class":{
+        "message": '' 
+    }
+}
 
 var current_build
 var test_build ={
@@ -310,26 +326,48 @@ function loadData(current_build){
 
 function canChangeSlot(armor,slot,value){
     var tmp_build = current_build
-    var cur_mod
+    var nxt_mod,cur_mod
 
     if(slot == '.affinity'){
         return true
     }else{
         if(slot == ".armor-1" ||slot == ".armor-2"){
-            
-            cur_mod = all_mods[slot][armor][value]
+            cur_mod = all_mods[slot][armor][current_build[armor][slot]]
+            nxt_mod = all_mods[slot][armor][value]
         }else{
-            
-            cur_mod = all_mods[slot][value]
+            cur_mod = all_mods[slot][current_build[armor][slot]]
+            nxt_mod = all_mods[slot][value]
         }
         
-        if(isAffinityCompatible(tmp_build[armor][".affinity"],cur_mod["affinity"])){
+        if(isAffinityCompatible(tmp_build[armor][".affinity"],nxt_mod["affinity"])){
             if(cur_mod["cost"] > 0){
-                if(tmp_build[armor]["total_energy"] + (cur_mod["cost"] -1) <= 10){
+                
+                if(nxt_mod["cost"] > 0){
+                    
+                    if(tmp_build[armor]["total_energy"] - (cur_mod["cost"] -1) + (nxt_mod["cost"] -1)<= 10){
+                        
+                        return true
+                    }else{
+                        error_messages[armor]["message"] = "Not enough energy"
+                        showErrorMsg(armor)
+                    }
+                }else{
                     return true
                 }
+                
             }else{
-                return true
+                if(nxt_mod["cost"] > 0){
+                    
+                    if(tmp_build[armor]["total_energy"] + (nxt_mod["cost"] -1)<= 10){
+                        
+                        return true
+                    }else{
+                        error_messages[armor]["message"] = "Not enough energy"
+                        showErrorMsg(armor)
+                    }
+                }else{
+                    return true
+                }
             }
         }
     }
@@ -384,6 +422,11 @@ function changeSlot(armor,slot,value){
         
 
     }
+}
+
+function showErrorMsg(armor){
+    $(".error"+armor).empty()
+    $(".error"+armor).append(error_messages[armor]["message"])
 }
 
 function isAffinityCompatible(armor_affinity,mod_affinity){
