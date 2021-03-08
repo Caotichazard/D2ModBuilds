@@ -115,10 +115,15 @@ var test_build ={
 
 $(document).ready(function(){
     
+    const params = new URLSearchParams(window.location.search)
+    if(params.has('build')){
+        current_build = readBuild(params.get('build'))
+    }else{
+        current_build = readBuild()
+    }
     
-    current_build = readBuild()
     
-    current_build = checkBuild(test_build)
+    current_build = checkBuild(current_build)
     
     loadSelectors(current_build)
     loadBuild(current_build)
@@ -134,7 +139,8 @@ function readBuild(possible_build=null){
     if(possible_build==null){
         return default_build
     }else{
-        return default_build
+        console.log(possible_build)
+        return stringToBuild(possible_build)
     }
 }
 /**
@@ -335,7 +341,14 @@ function buildToString(){
     })
     input = document.getElementById("build-string")
     input.value = string
+    return string
     console.log(string)
+}
+function getSharebleLink(){
+    string = "https://caotichazard.github.io/D2_BreadBuilds/?build="
+    string += buildToString()
+    input = document.getElementById("build-string")
+    input.value = string
 }
 
 function stringToBuild(string){
