@@ -1477,7 +1477,7 @@ var activity_mods = [
         "img":"https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png",
         "affinity": 0,
         "cost": 0,
-        "type": "Raid",
+        "type": "Activity Mod",
         "description": [
             ""
         ],
@@ -1487,39 +1487,278 @@ var activity_mods = [
         "img": "https://bungie.net/common/destiny2_content/icons/68e54e0d7beab4eaa228a522c85a6d60.png",
         "affinity": 0,
         "cost": 2+1,
-        "type": "Raid",
+        "type": "Deep Stone Crypt Raid Mod",
         "description": [
-            ""
+            "Your weapons deal additional damage to non-powerful combatants.",
+            "This mod's perks are only active in the 'Deep Stone Crypt' raid. Multiple copies of this mod stack and improve its effects."
         ],
     },
     {
-        "name": "Scanner Augment",
+        "name": "Enhanced Scanner Augment",
         "img": "https://www.bungie.net/common/destiny2_content/icons/e01f849d196fa1d63cfc95dede616038.png",
         "affinity": 1,
         "cost": 1+1,
-        "type": "Raid",
+        "type": "Deep Stone Crypt Raid Mod",
         "description": [
-            ""
+            "Paint the Target: With the scanner augment, powerful targets are marked by precision shots and take increased damage for a short period.",
+            "Supercharged: With no augment, you gain a bonus to Resilience and Recovery, and your class ability recharges faster.",
+            "This mod's perks are only active in the 'Deep Stone Crypt' raid. Multiple copies of this mod stack and improve its effects."
         ],
     },
     {
-        "name": "Supressor Augment",
+        "name": "Enhanced Suppressor Augment",
         "img": "https://bungie.net/common/destiny2_content/icons/3da4be3a2c3609aafbee3655e902c0b2.png",
         "affinity": 3,
         "cost": 1+1,
-        "type": "Raid",
+        "type": "Deep Stone Crypt Raid Mod",
         "description": [
-            ""
+            "Evasive Maneuvers: With the Suppressor Augment, you take decreased damage from powerful foes.",
+            "Stop, Stunnertime: With no augment, grenades temporarily stun your targets.",
+            "This mod's perks are only active in the 'Deep Stone Crypt' raid. Multiple copies of this mod stack and improve its effects."
         ],
     },
     {
-        "name":"Operator Augment",
+        "name":"Enhanced Operator Augment",
         "img": "https://bungie.net/common/destiny2_content/icons/24a82ebb135726111e3c99073871cdaa.png",
         "affinity": 2,
         "cost": 1+1,
-        "type": "Raid",
+        "type": "Deep Stone Crypt Raid Mod",
         "description": [
-            ""
+            "Rapid Regen: With the Operator Augment, you gain periodic bursts of healing when your health is depleted.",
+            "Conversionist: With no augment, collecting Orbs of Power causes you to periodically spawn Heavy ammo.",
+            "This mod's perks are only active in the 'Deep Stone Crypt' raid. Multiple copies of this mod stack and improve its effects."
+        ],
+    },
+    {
+        "name":"Taken Repurposing",
+        "img": "https://bungie.net/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Last Wish Raid Mod",
+        "description": [
+            "Destroying a Taken shield refreshes your grenade ability.",
+            "This mod's perks are only active in the 'Last Wish' raid.",
+        ],
+    },
+    {
+        "name":"Taken Armaments",
+        "img": "https://bungie.net/common/destiny2_content/icons/d365907deee1024944e9bc405a5c4bba.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Last Wish Raid Mod",
+        "description": [
+            "Defeating a Taken enemy with a grenade grants Heavy ammo. This mod's abilities cannot stack across multiple copies.",
+            "This mod's perks are only active in the 'Last Wish' raid.",
+        ],
+    },
+    {
+        "name":"Taken Invigoration",
+        "img": "https://bungie.net/common/destiny2_content/icons/932b9937f783cb0e61061684c40592a1.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Last Wish Raid Mod",
+        "description": [
+            "Defeating a challenging Taken enemy refreshes your class ability. This mod's abilities cannot stack across multiple copies.",
+            "This mod's perks are only active in the 'Last Wish' raid.",
+        ],
+    },
+    {
+        "name":"Taken Barrier",
+        "img": "https://bungie.net/common/destiny2_content/icons/6e112c563ecc78c1a674ef9edb8cb727.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Last Wish Raid Mod",
+        "description": [
+            "Receiving Taken damage gives a 20% reduction in damage for 10 seconds.",
+            "This mod's perks are only active in the 'Last Wish' raid.",
+        ],
+    },
+    {
+        "name":"Relay Defender",
+        "img": "https://bungie.net/common/destiny2_content/icons/9f71b7b4e5d75c12b11d4691b462d8ac.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Gain an increase to weapon damage while within 5 meters of an active Vex Relay. Multiple copies of this mod stack to increase this benefit.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Enhanced Relay Defender",
+        "img": "https://bungie.net/common/destiny2_content/icons/0b055cf6c2f7f02012da6d32a735bbfc.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Gain a powerful increase to weapon damage while within 5 meters of an active Vex Relay. Multiple copies of this mod stack to increase this benefit.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Resistant Tether",
+        "img": "https://bungie.net/common/destiny2_content/icons/e7817ed2f532a95d1bc76e4274ea3459.png",
+        "affinity": 1,
+        "cost": 1+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Gain damage resistance while part of a tether chain. Multiple copies of this mod stack to increase this benefit.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Enhanced Resistant Tether",
+        "img": "https://bungie.net/common/destiny2_content/icons/e7817ed2f532a95d1bc76e4274ea3459.png",
+        "affinity": 1,
+        "cost": 3+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Gain powerful damage resistance while part of a tether chain. Multiple copies of this mod stack to increase this benefit.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Voltaic Ammo Collector",
+        "img": "https://bungie.net/common/destiny2_content/icons/9311f85548666d1cca5f58ac911695c0.png",
+        "affinity": 2,
+        "cost": 1+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Enhanced Voltaic Ammo Collector",
+        "img": "https://bungie.net/common/destiny2_content/icons/7309f0e00f8c0f1ca7823a2d7321a154.png",
+        "affinity": 2,
+        "cost": 3+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Greatly increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Voltaic Mote Collector",
+        "img": "https://bungie.net/common/destiny2_content/icons/2cf09f03340c2ba8499e1d2e889ea88b.png",
+        "affinity": 3,
+        "cost": 1+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Gain an overshield after you collect 10 Motes. This mod's effect does not stack with other copies of this mod.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Enhanced Voltaic Mote Collector",
+        "img": "https://bungie.net/common/destiny2_content/icons/cd34a7894d5ff58a61f407956f27e191.png",
+        "affinity": 3,
+        "cost": 3+1,
+        "type": "Garden of Salvation Raid Mod",
+        "description": [
+            "Gain an overshield after you collect 5 Motes. This mod's effect does not stack with other copies of this mod.",
+            "Active only in the 'Garden of Salvation' raid.",
+        ],
+    },
+    {
+        "name":"Dreambane Mod",
+        "img": "https://bungie.net/common/destiny2_content/icons/90b3fc6134cc1d7db551138fa221e109.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Reduces the damage you take from Nightmare bosses. Multiple copies of this mod stack for greater effect.",
+        ],
+    },
+    {
+        "name":"Nightmare Banisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/e4c934e966caa5468288c8cec4b2a452.png",
+        "affinity": 1,
+        "cost": 1+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Enhanced Nightmare Banisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/32e006cca4673a95d2c408f81521c774.png",
+        "affinity": 1,
+        "cost": 2+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Supreme Nightmare Banisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/690dfdf2c7feb86e7652c1956fbb2482.png",
+        "affinity": 1,
+        "cost": 3+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit",
+        ],
+    },
+    {
+        "name":"Nightmare Breaker",
+        "img": "https://bungie.net/common/destiny2_content/icons/b68eee67333534132179cd96f6690d0e.png",
+        "affinity": 2,
+        "cost": 1+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Enhanced Nightmare Breaker",
+        "img": "https://bungie.net/common/destiny2_content/icons/7a237a0f09d5e96639f59c85dcdbb743.png",
+        "affinity": 2,
+        "cost": 2+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Supreme Nightmare Breaker",
+        "img": "https://bungie.net/common/destiny2_content/icons/aaafc510dde4a0e443fa21d93cd713c9.png",
+        "affinity": 2,
+        "cost": 3+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Nightmare Crusher",
+        "img": "https://bungie.net/common/destiny2_content/icons/f29b9b0a7d561cb107aa42c9edaae8df.png",
+        "affinity": 3,
+        "cost": 1+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Enhanced Nightmare Crusher",
+        "img": "https://bungie.net/common/destiny2_content/icons/a9b2abd92cbe6b8c6129a74438cb173a.png",
+        "affinity": 3,
+        "cost": 2+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+        ],
+    },
+    {
+        "name":"Supreme Nightmare Crusher",
+        "img": "https://bungie.net/common/destiny2_content/icons/6d8794fb92f311a47ebd4b50f613303b.png",
+        "affinity": 3,
+        "cost": 3+1,
+        "type": "Nightmare Mod",
+        "description": [
+            "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
         ],
     },
     
@@ -1539,55 +1778,47 @@ var helmet_mods = [
         ],
     },
     {
+        "name": "Hands-On",
+        "img": "https://bungie.net/common/destiny2_content/icons/f47540dc70a9aad624a8936c7e82fcbd.png",
+        "affinity": 1,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Gain bonus Super energy on melee kills."
+        ],
+    },
+    {
+        "name": "Ashes to Assets",
+        "img": "https://bungie.net/common/destiny2_content/icons/ba29cbcb4fa6f32b18fc1c9a27593f8b.png",
+        "affinity": 2,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Gain bonus Super energy on grenade kills."
+        ],
+    },
+    {
+        "name": "Dynamo",
+        "img": "https://bungie.net/common/destiny2_content/icons/8f2bffcbe752a6c8c39cfebe38db6ad1.png",
+        "affinity": 3,
+        "cost": 4+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Reduces Super cooldown when using your class ability near enemies."
+        ],
+    },
+    {
         "name":"Sidearm Ammo Finder",
         "img":"https://www.bungie.net/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "None",
+        "type": "Helmet Armor Mod",
         "description": [
             ""
         ],
     },
-    {
-        "name":"Shotgun Ammo Finder",
-        "img":"https://www.bungie.net/common/destiny2_content/icons/5ab48ede85a6972d2c0b1f4bc5bcb640.png",
-        "affinity": 0,
-        "cost": 3+1,
-        "type": "None",
-        "description": [
-            ""
-        ],
-    },
-    {
-        "name":"Bow Targeting",
-        "img":"https://www.bungie.net/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png",
-        "affinity": 0,
-        "cost": 4+1,
-        "type": "None",
-        "description": [
-            ""
-        ],
-    },
-    {
-        "name":"Submachine Gun Targeting",
-        "img":"https://www.bungie.net/common/destiny2_content/icons/73c7b20dacf59b2e2bb460184f22c11d.png",
-        "affinity": 0,
-        "cost": 2+1,
-        "type": "None",
-        "description": [
-            ""
-        ],
-    },
-    {
-        "name": "Hands-On",
-        "img": "https://www.bungie.net/common/destiny2_content/icons/f47540dc70a9aad624a8936c7e82fcbd.png",
-        "affinity": 1,
-        "cost": 3+1,
-        "type": "None",
-        "description": [
-            ""
-        ],
-    }
+    
+    
 ]
 
 var gauntlet_mods = [
@@ -1602,25 +1833,66 @@ var gauntlet_mods = [
         ],
     },
     {
-        "name":"submachine gun loader",
-        "img": "https://bungie.net/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png",
+        "name": "Fastball",
+        "img": "https://bungie.net/common/destiny2_content/icons/6939d7377921c9e8a80558bec173f96b.png",
         "affinity": 0,
-        "cost": 3+1,
-        "type": "None",
+        "cost": 1+1,
+        "type": "Arms Armor Mod",
         "description": [
-            ""
+            "Increases grenade throw distance."
+        ],
+    },
+    {
+        "name": "Momentum Transfer",
+        "img": "https://bungie.net/common/destiny2_content/icons/496016b33c0c21d64e75a53d0358a7eb.png",
+        "affinity": 1,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Causing damage with a grenade reduces your melee cooldown."
         ],
     },
     {
         "name": "Impact Induction",
-        "img": "https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png",
+        "img": "https://bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png",
         "affinity": 2,
         "cost": 3+1,
-        "type": "None",
+        "type": "Arms Armor Mod",
+        "description": [
+            "Causing damage with a melee attack reduces your grenade cooldown."
+        ],
+    },
+    {
+        "name": "Focusing Strike",
+        "img": "https://bungie.net/common/destiny2_content/icons/314d87945335ccf56c5e128e72a497a4.png",
+        "affinity": 3,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Grants class ability energy when you cause damage with a melee attack."
+        ],
+    },
+    {
+        "name": "Bolstering Detonation",
+        "img": "https://bungie.net/common/destiny2_content/icons/4799aa0b650494b79dc8c3d8941cdc03.png",
+        "affinity": 3,
+        "cost": 1+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Grants class ability energy when you cause damage with a grenade."
+        ],
+    },
+    {
+        "name":"submachine gun loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
         "description": [
             ""
         ],
-    }
+    },
+    
 
 ]
 
@@ -1636,13 +1908,63 @@ var chest_mods = [
         ],
     },
     {
+        "name": "Concussive Dampener",
+        "img": "https://bungie.net/common/destiny2_content/icons/401b1b783fe5773d5078c1bd3edb7f5a.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces incoming area-of-effect damage from combatants."
+        ],
+    },
+    {
+        "name": "Melee Damage Resistance",
+        "img": "https://bungie.net/common/destiny2_content/icons/4bb83fc5179ed2884300688d126b1019.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces incoming damage from combatants that are at point-blank range."
+        ],
+    },
+    {
+        "name": "Sniper Damage Resistance",
+        "img": "https://bungie.net/common/destiny2_content/icons/be4f49ecae3a731234e8c49c0da3b278.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces incoming damage from combatants that are at long range."
+        ],
+    },
+    {
+        "name": "Arc Resistance",
+        "img": "https://bungie.net/common/destiny2_content/icons/89d9d251481212557ac29707d7577449.png",
+        "affinity": 1,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces incoming Arc damage from combatants."
+        ],
+    },
+    {
+        "name": "Solar Resistance",
+        "img": "https://bungie.net/common/destiny2_content/icons/c0534a2920be982cc4712ecc9026abf0.png",
+        "affinity": 2,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces incoming Solar damage from combatants."
+        ],
+    },
+    {
         "name": "Void Resistance",
         "img": "https://bungie.net/common/destiny2_content/icons/5a3cc0bd1709b28147ec5fbc497360f8.png",
         "affinity": 3,
         "cost": 1+1,
-        "type": "None",
+        "type": "Chest Armor Mod",
         "description": [
-            ""
+            "Reduces incoming Void damage from combatants."
         ],
     },
     {
@@ -1650,7 +1972,7 @@ var chest_mods = [
         "img": "https://www.bungie.net/common/destiny2_content/icons/8700b5f6f2a832d513f81746d796f439.png",
         "affinity": 0,
         "cost": 3+1,
-        "type": "None",
+        "type": "Chest Armor Mod",
         "description": [
             ""
         ],
@@ -1669,13 +1991,63 @@ var boots_mods = [
         ],
     },
     {
+        "name": "Absolution",
+        "img": "https://bungie.net/common/destiny2_content/icons/a3cd4b61619a426bd5787a9aa5e8e4b4.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Reduces all ability cooldowns each time you pick up an Orb of Power."
+        ],
+    },
+    {
+        "name": "Invigoration",
+        "img": "https://bungie.net/common/destiny2_content/icons/fbd50803fc86f3b60c62fa9a37760186.png",
+        "affinity": 1,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Reduces melee cooldown each time you pick up an Orb of Power."
+        ],
+    },
+    {
         "name": "Recuperation",
-        "img": "https://www.bungie.net/common/destiny2_content/icons/ca8ea4c398dbf809bcec8a24b1c37180.png",
+        "img": "https://bungie.net/common/destiny2_content/icons/ca8ea4c398dbf809bcec8a24b1c37180.png",
         "affinity": 2,
         "cost": 1+1,
-        "type": "None",
+        "type": "Leg Armor Mod",
         "description": [
-            ""
+            "Replenishes health each time you pick up an Orb of Power."
+        ],
+    },
+    {
+        "name": "Innervation",
+        "img": "https://bungie.net/common/destiny2_content/icons/8d4ff6be1e86ffb1af2a61c987c027b5.png",
+        "affinity": 2,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Reduces grenade cooldown each time you pick up an Orb of Power."
+        ],
+    },
+    {
+        "name": "Better Already",
+        "img": "https://bungie.net/common/destiny2_content/icons/51740c539e0858f2c951b8d350483eab.png",
+        "affinity": 3,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Your health begins to regenerate immediately after picking up an Orb of Power."
+        ],
+    },
+    {
+        "name": "Insulation",
+        "img": "https://bungie.net/common/destiny2_content/icons/bf91aa03df6599cb3fd7eac78ecf778f.png",
+        "affinity": 3,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Reduces class ability cooldown each time you pick up an Orb of Power."
         ],
     },
     {
@@ -1702,25 +2074,106 @@ var class_mods = [
         ],
     },
     {
-        "name": "Perpetuation",
-        "img": "https://bungie.net/common/destiny2_content/icons/2d61f6d5e5199a84189227d392105e3d.png",
-        "affinity": 3,
-        "cost": 2+1,
-        "type": "None",
-        "description": [
-            ""
-        ],
-    },
-    {
         "name": "Distribution",
         "img": "https://bungie.net/common/destiny2_content/icons/a116725dc6ebe6a35866ecc7c681cef4.png",
         "affinity": 0,
         "cost": 4+1,
-        "type": "None",
+        "type": "Class Item Armor Mod",
         "description": [
-            ""
+            "Reduces all ability cooldowns when using your class ability near enemies."
         ],
-    }
+    },
+    {
+        "name": "Special Finisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/36540b55b40a64b4448375d8d32b144c.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Finishers generate Special ammo for the whole fireteam. Requires one-third of your Super energy."
+        ],
+    },
+    {
+        "name": "Snapload Finisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/f2a5aeff94123a72571b8de0fcdfb6b9.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Finishers generate Primary ammo and reload all your weapons. Requires one-tenth of your Super energy."
+        ],
+    },
+    {
+        "name": "Outreach",
+        "img": "https://bungie.net/common/destiny2_content/icons/9af796ceac99cec4ee91044fe727d596.png",
+        "affinity": 1,
+        "cost": 2+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Reduces melee cooldown when using your class ability."
+        ],
+    },
+    {
+        "name": "One-Two Finisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/cb2d268d435fd6b70d25beee4e6a3d61.png",
+        "affinity": 1,
+        "cost": 1+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Finishers restore melee abilities. Requires one-sixth of your Super energy."
+        ],
+    },
+    {
+        "name": "Bomber",
+        "img": "https://bungie.net/common/destiny2_content/icons/25c877c27b991ac3980891f1ecc2e385.png",
+        "affinity": 2,
+        "cost": 2+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Reduces grenade cooldown when using your class ability."
+        ],
+    },
+    {
+        "name": "Healthy Finisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/37e26f865e6562c00c917f732ade153b.png",
+        "affinity": 2,
+        "cost": 1+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Finishers heal you. Requires one-tenth of your Super energy."
+        ],
+    },
+    {
+        "name": "Explosive Finisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/3ef420580bfb4b39296e94d80328fd32.png",
+        "affinity": 2,
+        "cost": 1+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Finishers restore grenades. Requires one-fifth of your Super energy."
+        ],
+    },
+    {
+        "name": "Perpetuation",
+        "img": "https://bungie.net/common/destiny2_content/icons/2d61f6d5e5199a84189227d392105e3d.png",
+        "affinity": 3,
+        "cost": 2+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Reduces class ability cooldown when using your class ability.",
+        ],
+    },
+    {
+        "name": "Bulwark Finisher",
+        "img": "https://bungie.net/common/destiny2_content/icons/89a94073e404879c46cf87b22da6570d.png",
+        "affinity": 3,
+        "cost": 3+1,
+        "type": "Class Item Armor Mod",
+        "description": [
+            "Finisher final blows generate an overshield. Requires one-fourth of your Super energy.",
+        ],
+    },
+    
 
 ]
 
