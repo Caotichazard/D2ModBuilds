@@ -2496,15 +2496,285 @@ var chest_mods = [
         ],
     },
     {
-        "name": "Sniper Rifle Reserves",
-        "img": "https://www.bungie.net/common/destiny2_content/icons/8700b5f6f2a832d513f81746d796f439.png",
+        "name": "Bow Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/b28e4384a52a150b81ee70282c7a93a9.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Bow ammo you can carry."
+        ],
+    },
+    {
+        "name": "Scout Rifle Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/8e291ed73aab71c45bc74826a9941847.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Scout Rifle ammo you can carry."
+        ],
+    },
+    {
+        "name": "Linear Fusion Rifle Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/56d897309f2d48bad31228a28e0c556a.png",
         "affinity": 0,
         "cost": 3+1,
         "type": "Chest Armor Mod",
         "description": [
-            ""
+            "Increases the amount of Linear Fusion Rifle ammo you can carry."
         ],
-    }
+    },
+    {
+        "name": "Hand Cannon Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/245da97d50fecb936aab369db3cc0659.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Hand Cannon ammo you can carry."
+        ],
+    },
+    {
+        "name": "Auto Rifle Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/70c30ea8fe17cea55d1bda2f8be50f92.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Auto Rifle ammo you can carry."
+        ],
+    },
+    {
+        "name": "Rocket Launcher Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/998bbff08fca8d244b74d6236109f855.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Rocket Launcher ammo you can carry."
+        ],
+    },
+    {
+        "name": "Pulse Rifle Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/45586aa74c3855d2ca63ce24854fbc4f.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Pulse Rifle ammo you can carry."
+        ],
+    },
+    {
+        "name": "Submachine Gun Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/3e03c74c690ad0537d5ae95ce183f383.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Submachine Gun ammo you can carry."
+        ],
+    },
+    {
+        "name": "Shotgun Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/a302feb7fbe96fce0fd9b300aa1bca3f.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Shotgun ammo you can carry."
+        ],
+    },
+    {
+        "name": "Machine Gun Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/cee338f4c63ce1e8abb40bdee6d239ef.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increase the amount of Machine Gun ammo you can carry."
+        ],
+    },
+    {
+        "name": "Grenade Launcher Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/eda11a352c552d800316e11c6b0bd112.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Grenade Launcher ammo you can carry."
+        ],
+    },
+    {
+        "name": "Fusion Rifle Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/b79414f7866e5e2f307871acfbe86238.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Fusion Rifle ammo you can carry."
+        ],
+    },
+    {
+        "name": "Sword Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/8981721c1297e13342148f48f9d063cd.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Sword ammo you can carry."
+        ],
+    },
+    {
+        "name": "Sidearm Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/ed993c2a0662ae820957dfe00938d18d.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Sidearm ammo you can carry."
+        ],
+    },
+    {
+        "name": "Sniper Rifle Reserves",
+        "img": "https://bungie.net/common/destiny2_content/icons/8700b5f6f2a832d513f81746d796f439.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Increases the amount of Sniper Rifle ammo you can carry."
+        ],
+    },
+    {
+        "name": "Unflinching Shotgun Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/ba6b4de9111248e5d772ccd97f4b36ff.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Shotguns."
+        ],
+    },
+    {
+        "name": "Unflinching Linear Fusion Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/af8c3f7f19d4e141bd58c53310826da2.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Linear Fusion Rifles."
+        ],
+    },
+    {
+        "name": "Unflinching Grenade Launcher Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/dfa35fc69b72b504adc0e86e0a7434ff.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Grenade Launchers."
+        ],
+    },
+    {
+        "name": "Unflinching Sniper Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/e104d516992ecdde609034141b851b26.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Sniper Rifles."
+        ],
+    },
+    {
+        "name": "Unflinching Scout Rifle Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/84f799f6a73473be939afc549b18d669.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Scout Rifles."
+        ],
+    },
+    {
+        "name": "Unflinching Hand Cannon Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/e42e42a3846155c12f00657dd4ab1581.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Hand Cannons."
+        ],
+    },
+    {
+        "name": "Unflinching Pulse Rifle Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/a371c51d5dd15934ec2641167e5b8692.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Pulse Rifles."
+        ],
+    },
+    {
+        "name": "Unflinching Auto Rifle Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/6be962bda318162e15a5cf395d8b5158.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Auto Rifles and Trace Rifles."
+        ],
+    },
+    {
+        "name": "Unflinching Sidearm Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/128abd9ae18efbb7683826413117cd57.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Sidearms."
+        ],
+    },
+    {
+        "name": "Unflinching Machine Gun",
+        "img": "https://bungie.net/common/destiny2_content/icons/f91b08d440a599e8b69008ced64b5181.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces hit flinch from incoming fire while aiming Machine Guns."
+        ],
+    },
+    {
+        "name": "Unflinching Fusion Rifle Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/eb5f2e47bc787d8d7a8109b362f0e61c.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Fusion Rifles."
+        ],
+    },
+    {
+        "name": "Unflinching Submachine Gun Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/09dc11384483de48bfca39d3b48f9298.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Submachine Guns."
+        ],
+    },
+    {
+        "name": "Unflinching Bow Aim",
+        "img": "https://bungie.net/common/destiny2_content/icons/751903f60aac49ccaa94c243e7780321.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Chest Armor Mod",
+        "description": [
+            "Reduces flinching from incoming fire while aiming Bows."
+        ],
+    },
 ]
 
 var boots_mods = [
