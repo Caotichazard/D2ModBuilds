@@ -2141,13 +2141,283 @@ var gauntlet_mods = [
         ],
     },
     {
-        "name":"submachine gun loader",
+        "name":"Sidearm Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/e3bbf8c6f503088b36a152ce95125b4e.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Sidearms."
+        ],
+    },
+    {
+        "name":"Submachine Gun Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/ea0baac685d7becb74ba30a5e00ee3d7.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Submachine Guns."
+        ],
+    },
+    {
+        "name":"Scout Rifle Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/de794223d5d653cddc57255f63b095f0.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Scout Rifles."
+        ],
+    },
+    {
+        "name":"Pulse Rifle Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/fed35822cf04a8405492211ad2bba2a0.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Pulse Rifles."
+        ],
+    },
+    {
+        "name":"Fusion Rifle Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/f0b919dbe17cdfa7aa4df1e35ef32650.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Fusion Rifles."
+        ],
+    },
+    {
+        "name":"Auto Rifle Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/34da39d9d7a4511d16d79a329da0874c.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Auto Rifles and Trace Rifles."
+        ],
+    },
+    {
+        "name":"Sniper Rifle Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/b25e9791a5a0ef4b99279135098f9469.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Sniper Rifles."
+        ],
+    },
+    {
+        "name":"Grenade Launcher Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/d20a351956b61019aa7b8950496a8ec0.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Grenade Launchers."
+        ],
+    },
+    {
+        "name":"Linear Fusion Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/25458636887e9eeff6868c6daaa6482c.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Linear Fusion Rifles."
+        ],
+    },
+    {
+        "name":"Shotgun Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/289d94384604378342d0ba62fc11b4bb.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Shotguns."
+        ],
+    },
+    {
+        "name":"Rocket Launcher Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/8b8461ea49aa2ee1c50cc8e62a7e3b23.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Rocket Launchers."
+        ],
+    },
+    {
+        "name":"Bow Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/bcdc82bb7b3d32d11cce08ac4db1f745.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Bows."
+        ],
+    },
+    {
+        "name":"Machine Gun Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/11e2f4844a9cffd30dfc1b1e065a6ef0.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Machine Guns."
+        ],
+    },
+    {
+        "name":"Hand Cannon Dexterity",
+        "img": "https://bungie.net/common/destiny2_content/icons/bbf83c956ccae185a26b7d914739d9e4.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Faster ready and stow speed for Hand Cannons."
+        ],
+    },
+    {
+        "name":"Machine Gun Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/b980e2d7c665239655fa1fac7fc05faa.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases the reload speed of Machine Guns."
+        ],
+    },
+    {
+        "name":"Linear Fusion Rifle Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/38827b292fc7d628409ac950b539602d.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Linear Fusion Rifles."
+        ],
+    },
+    {
+        "name":"Fusion Rifle Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/4bd5d235727b184427cdd0b79036d6d7.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Fusion Rifles."
+        ],
+    },
+    {
+        "name":"Scout Rifle Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/10c932a466c63876b8177d2f7a9d4185.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Scout Rifles."
+        ],
+    },
+    {
+        "name":"Sidearm Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/4af8bade4eaef5ca1996d5a8e9c9e37d.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Sidearms."
+        ],
+    },
+    {
+        "name":"Hand Cannon Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/aea4a74a51ddbed77350afdafaaf13cd.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Hand Cannons."
+        ],
+    },
+    {
+        "name":"Pulse Rifle Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/321b9bacddce27d2d4c661ddbe7d203c.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Pulse Rifles."
+        ],
+    },
+    {
+        "name":"Shotgun Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/12d6b0e57bc1ceff6cfa637e09674b4b.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Shotguns."
+        ],
+    },
+    {
+        "name":"Sniper Rifle Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/87e6d89dda2ea208b49d90e47af8fb9e.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Sniper Rifles."
+        ],
+    },
+    {
+        "name":"Rocket Launcher Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/776cbdeb79b0e5b002daa1eed3330fe2.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Rocket Launchers."
+        ],
+    },
+    {
+        "name":"Auto Rifle Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/b347afa5ea1de90d71a19befad378e5a.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Auto Rifles and Trace Rifles."
+        ],
+    },
+    {
+        "name":"Submachine Gun Loader",
         "img": "https://bungie.net/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png",
         "affinity": 0,
         "cost": 3+1,
         "type": "Arms Armor Mod",
         "description": [
-            ""
+            "Increases reload speed of Submachine Guns."
+        ],
+    },
+    {
+        "name":"Bow Reloader",
+        "img": "https://bungie.net/common/destiny2_content/icons/47df7780b705e2fc829ba28114e652c3.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases the nocking speed of arrows."
+        ],
+    },
+    {
+        "name":"Grenade Launcher Loader",
+        "img": "https://bungie.net/common/destiny2_content/icons/631e8f886cd0eda3f2debb7cfbbb203d.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Arms Armor Mod",
+        "description": [
+            "Increases reload speed of Grenade Launchers."
         ],
     },
     
