@@ -139,7 +139,7 @@ function readBuild(possible_build=null){
     if(possible_build==null){
         return default_build
     }else{
-        console.log(possible_build)
+        
         return stringToBuild(possible_build)
     }
 }
@@ -342,7 +342,7 @@ function buildToString(){
     input = document.getElementById("build-string")
     input.value = string
     return string
-    console.log(string)
+    
 }
 function getSharebleLink(){
     string = "https://caotichazard.github.io/D2_BreadBuilds/?build="
@@ -354,9 +354,9 @@ function getSharebleLink(){
 function stringToBuild(string){
     var armor_pieces = [".helmet",".gauntlet",".chest",".boots",".class"]
     var mod_slots = [".affinity",".general",".combat",".activity",".armor-1",".armor-2"]
-    console.log(default_build)
+    
     var tmp_build = default_build
-    console.log(tmp_build)
+    
     var armor_import = string.split("|")
     var slot_import = []
     armor_import.forEach(function(tmp,i){
@@ -368,12 +368,12 @@ function stringToBuild(string){
 
     slot_import.forEach(function(tmp){
         mod_slots.forEach(function(slot,i){
-            console.log(tmp_build[tmp[0]][slot])
+            
             tmp_build[tmp[0]][slot] = tmp[i+1]
         })
     })
   
-    console.log(tmp_build)
+    
     return tmp_build
 }
 
@@ -384,7 +384,7 @@ function importBuild(){
     tmp_build = stringToBuild(string)
     tmp_build2 = checkBuild(tmp_build)
     loadData(tmp_build2)
-    console.log(tmp_build,tmp_build2)
+    
 }
 
 function canChangeSlot(armor,slot,value){
