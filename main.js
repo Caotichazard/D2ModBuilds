@@ -1808,17 +1808,275 @@ var helmet_mods = [
         ],
     },
     {
-        "name":"Sidearm Ammo Finder",
-        "img":"https://www.bungie.net/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png",
+        "name":"Scout Rifle Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/4b6172cfd0693a109f09f868ba3bcc26.png",
         "affinity": 0,
         "cost": 1+1,
         "type": "Helmet Armor Mod",
         "description": [
-            ""
+            "Increases your chance of finding Primary ammo while you have a Scout Rifle equipped."
         ],
     },
-    
-    
+    {
+        "name":"Pulse Rifle Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/24d9c875a756cc1bcd83985235fcff7c.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Primary ammo while you have a Pulse Rifle equipped."
+        ],
+    },
+    {
+        "name":"Hand Cannon Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/4c0ad0185e173ccc3eec62854639d9d9.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Primary ammo while you have a Hand Cannon equipped."
+        ],
+    },
+    {
+        "name":"Grenade Launcher Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/292a3b4ede46b4de5a392232cf9fd80c.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding ammo while you have a Grenade Launcher equipped."
+        ],
+    },
+    {
+        "name":"Sidearm Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Primary ammo while you have a Sidearm equipped."
+        ],
+    },
+    {
+        "name":"Sword Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/3f9257833e7868adb737570612db3fe8.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Heavy ammo while you have a Sword equipped."
+        ],
+    },
+    {
+        "name":"Linear Fusion Rifle Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/f48292aa6d351e3c1f8fb4a74502c239.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding ammo while you have a Linear Fusion Rifle equipped."
+        ],
+    },
+    {
+        "name":"Submachine Gun Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/252398e0e2e61785c2d0d874b571a02c.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Primary ammo while you have a Submachine Gun equipped."
+        ],
+    },
+    {
+        "name":"Bow Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/4f7b531fac3f1311e4b7847874f3d949.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Primary ammo while you have a Bow equipped."
+        ],
+    },
+    {
+        "name":"Machine Gun Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/492ddb35255ab0c8a9969b9e9e5075d6.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Heavy ammo while you have a Machine Gun equipped."
+        ],
+    },
+    {
+        "name":"Auto Rifle Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/dc37c24803941961339e59e92d611033.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Primary ammo while you have an Auto Rifle equipped."
+        ],
+    },
+    {
+        "name":"Rocket Launcher Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/2b68b4265777e980448252610500c441.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Heavy ammo while you have a Rocket Launcher equipped."
+        ],
+    },
+    {
+        "name":"Sniper Rifle Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/32501a5e9478cc1cf294aaf14de7924d.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding ammo while you have a Sniper Rifle equipped."
+        ],
+    },
+    {
+        "name":"Fusion Rifle Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/a668d5527a48876715d2b630a238fa71.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding Special ammo while you have a Fusion Rifle equipped."
+        ],
+    },
+    {
+        "name":"Shotgun Ammo Finder",
+        "img":"https://bungie.net/common/destiny2_content/icons/5ab48ede85a6972d2c0b1f4bc5bcb640.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Increases your chance of finding ammo while you have a Shotgun equipped."
+        ],
+    },
+    {
+        "name":"Scout Rifle Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/812fae884f6deb3850d7e14104ecf9d5.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Scout Rifles."
+        ],
+    },
+    {
+        "name":"Machine Gun Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/8ebb9612f54977cd2a6f0d3d67f1a6f2.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim down sights speed for Machine Guns."
+        ],
+    },
+    {
+        "name":"Sidearm Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/dcf93341f610a12e2e920310a4b5a64a.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Sidearms."
+        ],
+    },
+    {
+        "name":"Bow Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Bows."
+        ],
+    },
+    {
+        "name":"Sniper Rifle Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/9aee84e9176a73dc541bc34629e0a233.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Sniper Rifles."
+        ],
+    },
+    {
+        "name":"Hand Cannon Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/24b5e0c0687d15f596472c2c73b49517.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Hand Cannons."
+        ],
+    },
+    {
+        "name":"Shotgun Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/676aeec6afa47c9d915daf4b8fe68ab6.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Shotguns."
+        ],
+    },
+    {
+        "name":"Auto Rifle Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/90a37644be43a6be4c0bfd5da2bf8f42.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Auto Rifles and Trace Rifles."
+        ],
+    },
+    {
+        "name":"Pulse Rifle Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/5c8b9e5bc6be59d0c94437f7ae03bb12.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Pulse Rifles."
+        ],
+    },
+    {
+        "name":"Linear Fusion Rifle Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/0b0ee64a72b55e981bc3f7259ac2d590.png",
+        "affinity": 0,
+        "cost": 5+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Linear Fusion Rifles."
+        ],
+    },
+    {
+        "name":"Submachine Gun Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/73c7b20dacf59b2e2bb460184f22c11d.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Submachine Guns."
+        ],
+    },
+    {
+        "name":"Fusion Rifle Targeting",
+        "img":"https://bungie.net/common/destiny2_content/icons/43d53063d48ec188c3a6c0287403608c.png",
+        "affinity": 0,
+        "cost": 4+1,
+        "type": "Helmet Armor Mod",
+        "description": [
+            "Improved target acquisition, accuracy, and aim-down-sights speed for Fusion Rifles."
+        ],
+    },
 ]
 
 var gauntlet_mods = [
