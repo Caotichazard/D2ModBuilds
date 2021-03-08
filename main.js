@@ -2849,15 +2849,155 @@ var boots_mods = [
         ],
     },
     {
+        "name": "Rocket Launcher Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/9e7860f02150e019b059b2e104a32b97.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Rocket Launchers get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Scout Rifle Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/7ad150513f00626c56d15891cea8da83.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Scout Rifles get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Sniper Rifle Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/3703c9e60783d6aba0a259976a9481d7.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Sniper Rifles get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
         "name": "Auto Rifle Scavenger",
         "img": "https://bungie.net/common/destiny2_content/icons/5a8063288c58c6d329cd66fffde4e350.png",
         "affinity": 0,
         "cost": 1+1,
-        "type": "None",
+        "type": "Leg Armor Mod",
         "description": [
-            ""
+            "Auto Rifles get bonus reserves when you pick up ammo."
         ],
-    }
+    },
+    {
+        "name": "Arrow Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/10f2870c3bc0479befbeb198bdcf0e12.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Bows get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Submachine Gun Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/3a22e8fd59f16d52f478dff58d5f0909.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Submachine Guns get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Machine Gun Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/31caef1935f19a168b3a44c4d0a19409.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Machine Guns get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Linear Fusion Rifle Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/81220058001d0ab32c6833624dabae3f.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Linear Fusion Rifles get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Sword Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/1d408256bf3d9a8aebfd9249190998cc.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Swords get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Sidearm Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/b60763f81889eaf07329eaf32b01b0ae.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Sidearms get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Fusion Rifle Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/692521d0d7d3a4432f98773d484c3f9a.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Fusion Rifles get bonus reserves when you pick up Special ammo."
+        ],
+    },
+    {
+        "name": "Hand Cannon Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/deb9ea8b84e7b15620d8a31d1755c76f.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Hand Cannons get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Pulse Rifle Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/fa7d46d48a28cf008ca556648dbd17e8.png",
+        "affinity": 0,
+        "cost": 1+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Pulse Rifles get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Grenade Launcher Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/b6151afb1922d7b55184f5a2e2ff0ebb.png",
+        "affinity": 0,
+        "cost": 3+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Grenade Launchers get bonus reserves when you pick up ammo."
+        ],
+    },
+    {
+        "name": "Shotgun Scavenger",
+        "img": "https://bungie.net/common/destiny2_content/icons/3197f9d1cfea5f72e9d09cf5b465c226.png",
+        "affinity": 0,
+        "cost": 2+1,
+        "type": "Leg Armor Mod",
+        "description": [
+            "Shotguns get bonus reserves when you pick up Special ammo."
+        ],
+    },
 ]
 
 var class_mods = [
