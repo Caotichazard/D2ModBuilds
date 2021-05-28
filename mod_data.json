@@ -1,0 +1,4515 @@
+{
+  "general": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "2623485440": {
+      "name": "Minor Discipline Mod",
+      "icon": "/common/destiny2_content/icons/8fa2d4e4c82586668210e12c5115575a.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+5 Discipline \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "4048838440": {
+      "name": "Discipline Mod",
+      "icon": "/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+10 Discipline \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3699676109": {
+      "name": "Minor Strength Mod",
+      "icon": "/common/destiny2_content/icons/ec0b298ec4dac0023604e467a58c3868.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+5 Strength \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3253038666": {
+      "name": "Strength Mod",
+      "icon": "/common/destiny2_content/icons/07f2361532c79e773909220e5884ab07.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+10 Strength \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "1227870362": {
+      "name": "Minor Intellect Mod",
+      "icon": "/common/destiny2_content/icons/d8da60458e3355ddf7123be5ffe3dc3c.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+5 Intellect \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3355995799": {
+      "name": "Intellect Mod",
+      "icon": "/common/destiny2_content/icons/9fd56c3b42923c9df23edf585b0107bf.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+10 Intellect \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "204137529": {
+      "name": "Minor Mobility Mod",
+      "icon": "/common/destiny2_content/icons/287901ef741855655856f6e8f5776f03.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+5 Mobility \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3961599962": {
+      "name": "Mobility Mod",
+      "icon": "/common/destiny2_content/icons/c664ddd10920daab49cc3808dbb6a1e6.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+10 Mobility \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "555005975": {
+      "name": "Minor Recovery Mod",
+      "icon": "/common/destiny2_content/icons/f39b0c97678148a864d6f6fbbe85524d.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+5 Recovery \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "2645858828": {
+      "name": "Recovery Mod",
+      "icon": "/common/destiny2_content/icons/18054408a5fc068f2384c6c31a183423.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+10 Recovery \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3682186345": {
+      "name": "Minor Resilience Mod",
+      "icon": "/common/destiny2_content/icons/53c28186a4b97285a01aace5748e4de7.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+5 Resilience \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "2850583378": {
+      "name": "Resilience Mod",
+      "icon": "/common/destiny2_content/icons/195f4f173adb52b336b4ecd67101004d.png",
+      "type": "General Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Stat Increase",
+          "description": "+10 Resilience \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    }
+  },
+  "helmet": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "3065699930": {
+      "name": "Hands-On",
+      "icon": "/common/destiny2_content/icons/f47540dc70a9aad624a8936c7e82fcbd.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Hands-On",
+          "description": "Gain bonus Super energy on melee kills.",
+          "icon": "/common/destiny2_content/icons/f47540dc70a9aad624a8936c7e82fcbd.png"
+        }
+      ]
+    },
+    "322752304": {
+      "name": "Ashes to Assets",
+      "icon": "/common/destiny2_content/icons/ba29cbcb4fa6f32b18fc1c9a27593f8b.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Ashes to Assets",
+          "description": "Gain bonus Super energy on grenade kills.",
+          "icon": "/common/destiny2_content/icons/ba29cbcb4fa6f32b18fc1c9a27593f8b.png"
+        }
+      ]
+    },
+    "1016705548": {
+      "name": "Dynamo",
+      "icon": "/common/destiny2_content/icons/8f2bffcbe752a6c8c39cfebe38db6ad1.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Dynamo",
+          "description": "Reduces Super cooldown when using your class ability near enemies.",
+          "icon": "/common/destiny2_content/icons/8f2bffcbe752a6c8c39cfebe38db6ad1.png"
+        }
+      ]
+    },
+    "2193892158": {
+      "name": "Auto Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/dc37c24803941961339e59e92d611033.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Auto Rifle Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have an Auto Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/dc37c24803941961339e59e92d611033.png"
+        }
+      ]
+    },
+    "1624081088": {
+      "name": "Bow Ammo Finder",
+      "icon": "/common/destiny2_content/icons/4f7b531fac3f1311e4b7847874f3d949.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Bow Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have a Bow equipped.",
+          "icon": "/common/destiny2_content/icons/4f7b531fac3f1311e4b7847874f3d949.png"
+        },
+        {}
+      ]
+    },
+    "3394151347": {
+      "name": "Fusion Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/a668d5527a48876715d2b630a238fa71.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fusion Rifle Ammo Finder",
+          "description": "Increases your chance of finding Special ammo while you have a Fusion Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/a668d5527a48876715d2b630a238fa71.png"
+        },
+        {}
+      ]
+    },
+    "755265365": {
+      "name": "Grenade Launcher Ammo Finder",
+      "icon": "/common/destiny2_content/icons/292a3b4ede46b4de5a392232cf9fd80c.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Ammo Finder",
+          "description": "Increases your chance of finding ammo while you have a Grenade Launcher equipped.",
+          "icon": "/common/destiny2_content/icons/292a3b4ede46b4de5a392232cf9fd80c.png"
+        },
+        {},
+        {}
+      ]
+    },
+    "650047261": {
+      "name": "Hand Cannon Ammo Finder",
+      "icon": "/common/destiny2_content/icons/4c0ad0185e173ccc3eec62854639d9d9.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hand Cannon Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have a Hand Cannon equipped.",
+          "icon": "/common/destiny2_content/icons/4c0ad0185e173ccc3eec62854639d9d9.png"
+        },
+        {}
+      ]
+    },
+    "1499759470": {
+      "name": "Linear Fusion Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/f48292aa6d351e3c1f8fb4a74502c239.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Linear Fusion Rifle Ammo Finder",
+          "description": "Increases your chance of finding ammo while you have a Linear Fusion Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/f48292aa6d351e3c1f8fb4a74502c239.png"
+        },
+        {}
+      ]
+    },
+    "2128395292": {
+      "name": "Machine Gun Ammo Finder",
+      "icon": "/common/destiny2_content/icons/492ddb35255ab0c8a9969b9e9e5075d6.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Machine Gun Ammo Finder",
+          "description": "Increases your chance of finding Heavy ammo while you have a Machine Gun equipped.",
+          "icon": "/common/destiny2_content/icons/492ddb35255ab0c8a9969b9e9e5075d6.png"
+        }
+      ]
+    },
+    "589699896": {
+      "name": "Pulse Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/24d9c875a756cc1bcd83985235fcff7c.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Pulse Rifle Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have a Pulse Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/24d9c875a756cc1bcd83985235fcff7c.png"
+        }
+      ]
+    },
+    "2603856295": {
+      "name": "Rocket Launcher Ammo Finder",
+      "icon": "/common/destiny2_content/icons/2b68b4265777e980448252610500c441.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Rocket Launcher Ammo Finder",
+          "description": "Increases your chance of finding Heavy ammo while you have a Rocket Launcher equipped.",
+          "icon": "/common/destiny2_content/icons/2b68b4265777e980448252610500c441.png"
+        }
+      ]
+    },
+    "421111969": {
+      "name": "Scout Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/4b6172cfd0693a109f09f868ba3bcc26.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have a Scout Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/4b6172cfd0693a109f09f868ba3bcc26.png"
+        }
+      ]
+    },
+    "4148827738": {
+      "name": "Shotgun Ammo Finder",
+      "icon": "/common/destiny2_content/icons/5ab48ede85a6972d2c0b1f4bc5bcb640.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shotgun Ammo Finder",
+          "description": "Increases your chance of finding ammo while you have a Shotgun equipped.",
+          "icon": "/common/destiny2_content/icons/5ab48ede85a6972d2c0b1f4bc5bcb640.png"
+        },
+        {}
+      ]
+    },
+    "1050260245": {
+      "name": "Sidearm Ammo Finder",
+      "icon": "/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sidearm Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have a Sidearm equipped.",
+          "icon": "/common/destiny2_content/icons/c1ae38920a60c4e8f393d44761972169.png"
+        }
+      ]
+    },
+    "2754084930": {
+      "name": "Sniper Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/32501a5e9478cc1cf294aaf14de7924d.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Rifle Ammo Finder",
+          "description": "Increases your chance of finding ammo while you have a Sniper Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/32501a5e9478cc1cf294aaf14de7924d.png"
+        },
+        {}
+      ]
+    },
+    "1588113119": {
+      "name": "Submachine Gun Ammo Finder",
+      "icon": "/common/destiny2_content/icons/252398e0e2e61785c2d0d874b571a02c.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Submachine Gun Ammo Finder",
+          "description": "Increases your chance of finding Primary ammo while you have a Submachine Gun equipped.",
+          "icon": "/common/destiny2_content/icons/252398e0e2e61785c2d0d874b571a02c.png"
+        }
+      ]
+    },
+    "1476367343": {
+      "name": "Sword Ammo Finder",
+      "icon": "/common/destiny2_content/icons/3f9257833e7868adb737570612db3fe8.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sword Ammo Finder",
+          "description": "Increases your chance of finding Heavy ammo while you have a Sword equipped.",
+          "icon": "/common/destiny2_content/icons/3f9257833e7868adb737570612db3fe8.png"
+        }
+      ]
+    },
+    "3973928133": {
+      "name": "Trace Rifle Ammo Finder",
+      "icon": "/common/destiny2_content/icons/d29a9c7d050c641382d1ee4b7146fb2f.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Trace Rifle Ammo Finder",
+          "description": "Increases your chance of finding Special ammo while you have a Trace Rifle equipped.",
+          "icon": "/common/destiny2_content/icons/d29a9c7d050c641382d1ee4b7146fb2f.png"
+        }
+      ]
+    },
+    "3201675491": {
+      "name": "Auto Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/90a37644be43a6be4c0bfd5da2bf8f42.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Auto Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Auto Rifles.",
+          "icon": "/common/destiny2_content/icons/90a37644be43a6be4c0bfd5da2bf8f42.png"
+        }
+      ]
+    },
+    "2080519917": {
+      "name": "Bow Targeting",
+      "icon": "/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Bow Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Bows.",
+          "icon": "/common/destiny2_content/icons/a5121e051f0aeaa9eb39c90652ae68c6.png"
+        }
+      ]
+    },
+    "3901392720": {
+      "name": "Fusion Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/43d53063d48ec188c3a6c0287403608c.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fusion Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/43d53063d48ec188c3a6c0287403608c.png"
+        }
+      ]
+    },
+    "2829974286": {
+      "name": "Hand Cannon Targeting",
+      "icon": "/common/destiny2_content/icons/24b5e0c0687d15f596472c2c73b49517.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hand Cannon Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Hand Cannons.",
+          "icon": "/common/destiny2_content/icons/24b5e0c0687d15f596472c2c73b49517.png"
+        }
+      ]
+    },
+    "3338875786": {
+      "name": "Linear Fusion Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/0b0ee64a72b55e981bc3f7259ac2d590.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Linear Fusion Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Linear Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/0b0ee64a72b55e981bc3f7259ac2d590.png"
+        }
+      ]
+    },
+    "1015337793": {
+      "name": "Machine Gun Targeting",
+      "icon": "/common/destiny2_content/icons/8ebb9612f54977cd2a6f0d3d67f1a6f2.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Machine Gun Targeting",
+          "description": "Improved target acquisition, accuracy, and aim down sights speed for Machine Guns.",
+          "icon": "/common/destiny2_content/icons/8ebb9612f54977cd2a6f0d3d67f1a6f2.png"
+        }
+      ]
+    },
+    "3319681729": {
+      "name": "Pulse Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/5c8b9e5bc6be59d0c94437f7ae03bb12.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Pulse Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Pulse Rifles.",
+          "icon": "/common/destiny2_content/icons/5c8b9e5bc6be59d0c94437f7ae03bb12.png"
+        }
+      ]
+    },
+    "631976966": {
+      "name": "Scout Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/812fae884f6deb3850d7e14104ecf9d5.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Scout Rifles.",
+          "icon": "/common/destiny2_content/icons/812fae884f6deb3850d7e14104ecf9d5.png"
+        }
+      ]
+    },
+    "2919349723": {
+      "name": "Shotgun Targeting",
+      "icon": "/common/destiny2_content/icons/676aeec6afa47c9d915daf4b8fe68ab6.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shotgun Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Shotguns.",
+          "icon": "/common/destiny2_content/icons/676aeec6afa47c9d915daf4b8fe68ab6.png"
+        }
+      ]
+    },
+    "1507854082": {
+      "name": "Sidearm Targeting",
+      "icon": "/common/destiny2_content/icons/dcf93341f610a12e2e920310a4b5a64a.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sidearm Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Sidearms.",
+          "icon": "/common/destiny2_content/icons/dcf93341f610a12e2e920310a4b5a64a.png"
+        }
+      ]
+    },
+    "2307244871": {
+      "name": "Sniper Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/9aee84e9176a73dc541bc34629e0a233.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Sniper Rifles.",
+          "icon": "/common/destiny2_content/icons/9aee84e9176a73dc541bc34629e0a233.png"
+        }
+      ]
+    },
+    "3857411140": {
+      "name": "Submachine Gun Targeting",
+      "icon": "/common/destiny2_content/icons/73c7b20dacf59b2e2bb460184f22c11d.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Submachine Gun Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Submachine Guns.",
+          "icon": "/common/destiny2_content/icons/73c7b20dacf59b2e2bb460184f22c11d.png"
+        }
+      ]
+    },
+    "3330325954": {
+      "name": "Trace Rifle Targeting",
+      "icon": "/common/destiny2_content/icons/548d970206760540c0b9d0397953d53a.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Trace Rifle Targeting",
+          "description": "Improved target acquisition, accuracy, and aim-down-sights speed for Trace Rifles.",
+          "icon": "/common/destiny2_content/icons/548d970206760540c0b9d0397953d53a.png"
+        }
+      ]
+    },
+    "2072507547": {
+      "name": "Ashes to Assets",
+      "icon": "/common/destiny2_content/icons/975ea54df7d41fff76a19977e30daba5.png",
+      "type": "Helmet Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Ashes to Assets",
+          "description": "Gain bonus Super energy on grenade kills.",
+          "icon": "/common/destiny2_content/icons/975ea54df7d41fff76a19977e30daba5.png"
+        }
+      ]
+    }
+  },
+  "arms": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "403494087": {
+      "name": "Fastball",
+      "icon": "/common/destiny2_content/icons/6939d7377921c9e8a80558bec173f96b.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fastball",
+          "description": "Increases grenade throw distance.",
+          "icon": "/common/destiny2_content/icons/6939d7377921c9e8a80558bec173f96b.png"
+        }
+      ]
+    },
+    "3470562293": {
+      "name": "Impact Induction",
+      "icon": "/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Impact Induction",
+          "description": "Causing damage with a melee attack reduces your grenade cooldown.",
+          "icon": "/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+        }
+      ]
+    },
+    "3788210493": {
+      "name": "Momentum Transfer",
+      "icon": "/common/destiny2_content/icons/496016b33c0c21d64e75a53d0358a7eb.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Momentum Transfer",
+          "description": "Causing damage with a grenade reduces your melee cooldown.",
+          "icon": "/common/destiny2_content/icons/496016b33c0c21d64e75a53d0358a7eb.png"
+        }
+      ]
+    },
+    "3750579462": {
+      "name": "Bolstering Detonation",
+      "icon": "/common/destiny2_content/icons/4799aa0b650494b79dc8c3d8941cdc03.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Bolstering Detonation",
+          "description": "Grants class ability energy when you cause damage with a grenade.",
+          "icon": "/common/destiny2_content/icons/4799aa0b650494b79dc8c3d8941cdc03.png"
+        }
+      ]
+    },
+    "1839911272": {
+      "name": "Focusing Strike",
+      "icon": "/common/destiny2_content/icons/314d87945335ccf56c5e128e72a497a4.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Focusing Strike",
+          "description": "Grants class ability energy when you cause damage with a melee attack.",
+          "icon": "/common/destiny2_content/icons/314d87945335ccf56c5e128e72a497a4.png"
+        }
+      ]
+    },
+    "2571974065": {
+      "name": "Auto Rifle Loader",
+      "icon": "/common/destiny2_content/icons/b347afa5ea1de90d71a19befad378e5a.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Auto Rifle Loader",
+          "description": "Increases reload speed of Auto Rifles.",
+          "icon": "/common/destiny2_content/icons/b347afa5ea1de90d71a19befad378e5a.png"
+        }
+      ]
+    },
+    "3436675785": {
+      "name": "Bow Reloader",
+      "icon": "/common/destiny2_content/icons/47df7780b705e2fc829ba28114e652c3.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Bow Reloader",
+          "description": "Increases the nocking speed of arrows.",
+          "icon": "/common/destiny2_content/icons/47df7780b705e2fc829ba28114e652c3.png"
+        }
+      ]
+    },
+    "428274928": {
+      "name": "Fusion Rifle Loader",
+      "icon": "/common/destiny2_content/icons/4bd5d235727b184427cdd0b79036d6d7.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fusion Rifle Loader",
+          "description": "Increases reload speed of Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/4bd5d235727b184427cdd0b79036d6d7.png"
+        }
+      ]
+    },
+    "4140815674": {
+      "name": "Grenade Launcher Loader",
+      "icon": "/common/destiny2_content/icons/631e8f886cd0eda3f2debb7cfbbb203d.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Loader",
+          "description": "Increases reload speed of Grenade Launchers.",
+          "icon": "/common/destiny2_content/icons/631e8f886cd0eda3f2debb7cfbbb203d.png"
+        }
+      ]
+    },
+    "1052494884": {
+      "name": "Hand Cannon Loader",
+      "icon": "/common/destiny2_content/icons/aea4a74a51ddbed77350afdafaaf13cd.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hand Cannon Loader",
+          "description": "Increases reload speed of Hand Cannons.",
+          "icon": "/common/destiny2_content/icons/aea4a74a51ddbed77350afdafaaf13cd.png"
+        }
+      ]
+    },
+    "178399816": {
+      "name": "Linear Fusion Rifle Loader",
+      "icon": "/common/destiny2_content/icons/38827b292fc7d628409ac950b539602d.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Linear Fusion Rifle Loader",
+          "description": "Increases reload speed of Linear Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/38827b292fc7d628409ac950b539602d.png"
+        }
+      ]
+    },
+    "157329321": {
+      "name": "Machine Gun Loader",
+      "icon": "/common/destiny2_content/icons/b980e2d7c665239655fa1fac7fc05faa.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Machine Gun Loader",
+          "description": "Increases the reload speed of Machine Guns.",
+          "icon": "/common/destiny2_content/icons/b980e2d7c665239655fa1fac7fc05faa.png"
+        }
+      ]
+    },
+    "1129724921": {
+      "name": "Pulse Rifle Loader",
+      "icon": "/common/destiny2_content/icons/321b9bacddce27d2d4c661ddbe7d203c.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Pulse Rifle Loader",
+          "description": "Increases reload speed of Pulse Rifles.",
+          "icon": "/common/destiny2_content/icons/321b9bacddce27d2d4c661ddbe7d203c.png"
+        }
+      ]
+    },
+    "2324400338": {
+      "name": "Rocket Launcher Loader",
+      "icon": "/common/destiny2_content/icons/776cbdeb79b0e5b002daa1eed3330fe2.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Rocket Launcher Loader",
+          "description": "Increases reload speed of Rocket Launchers.",
+          "icon": "/common/destiny2_content/icons/776cbdeb79b0e5b002daa1eed3330fe2.png"
+        }
+      ]
+    },
+    "667313240": {
+      "name": "Scout Rifle Loader",
+      "icon": "/common/destiny2_content/icons/10c932a466c63876b8177d2f7a9d4185.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Loader",
+          "description": "Increases reload speed of Scout Rifles.",
+          "icon": "/common/destiny2_content/icons/10c932a466c63876b8177d2f7a9d4185.png"
+        }
+      ]
+    },
+    "1534061443": {
+      "name": "Shotgun Loader",
+      "icon": "/common/destiny2_content/icons/12d6b0e57bc1ceff6cfa637e09674b4b.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shotgun Loader",
+          "description": "Increases reload speed of Shotguns.",
+          "icon": "/common/destiny2_content/icons/12d6b0e57bc1ceff6cfa637e09674b4b.png"
+        }
+      ]
+    },
+    "762238512": {
+      "name": "Sidearm Loader",
+      "icon": "/common/destiny2_content/icons/4af8bade4eaef5ca1996d5a8e9c9e37d.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sidearm Loader",
+          "description": "Increases reload speed of Sidearms.",
+          "icon": "/common/destiny2_content/icons/4af8bade4eaef5ca1996d5a8e9c9e37d.png"
+        }
+      ]
+    },
+    "2039949393": {
+      "name": "Sniper Rifle Loader",
+      "icon": "/common/destiny2_content/icons/87e6d89dda2ea208b49d90e47af8fb9e.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Rifle Loader",
+          "description": "Increases reload speed of Sniper Rifles.",
+          "icon": "/common/destiny2_content/icons/87e6d89dda2ea208b49d90e47af8fb9e.png"
+        }
+      ]
+    },
+    "2790645726": {
+      "name": "Submachine Gun Loader",
+      "icon": "/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Submachine Gun Loader",
+          "description": "Increases reload speed of Submachine Guns.",
+          "icon": "/common/destiny2_content/icons/0cf177981705d5633f9ace696c4d9f39.png"
+        }
+      ]
+    },
+    "1807758212": {
+      "name": "Trace Rifle Loader",
+      "icon": "/common/destiny2_content/icons/1a3e122f66022ddeae5e321b55d6a64c.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Trace Rifle Loader",
+          "description": "Increases reload speed of Trace Rifles.",
+          "icon": "/common/destiny2_content/icons/1a3e122f66022ddeae5e321b55d6a64c.png"
+        }
+      ]
+    },
+    "1312062056": {
+      "name": "Auto Rifle Dexterity",
+      "icon": "/common/destiny2_content/icons/34da39d9d7a4511d16d79a329da0874c.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Auto Rifle Dexterity",
+          "description": "Faster ready and stow speed for Auto Rifles.",
+          "icon": "/common/destiny2_content/icons/34da39d9d7a4511d16d79a329da0874c.png"
+        }
+      ]
+    },
+    "3296399440": {
+      "name": "Bow Dexterity",
+      "icon": "/common/destiny2_content/icons/bcdc82bb7b3d32d11cce08ac4db1f745.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Bow Dexterity",
+          "description": "Faster ready and stow speed for Bows.",
+          "icon": "/common/destiny2_content/icons/bcdc82bb7b3d32d11cce08ac4db1f745.png"
+        }
+      ]
+    },
+    "945523359": {
+      "name": "Fusion Rifle Dexterity",
+      "icon": "/common/destiny2_content/icons/f0b919dbe17cdfa7aa4df1e35ef32650.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fusion Rifle Dexterity",
+          "description": "Faster ready and stow speed for Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/f0b919dbe17cdfa7aa4df1e35ef32650.png"
+        }
+      ]
+    },
+    "2214082005": {
+      "name": "Grenade Launcher Dexterity",
+      "icon": "/common/destiny2_content/icons/d20a351956b61019aa7b8950496a8ec0.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Dexterity",
+          "description": "Faster ready and stow speed for Grenade Launchers.",
+          "icon": "/common/destiny2_content/icons/d20a351956b61019aa7b8950496a8ec0.png"
+        }
+      ]
+    },
+    "3484440775": {
+      "name": "Hand Cannon Dexterity",
+      "icon": "/common/destiny2_content/icons/bbf83c956ccae185a26b7d914739d9e4.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hand Cannon Dexterity",
+          "description": "Faster ready and stow speed for Hand Cannons.",
+          "icon": "/common/destiny2_content/icons/bbf83c956ccae185a26b7d914739d9e4.png"
+        }
+      ]
+    },
+    "2520883911": {
+      "name": "Linear Fusion Dexterity",
+      "icon": "/common/destiny2_content/icons/25458636887e9eeff6868c6daaa6482c.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Linear Fusion Dexterity",
+          "description": "Faster ready and stow speed for Linear Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/25458636887e9eeff6868c6daaa6482c.png"
+        }
+      ]
+    },
+    "3362003312": {
+      "name": "Machine Gun Dexterity",
+      "icon": "/common/destiny2_content/icons/11e2f4844a9cffd30dfc1b1e065a6ef0.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Machine Gun Dexterity",
+          "description": "Faster ready and stow speed for Machine Guns.",
+          "icon": "/common/destiny2_content/icons/11e2f4844a9cffd30dfc1b1e065a6ef0.png"
+        }
+      ]
+    },
+    "691818084": {
+      "name": "Pulse Rifle Dexterity",
+      "icon": "/common/destiny2_content/icons/fed35822cf04a8405492211ad2bba2a0.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Pulse Rifle Dexterity",
+          "description": "Faster ready and stow speed for Pulse Rifles.",
+          "icon": "/common/destiny2_content/icons/fed35822cf04a8405492211ad2bba2a0.png"
+        }
+      ]
+    },
+    "3026352437": {
+      "name": "Rocket Launcher Dexterity",
+      "icon": "/common/destiny2_content/icons/8b8461ea49aa2ee1c50cc8e62a7e3b23.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Rocket Launcher Dexterity",
+          "description": "Faster ready and stow speed for Rocket Launchers.",
+          "icon": "/common/destiny2_content/icons/8b8461ea49aa2ee1c50cc8e62a7e3b23.png"
+        }
+      ]
+    },
+    "327265103": {
+      "name": "Scout Rifle Dexterity",
+      "icon": "/common/destiny2_content/icons/de794223d5d653cddc57255f63b095f0.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Dexterity",
+          "description": "Faster ready and stow speed for Scout Rifles.",
+          "icon": "/common/destiny2_content/icons/de794223d5d653cddc57255f63b095f0.png"
+        }
+      ]
+    },
+    "2561450986": {
+      "name": "Shotgun Dexterity",
+      "icon": "/common/destiny2_content/icons/289d94384604378342d0ba62fc11b4bb.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shotgun Dexterity",
+          "description": "Faster ready and stow speed for Shotguns.",
+          "icon": "/common/destiny2_content/icons/289d94384604378342d0ba62fc11b4bb.png"
+        }
+      ]
+    },
+    "101023751": {
+      "name": "Sidearm Dexterity",
+      "icon": "/common/destiny2_content/icons/e3bbf8c6f503088b36a152ce95125b4e.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sidearm Dexterity",
+          "description": "Faster ready and stow speed for Sidearms.",
+          "icon": "/common/destiny2_content/icons/e3bbf8c6f503088b36a152ce95125b4e.png"
+        }
+      ]
+    },
+    "1819979056": {
+      "name": "Sniper Rifle Dexterity",
+      "icon": "/common/destiny2_content/icons/b25e9791a5a0ef4b99279135098f9469.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Rifle Dexterity",
+          "description": "Faster ready and stow speed for Sniper Rifles.",
+          "icon": "/common/destiny2_content/icons/b25e9791a5a0ef4b99279135098f9469.png"
+        }
+      ]
+    },
+    "201274281": {
+      "name": "Submachine Gun Dexterity",
+      "icon": "/common/destiny2_content/icons/ea0baac685d7becb74ba30a5e00ee3d7.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Submachine Gun Dexterity",
+          "description": "Faster ready and stow speed for Submachine Guns.",
+          "icon": "/common/destiny2_content/icons/ea0baac685d7becb74ba30a5e00ee3d7.png"
+        }
+      ]
+    },
+    "1670364231": {
+      "name": "Trace Rifle Dexterity",
+      "icon": "/common/destiny2_content/icons/509c94d926e9c520302829c5cb595de1.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Trace Rifle Dexterity",
+          "description": "Faster ready and stow speed for Trace Rifles.",
+          "icon": "/common/destiny2_content/icons/509c94d926e9c520302829c5cb595de1.png"
+        }
+      ]
+    },
+    "864745279": {
+      "name": "Overload Submachine Gun",
+      "icon": "/common/destiny2_content/icons/f05983e838ccf561054891772ee9b6b5.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Overload Submachine Gun",
+          "description": "Uninterrupted fire from your equipped SMGs grants bullets that stun combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+          "icon": "/common/destiny2_content/icons/f05983e838ccf561054891772ee9b6b5.png"
+        }
+      ]
+    },
+    "864745276": {
+      "name": "Anti-Barrier Scout Rifle",
+      "icon": "/common/destiny2_content/icons/bf5c86c29410d64027d43af8d1b0e20d.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Anti-Barrier Scout Rifle",
+          "description": "Scout Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nScout Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
+          "icon": "/common/destiny2_content/icons/bf5c86c29410d64027d43af8d1b0e20d.png"
+        }
+      ]
+    },
+    "864745277": {
+      "name": "Unstoppable Sidearm",
+      "icon": "/common/destiny2_content/icons/6ef403a775894c4f91ca7b48509e2cd9.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unstoppable Sidearm",
+          "description": "Aiming down sights with any Sidearm you are wielding loads a powerful explosive payload that stuns unshielded combatants.\n\nStrong against [Stagger]  Unstoppable Champions.",
+          "icon": "/common/destiny2_content/icons/6ef403a775894c4f91ca7b48509e2cd9.png"
+        }
+      ]
+    },
+    "864745274": {
+      "name": "Overload Hand Cannon",
+      "icon": "/common/destiny2_content/icons/685d7a18ff5b051384adf6a3f85fbf5c.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Overload Hand Cannon",
+          "description": "Landing consecutive hits disrupts combatants, stunning them, delaying ability energy regeneration and lowering combatant damage output. Strong against [Disruption] Overload Champions.",
+          "icon": "/common/destiny2_content/icons/685d7a18ff5b051384adf6a3f85fbf5c.png"
+        }
+      ]
+    },
+    "864745275": {
+      "name": "Anti-Barrier Auto Rifle",
+      "icon": "/common/destiny2_content/icons/022136ff1ba2ad30aeb9d0c06df81631.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Anti-Barrier Auto Rifle",
+          "description": "Auto Rifles you are wielding fire shield-piercing rounds and stun [Shield-Piercing] Barrier Champions.\n\nAuto Rifles deal bonus damage against [Shield-Piercing] Barrier Champions.",
+          "icon": "/common/destiny2_content/icons/022136ff1ba2ad30aeb9d0c06df81631.png"
+        }
+      ]
+    },
+    "4132945797": {
+      "name": "Scout Rifle Loader",
+      "icon": "/common/destiny2_content/icons/5a5e2adbbde813d46ac459960cbe8435.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Loader",
+          "description": "Increases reload speed of Scout Rifles.",
+          "icon": "/common/destiny2_content/icons/5a5e2adbbde813d46ac459960cbe8435.png"
+        }
+      ]
+    },
+    "2072507549": {
+      "name": "Grenade Launcher Dexterity",
+      "icon": "/common/destiny2_content/icons/b4fbf283a7d5636571a8119d8efbb641.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Dexterity",
+          "description": "Faster ready and stow speed for Grenade Launchers.",
+          "icon": "/common/destiny2_content/icons/b4fbf283a7d5636571a8119d8efbb641.png"
+        }
+      ]
+    },
+    "2072507546": {
+      "name": "Rocket Launcher Loader",
+      "icon": "/common/destiny2_content/icons/b1a35bc3213478c25158b2784d7e330f.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Rocket Launcher Loader",
+          "description": "Increases reload speed of Rocket Launchers.",
+          "icon": "/common/destiny2_content/icons/b1a35bc3213478c25158b2784d7e330f.png"
+        }
+      ]
+    },
+    "2788876190": {
+      "name": "Unstoppable Grenade Launcher",
+      "icon": "/common/destiny2_content/icons/0a2f1eb684049c340d8650eff7eee480.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 7,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unstoppable Grenade Launcher",
+          "description": "When you ready or reload a Grenade Launcher, for a short period, that weapon stuns Unstoppable Champions.\n\nStrong against [Stagger]  Unstoppable Champions.",
+          "icon": "/common/destiny2_content/icons/0a2f1eb684049c340d8650eff7eee480.png"
+        }
+      ]
+    },
+    "282898296": {
+      "name": "Impulse Recycler",
+      "icon": "/common/destiny2_content/icons/9b212d92289471277c480e22dc66dfd1.png",
+      "type": "Arms Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Impulse Recycler",
+          "description": "Grenade final blows grant grenade energy. Multiple copies of this mod increase the amount of energy gained.",
+          "icon": "/common/destiny2_content/icons/9b212d92289471277c480e22dc66dfd1.png"
+        }
+      ]
+    }
+  },
+  "chest": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "3074491624": {
+      "name": "Arc Resistance",
+      "icon": "/common/destiny2_content/icons/89d9d251481212557ac29707d7577449.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Arc Damage Resistance",
+          "description": "Reduces incoming Arc damage from combatants.",
+          "icon": "/common/destiny2_content/icons/89d9d251481212557ac29707d7577449.png"
+        }
+      ]
+    },
+    "760472183": {
+      "name": "Melee Damage Resistance",
+      "icon": "/common/destiny2_content/icons/4bb83fc5179ed2884300688d126b1019.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Melee Damage Resistance",
+          "description": "Reduces incoming damage from combatants that are at point-blank range.",
+          "icon": "/common/destiny2_content/icons/4bb83fc5179ed2884300688d126b1019.png"
+        }
+      ]
+    },
+    "1429600943": {
+      "name": "Solar Resistance",
+      "icon": "/common/destiny2_content/icons/c0534a2920be982cc4712ecc9026abf0.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Solar Damage Resistance",
+          "description": "Reduces incoming Solar damage from combatants.",
+          "icon": "/common/destiny2_content/icons/c0534a2920be982cc4712ecc9026abf0.png"
+        }
+      ]
+    },
+    "2588939505": {
+      "name": "Concussive Dampener",
+      "icon": "/common/destiny2_content/icons/401b1b783fe5773d5078c1bd3edb7f5a.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Concussive Dampener",
+          "description": "Reduces incoming area-of-effect damage from combatants.",
+          "icon": "/common/destiny2_content/icons/401b1b783fe5773d5078c1bd3edb7f5a.png"
+        }
+      ]
+    },
+    "107977982": {
+      "name": "Void Resistance",
+      "icon": "/common/destiny2_content/icons/5a3cc0bd1709b28147ec5fbc497360f8.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Void Damage Resistance",
+          "description": "Reduces incoming Void damage from combatants.",
+          "icon": "/common/destiny2_content/icons/5a3cc0bd1709b28147ec5fbc497360f8.png"
+        }
+      ]
+    },
+    "3566745556": {
+      "name": "Sniper Damage Resistance",
+      "icon": "/common/destiny2_content/icons/be4f49ecae3a731234e8c49c0da3b278.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Damage Resistance",
+          "description": "Reduces incoming damage from combatants that are at long range.",
+          "icon": "/common/destiny2_content/icons/be4f49ecae3a731234e8c49c0da3b278.png"
+        }
+      ]
+    },
+    "1131497704": {
+      "name": "Auto Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/70c30ea8fe17cea55d1bda2f8be50f92.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Auto Rifle Reserves",
+          "description": "Increases the amount of Auto Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/70c30ea8fe17cea55d1bda2f8be50f92.png"
+        }
+      ]
+    },
+    "201502208": {
+      "name": "Bow Reserves",
+      "icon": "/common/destiny2_content/icons/b28e4384a52a150b81ee70282c7a93a9.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Bow Reserves",
+          "description": "Increases the amount of Bow ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/b28e4384a52a150b81ee70282c7a93a9.png"
+        }
+      ]
+    },
+    "3531950723": {
+      "name": "Fusion Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/b79414f7866e5e2f307871acfbe86238.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fusion Rifle Reserves",
+          "description": "Increases the amount of Fusion Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/b79414f7866e5e2f307871acfbe86238.png"
+        }
+      ]
+    },
+    "3330921441": {
+      "name": "Grenade Launcher Reserves",
+      "icon": "/common/destiny2_content/icons/eda11a352c552d800316e11c6b0bd112.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Reserves",
+          "description": "Increases the amount of Grenade Launcher ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/eda11a352c552d800316e11c6b0bd112.png"
+        }
+      ]
+    },
+    "1043617959": {
+      "name": "Hand Cannon Reserves",
+      "icon": "/common/destiny2_content/icons/245da97d50fecb936aab369db3cc0659.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hand Cannon Reserves",
+          "description": "Increases the amount of Hand Cannon ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/245da97d50fecb936aab369db3cc0659.png"
+        }
+      ]
+    },
+    "749060462": {
+      "name": "Linear Fusion Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/56d897309f2d48bad31228a28e0c556a.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Linear Fusion Rifle Reserves",
+          "description": "Increases the amount of Linear Fusion Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/56d897309f2d48bad31228a28e0c556a.png"
+        }
+      ]
+    },
+    "3188535145": {
+      "name": "Machine Gun Reserves",
+      "icon": "/common/destiny2_content/icons/cee338f4c63ce1e8abb40bdee6d239ef.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Machine Gun Reserves",
+          "description": "Increase the amount of Machine Gun ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/cee338f4c63ce1e8abb40bdee6d239ef.png"
+        }
+      ]
+    },
+    "1478123840": {
+      "name": "Pulse Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/45586aa74c3855d2ca63ce24854fbc4f.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Pulse Rifle Reserves",
+          "description": "Increases the amount of Pulse Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/45586aa74c3855d2ca63ce24854fbc4f.png"
+        }
+      ]
+    },
+    "1303690937": {
+      "name": "Rocket Launcher Reserves",
+      "icon": "/common/destiny2_content/icons/998bbff08fca8d244b74d6236109f855.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Rocket Launcher Reserves",
+          "description": "Increases the amount of Rocket Launcher ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/998bbff08fca8d244b74d6236109f855.png"
+        }
+      ]
+    },
+    "240987419": {
+      "name": "Scout Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/8e291ed73aab71c45bc74826a9941847.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Reserves",
+          "description": "Increases the amount of Scout Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/8e291ed73aab71c45bc74826a9941847.png"
+        }
+      ]
+    },
+    "2368162286": {
+      "name": "Shotgun Reserves",
+      "icon": "/common/destiny2_content/icons/a302feb7fbe96fce0fd9b300aa1bca3f.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shotgun Reserves",
+          "description": "Increases the amount of Shotgun ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/a302feb7fbe96fce0fd9b300aa1bca3f.png"
+        }
+      ]
+    },
+    "3859610803": {
+      "name": "Sidearm Reserves",
+      "icon": "/common/destiny2_content/icons/ed993c2a0662ae820957dfe00938d18d.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sidearm Reserves",
+          "description": "Increases the amount of Sidearm ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/ed993c2a0662ae820957dfe00938d18d.png"
+        }
+      ]
+    },
+    "3926976952": {
+      "name": "Sniper Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/8700b5f6f2a832d513f81746d796f439.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Rifle Reserves",
+          "description": "Increases the amount of Sniper Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/8700b5f6f2a832d513f81746d796f439.png"
+        }
+      ]
+    },
+    "1829115845": {
+      "name": "Submachine Gun Reserves",
+      "icon": "/common/destiny2_content/icons/3e03c74c690ad0537d5ae95ce183f383.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Submachine Gun Reserves",
+          "description": "Increases the amount of Submachine Gun ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/3e03c74c690ad0537d5ae95ce183f383.png"
+        }
+      ]
+    },
+    "3543966269": {
+      "name": "Sword Reserves",
+      "icon": "/common/destiny2_content/icons/8981721c1297e13342148f48f9d063cd.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sword Reserves",
+          "description": "Increases the amount of Sword ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/8981721c1297e13342148f48f9d063cd.png"
+        }
+      ]
+    },
+    "2321484659": {
+      "name": "Trace Rifle Reserves",
+      "icon": "/common/destiny2_content/icons/1d1bd1827416761861dae3f1fb37d221.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Trace Rifle Reserves",
+          "description": "Increases the amount of Trace Rifle ammo you can carry.",
+          "icon": "/common/destiny2_content/icons/1d1bd1827416761861dae3f1fb37d221.png"
+        }
+      ]
+    },
+    "2505824339": {
+      "name": "Unflinching Auto Rifle Aim",
+      "icon": "/common/destiny2_content/icons/6be962bda318162e15a5cf395d8b5158.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Auto Rifle Aim",
+          "description": "Reduces flinching from incoming fire while aiming Auto Rifles.",
+          "icon": "/common/destiny2_content/icons/6be962bda318162e15a5cf395d8b5158.png"
+        }
+      ]
+    },
+    "3662638763": {
+      "name": "Unflinching Bow Aim",
+      "icon": "/common/destiny2_content/icons/751903f60aac49ccaa94c243e7780321.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Bow Aim",
+          "description": "Reduces flinching from incoming fire while aiming Bows.",
+          "icon": "/common/destiny2_content/icons/751903f60aac49ccaa94c243e7780321.png"
+        }
+      ]
+    },
+    "3121039270": {
+      "name": "Unflinching Fusion Rifle Aim",
+      "icon": "/common/destiny2_content/icons/eb5f2e47bc787d8d7a8109b362f0e61c.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Fusion Rifle Aim",
+          "description": "Reduces flinching from incoming fire while aiming Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/eb5f2e47bc787d8d7a8109b362f0e61c.png"
+        }
+      ]
+    },
+    "807774340": {
+      "name": "Unflinching Grenade Launcher Aim",
+      "icon": "/common/destiny2_content/icons/dfa35fc69b72b504adc0e86e0a7434ff.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Grenade Launcher Aim",
+          "description": "Reduces flinching from incoming fire while aiming Grenade Launchers.",
+          "icon": "/common/destiny2_content/icons/dfa35fc69b72b504adc0e86e0a7434ff.png"
+        }
+      ]
+    },
+    "1859929470": {
+      "name": "Unflinching Hand Cannon Aim",
+      "icon": "/common/destiny2_content/icons/e42e42a3846155c12f00657dd4ab1581.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Hand Cannon Aim",
+          "description": "Reduces flinching from incoming fire while aiming Hand Cannons.",
+          "icon": "/common/destiny2_content/icons/e42e42a3846155c12f00657dd4ab1581.png"
+        }
+      ]
+    },
+    "650627622": {
+      "name": "Unflinching Linear Fusion Aim",
+      "icon": "/common/destiny2_content/icons/af8c3f7f19d4e141bd58c53310826da2.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Linear Fusion Aim",
+          "description": "Reduces flinching from incoming fire while aiming Linear Fusion Rifles.",
+          "icon": "/common/destiny2_content/icons/af8c3f7f19d4e141bd58c53310826da2.png"
+        }
+      ]
+    },
+    "3091213995": {
+      "name": "Unflinching Machine Gun",
+      "icon": "/common/destiny2_content/icons/f91b08d440a599e8b69008ced64b5181.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Machine Gun",
+          "description": "Reduces hit flinch from incoming fire while aiming Machine Guns.",
+          "icon": "/common/destiny2_content/icons/f91b08d440a599e8b69008ced64b5181.png"
+        }
+      ]
+    },
+    "2379452959": {
+      "name": "Unflinching Pulse Rifle Aim",
+      "icon": "/common/destiny2_content/icons/a371c51d5dd15934ec2641167e5b8692.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Pulse Rifle Aim",
+          "description": "Reduces flinching from incoming fire while aiming Pulse Rifles.",
+          "icon": "/common/destiny2_content/icons/a371c51d5dd15934ec2641167e5b8692.png"
+        }
+      ]
+    },
+    "1279446438": {
+      "name": "Unflinching Scout Rifle Aim",
+      "icon": "/common/destiny2_content/icons/84f799f6a73473be939afc549b18d669.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Scout Rifle Aim",
+          "description": "Reduces flinching from incoming fire while aiming Scout Rifles.",
+          "icon": "/common/destiny2_content/icons/84f799f6a73473be939afc549b18d669.png"
+        }
+      ]
+    },
+    "357349821": {
+      "name": "Unflinching Shotgun Aim",
+      "icon": "/common/destiny2_content/icons/ba6b4de9111248e5d772ccd97f4b36ff.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Shotgun Aim",
+          "description": "Reduces flinching from incoming fire while aiming Shotguns.",
+          "icon": "/common/destiny2_content/icons/ba6b4de9111248e5d772ccd97f4b36ff.png"
+        }
+      ]
+    },
+    "2881057950": {
+      "name": "Unflinching Sidearm Aim",
+      "icon": "/common/destiny2_content/icons/128abd9ae18efbb7683826413117cd57.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Sidearm Aim",
+          "description": "Reduces flinching from incoming fire while aiming Sidearms.",
+          "icon": "/common/destiny2_content/icons/128abd9ae18efbb7683826413117cd57.png"
+        }
+      ]
+    },
+    "1203395203": {
+      "name": "Unflinching Sniper Aim",
+      "icon": "/common/destiny2_content/icons/e104d516992ecdde609034141b851b26.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Sniper Aim",
+          "description": "Reduces flinching from incoming fire while aiming Sniper Rifles.",
+          "icon": "/common/destiny2_content/icons/e104d516992ecdde609034141b851b26.png"
+        }
+      ]
+    },
+    "3626376648": {
+      "name": "Unflinching Submachine Gun Aim",
+      "icon": "/common/destiny2_content/icons/09dc11384483de48bfca39d3b48f9298.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Submachine Gun Aim",
+          "description": "Reduces flinching from incoming fire while aiming Submachine Guns.",
+          "icon": "/common/destiny2_content/icons/09dc11384483de48bfca39d3b48f9298.png"
+        }
+      ]
+    },
+    "4023967480": {
+      "name": "Unflinching Trace Rifle Aim",
+      "icon": "/common/destiny2_content/icons/7b824c52fecf27293142527a1cd03280.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Trace Rifle Aim",
+          "description": "Reduces flinching from incoming fire while aiming Trace Rifles.",
+          "icon": "/common/destiny2_content/icons/7b824c52fecf27293142527a1cd03280.png"
+        }
+      ]
+    },
+    "4132945794": {
+      "name": "Unflinching Pulse Rifle Aim",
+      "icon": "/common/destiny2_content/icons/3500c4e10c01b7f98126cb98d29994b7.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Unflinching Pulse Rifle Aim",
+          "description": "Reduces flinching from incoming fire while aiming Pulse Rifles.",
+          "icon": "/common/destiny2_content/icons/3500c4e10c01b7f98126cb98d29994b7.png"
+        }
+      ]
+    },
+    "2072507551": {
+      "name": "Unflinching Auto Rifle Aim",
+      "icon": "/common/destiny2_content/icons/37a6719093d9b59e80062961d19d7598.png",
+      "type": "Chest Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Unflinching Auto Rifle Aim",
+          "description": "Greatly reduces flinching from incoming fire while aiming Auto Rifles.",
+          "icon": "/common/destiny2_content/icons/37a6719093d9b59e80062961d19d7598.png"
+        }
+      ]
+    }
+  },
+  "leg": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "2476831315": {
+      "name": "Recuperation",
+      "icon": "/common/destiny2_content/icons/ca8ea4c398dbf809bcec8a24b1c37180.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Recuperation",
+          "description": "Replenishes health each time you pick up an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/ca8ea4c398dbf809bcec8a24b1c37180.png"
+        }
+      ]
+    },
+    "1320020854": {
+      "name": "Better Already",
+      "icon": "/common/destiny2_content/icons/51740c539e0858f2c951b8d350483eab.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Better Already",
+          "description": "Your health begins to regenerate immediately after picking up an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/51740c539e0858f2c951b8d350483eab.png"
+        }
+      ]
+    },
+    "3598368346": {
+      "name": "Innervation",
+      "icon": "/common/destiny2_content/icons/8d4ff6be1e86ffb1af2a61c987c027b5.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Innervation",
+          "description": "Reduces grenade cooldown each time you pick up an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/8d4ff6be1e86ffb1af2a61c987c027b5.png"
+        }
+      ]
+    },
+    "1432806784": {
+      "name": "Invigoration",
+      "icon": "/common/destiny2_content/icons/fbd50803fc86f3b60c62fa9a37760186.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Invigoration",
+          "description": "Reduces melee cooldown each time you pick up an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/fbd50803fc86f3b60c62fa9a37760186.png"
+        }
+      ]
+    },
+    "973776237": {
+      "name": "Insulation",
+      "icon": "/common/destiny2_content/icons/bf91aa03df6599cb3fd7eac78ecf778f.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Insulation",
+          "description": "Reduces class ability cooldown each time you pick up an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/bf91aa03df6599cb3fd7eac78ecf778f.png"
+        }
+      ]
+    },
+    "3320641683": {
+      "name": "Absolution",
+      "icon": "/common/destiny2_content/icons/a3cd4b61619a426bd5787a9aa5e8e4b4.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Absolution",
+          "description": "Reduces all ability cooldowns each time you pick up an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/a3cd4b61619a426bd5787a9aa5e8e4b4.png"
+        }
+      ]
+    },
+    "1708067044": {
+      "name": "Traction",
+      "icon": "/common/destiny2_content/icons/abefc7a4930ebe35bb48649fd2af7d09.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Traction",
+          "description": "Grants tighter turn radius while sprinting.",
+          "icon": "/common/destiny2_content/icons/abefc7a4930ebe35bb48649fd2af7d09.png"
+        }
+      ]
+    },
+    "737634704": {
+      "name": "Auto Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/5a8063288c58c6d329cd66fffde4e350.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Auto Rifle Scavenger",
+          "description": "Auto Rifles get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/5a8063288c58c6d329cd66fffde4e350.png"
+        }
+      ]
+    },
+    "987267082": {
+      "name": "Arrow Scavenger",
+      "icon": "/common/destiny2_content/icons/10f2870c3bc0479befbeb198bdcf0e12.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Arrow Scavenger",
+          "description": "Bows get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/10f2870c3bc0479befbeb198bdcf0e12.png"
+        }
+      ]
+    },
+    "2347686425": {
+      "name": "Fusion Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/692521d0d7d3a4432f98773d484c3f9a.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Fusion Rifle Scavenger",
+          "description": "Fusion Rifles get bonus reserves when you pick up Special ammo.",
+          "icon": "/common/destiny2_content/icons/692521d0d7d3a4432f98773d484c3f9a.png"
+        }
+      ]
+    },
+    "3670960347": {
+      "name": "Grenade Launcher Scavenger",
+      "icon": "/common/destiny2_content/icons/b6151afb1922d7b55184f5a2e2ff0ebb.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Scavenger",
+          "description": "Grenade Launchers get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/b6151afb1922d7b55184f5a2e2ff0ebb.png"
+        }
+      ]
+    },
+    "2758832455": {
+      "name": "Hand Cannon Scavenger",
+      "icon": "/common/destiny2_content/icons/deb9ea8b84e7b15620d8a31d1755c76f.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hand Cannon Scavenger",
+          "description": "Hand Cannons get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/deb9ea8b84e7b15620d8a31d1755c76f.png"
+        }
+      ]
+    },
+    "2051366208": {
+      "name": "Linear Fusion Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/81220058001d0ab32c6833624dabae3f.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Linear Fusion Rifle Scavenger",
+          "description": "Linear Fusion Rifles get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/81220058001d0ab32c6833624dabae3f.png"
+        }
+      ]
+    },
+    "1559280270": {
+      "name": "Machine Gun Scavenger",
+      "icon": "/common/destiny2_content/icons/31caef1935f19a168b3a44c4d0a19409.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Machine Gun Scavenger",
+          "description": "Machine Guns get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/31caef1935f19a168b3a44c4d0a19409.png"
+        }
+      ]
+    },
+    "3156855054": {
+      "name": "Pulse Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/fa7d46d48a28cf008ca556648dbd17e8.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Pulse Rifle Scavenger",
+          "description": "Pulse Rifles get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/fa7d46d48a28cf008ca556648dbd17e8.png"
+        }
+      ]
+    },
+    "311492789": {
+      "name": "Rocket Launcher Scavenger",
+      "icon": "/common/destiny2_content/icons/9e7860f02150e019b059b2e104a32b97.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Rocket Launcher Scavenger",
+          "description": "Rocket Launchers get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/9e7860f02150e019b059b2e104a32b97.png"
+        }
+      ]
+    },
+    "356666687": {
+      "name": "Scout Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/7ad150513f00626c56d15891cea8da83.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Scout Rifle Scavenger",
+          "description": "Scout Rifles get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/7ad150513f00626c56d15891cea8da83.png"
+        }
+      ]
+    },
+    "3836152936": {
+      "name": "Shotgun Scavenger",
+      "icon": "/common/destiny2_content/icons/3197f9d1cfea5f72e9d09cf5b465c226.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shotgun Scavenger",
+          "description": "Shotguns get bonus reserves when you pick up Special ammo.",
+          "icon": "/common/destiny2_content/icons/3197f9d1cfea5f72e9d09cf5b465c226.png"
+        }
+      ]
+    },
+    "2183342667": {
+      "name": "Sidearm Scavenger",
+      "icon": "/common/destiny2_content/icons/b60763f81889eaf07329eaf32b01b0ae.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sidearm Scavenger",
+          "description": "Sidearms get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/b60763f81889eaf07329eaf32b01b0ae.png"
+        }
+      ]
+    },
+    "498878196": {
+      "name": "Sniper Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/3703c9e60783d6aba0a259976a9481d7.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sniper Rifle Scavenger",
+          "description": "Sniper Rifles get bonus reserves when you pick up Special ammo.",
+          "icon": "/common/destiny2_content/icons/3703c9e60783d6aba0a259976a9481d7.png"
+        }
+      ]
+    },
+    "1023632589": {
+      "name": "Submachine Gun Scavenger",
+      "icon": "/common/destiny2_content/icons/3a22e8fd59f16d52f478dff58d5f0909.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Submachine Gun Scavenger",
+          "description": "Submachine Guns get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/3a22e8fd59f16d52f478dff58d5f0909.png"
+        }
+      ]
+    },
+    "2146553541": {
+      "name": "Sword Scavenger",
+      "icon": "/common/destiny2_content/icons/1d408256bf3d9a8aebfd9249190998cc.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sword Scavenger",
+          "description": "Swords get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/1d408256bf3d9a8aebfd9249190998cc.png"
+        }
+      ]
+    },
+    "3632415743": {
+      "name": "Trace Rifle Scavenger",
+      "icon": "/common/destiny2_content/icons/a8bd864a0947db44d8e72084861fdb37.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Trace Rifle Scavenger",
+          "description": "Trace Rifles get bonus reserves when you pick up Special ammo.",
+          "icon": "/common/destiny2_content/icons/a8bd864a0947db44d8e72084861fdb37.png"
+        }
+      ]
+    },
+    "4132945792": {
+      "name": "Grenade Launcher Scavenger",
+      "icon": "/common/destiny2_content/icons/41a0855e42928edba6d3dcf5afc16700.png",
+      "type": "Leg Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Grenade Launcher Scavenger",
+          "description": "Grenade Launchers get bonus reserves when you pick up ammo.",
+          "icon": "/common/destiny2_content/icons/41a0855e42928edba6d3dcf5afc16700.png"
+        }
+      ]
+    }
+  },
+  "class": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "1513970148": {
+      "name": "Distribution",
+      "icon": "/common/destiny2_content/icons/a116725dc6ebe6a35866ecc7c681cef4.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Distribution",
+          "description": "Reduces all ability cooldowns when using your class ability near enemies.",
+          "icon": "/common/destiny2_content/icons/a116725dc6ebe6a35866ecc7c681cef4.png"
+        }
+      ]
+    },
+    "4137020505": {
+      "name": "Perpetuation",
+      "icon": "/common/destiny2_content/icons/2d61f6d5e5199a84189227d392105e3d.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Perpetuation",
+          "description": "Reduces class ability cooldown when using your class ability.",
+          "icon": "/common/destiny2_content/icons/2d61f6d5e5199a84189227d392105e3d.png"
+        }
+      ]
+    },
+    "3974455041": {
+      "name": "Outreach",
+      "icon": "/common/destiny2_content/icons/9af796ceac99cec4ee91044fe727d596.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Outreach",
+          "description": "Reduces melee cooldown when using your class ability.",
+          "icon": "/common/destiny2_content/icons/9af796ceac99cec4ee91044fe727d596.png"
+        }
+      ]
+    },
+    "3561960031": {
+      "name": "Bomber",
+      "icon": "/common/destiny2_content/icons/25c877c27b991ac3980891f1ecc2e385.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Bomber",
+          "description": "Reduces grenade cooldown when using your class ability.",
+          "icon": "/common/destiny2_content/icons/25c877c27b991ac3980891f1ecc2e385.png"
+        }
+      ]
+    },
+    "4237638088": {
+      "name": "Bulwark Finisher",
+      "icon": "/common/destiny2_content/icons/89a94073e404879c46cf87b22da6570d.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Bulwark Finisher",
+          "description": "Finisher final blows generate an overshield. Requires one-fourth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/6be68a54396c68ddd1c394e174620cff.png"
+        },
+        {}
+      ]
+    },
+    "4237638095": {
+      "name": "Explosive Finisher",
+      "icon": "/common/destiny2_content/icons/3ef420580bfb4b39296e94d80328fd32.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Explosive Finisher",
+          "description": "Finishers restore grenades. Requires one-fifth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/1a9132895046c3b4ed4755d58ec78eb9.png"
+        },
+        {}
+      ]
+    },
+    "4237638089": {
+      "name": "Healthy Finisher",
+      "icon": "/common/destiny2_content/icons/37e26f865e6562c00c917f732ade153b.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Healthy Finisher",
+          "description": "Finishers heal you. Requires one-tenth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/02ae0492ccc72a1f8c2472d0afd96bf0.png"
+        },
+        {}
+      ]
+    },
+    "4237638091": {
+      "name": "One-Two Finisher",
+      "icon": "/common/destiny2_content/icons/cb2d268d435fd6b70d25beee4e6a3d61.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "One-Two Finisher",
+          "description": "Finishers restore melee abilities.  Requires one-sixth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/12f7de7d9209099d17631beb5ebe8a04.png"
+        },
+        {}
+      ]
+    },
+    "4237638094": {
+      "name": "Snapload Finisher",
+      "icon": "/common/destiny2_content/icons/f2a5aeff94123a72571b8de0fcdfb6b9.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Snapload Finisher",
+          "description": "Finishers generate Primary ammo and reload all your weapons. Requires one-tenth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/c41d6dbc39dda37ff4c576879a7627db.png"
+        },
+        {}
+      ]
+    },
+    "4237638090": {
+      "name": "Special Finisher",
+      "icon": "/common/destiny2_content/icons/36540b55b40a64b4448375d8d32b144c.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Special Finisher",
+          "description": "Finishers generate Special ammo for the whole fireteam. Requires one-third of your Super energy.",
+          "icon": "/common/destiny2_content/icons/d08168682e56610f9bb8972fcbd94a70.png"
+        },
+        {}
+      ]
+    },
+    "4055766573": {
+      "name": "Utility Finisher",
+      "icon": "/common/destiny2_content/icons/d8fe55ca252f4e4d1a11f0a287cf76b9.png",
+      "type": "Class Item Armor Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Utility Finisher",
+          "description": "Finishers restore class abilities. Requires one-tenth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/d8fe55ca252f4e4d1a11f0a287cf76b9.png"
+        },
+        {}
+      ]
+    },
+    "2788876188": {
+      "name": "Sundering Blast",
+      "icon": "/common/destiny2_content/icons/a1432b79818b832984de932632623c34.png",
+      "type": "Class Item Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Sundering Blast",
+          "description": "Stunning a Champion creates an explosive blast.",
+          "icon": "/common/destiny2_content/icons/a1432b79818b832984de932632623c34.png"
+        }
+      ]
+    },
+    "2788876187": {
+      "name": "Surge Detonators",
+      "icon": "/common/destiny2_content/icons/e5049e5ac3be04260609c281e2fa7579.png",
+      "type": "Class Item Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Surge Detonators",
+          "description": "Arc grenades disrupt combatants, stunning them, delaying ability regeneration and lowering combatant damage output.\n\nStrong against [Disruption] Overload Champions.",
+          "icon": "/common/destiny2_content/icons/79f83a0b2a21f547dd622fb0d2dbe31f.png"
+        },
+        {}
+      ]
+    },
+    "2788876186": {
+      "name": "Unstoppable Schwarzschild Condensor",
+      "icon": "/common/destiny2_content/icons/baaec254da3342419421c9a1bc09d5bf.png",
+      "type": "Class Item Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Schwarzschild Condenser",
+          "description": "Void melee abilities [Stagger] stun unshielded combatants.\n\nStrong against [Stagger] Unstoppable Champions.",
+          "icon": "/common/destiny2_content/icons/baaec254da3342419421c9a1bc09d5bf.png"
+        }
+      ]
+    },
+    "282898301": {
+      "name": "Breach and Clear",
+      "icon": "/common/destiny2_content/icons/d5ccf55656ab1d4ed2ceb2e0902312db.png",
+      "type": "Class Item Mod",
+      "investment": {
+        "cost": 9,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Breach and Clear",
+          "description": "When using a Grenade Launcher, damaging a boss, damaging a Champion, or breaking a combatant's shield reloads your stowed weapons and causes the combatant to take increased damage for a short duration.",
+          "icon": "/common/destiny2_content/icons/d5ccf55656ab1d4ed2ceb2e0902312db.png"
+        },
+        {}
+      ]
+    },
+    "282898302": {
+      "name": "Glacial Inheritance",
+      "icon": "/common/destiny2_content/icons/b8da17dd79bfee3a5eaf7d1ac46f6206.png",
+      "type": "Class Item Mod",
+      "investment": {
+        "cost": 6,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Glacial Inheritance",
+          "description": "Defeating targets with your Stasis Super refunds Super energy.",
+          "icon": "/common/destiny2_content/icons/b8da17dd79bfee3a5eaf7d1ac46f6206.png"
+        }
+      ]
+    },
+    "282898297": {
+      "name": "Energy Accelerant",
+      "icon": "/common/destiny2_content/icons/a9fb8dc807a0fbfcf31fab3d03ab399e.png",
+      "type": "Class Item Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Energy Accelerant",
+          "description": "Your Dragonfly, Chain Reaction, and Firefly explosions deal more damage.",
+          "icon": "/common/destiny2_content/icons/a9fb8dc807a0fbfcf31fab3d03ab399e.png"
+        }
+      ]
+    }
+  },
+  "combat": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Combat Style Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "3632726238": {
+      "name": "Taking Charge",
+      "icon": "/common/destiny2_content/icons/5f0c0d6604569712074ae7cba8fb47d3.png",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Taking Charge",
+          "description": "Become Charged with Light by picking up Orbs of Power.",
+          "icon": "/common/destiny2_content/icons/5f0c0d6604569712074ae7cba8fb47d3.png"
+        }
+      ]
+    },
+    "3632726239": {
+      "name": "Shield Break Charge",
+      "icon": "/common/destiny2_content/icons/32b5e4b0719f6bec8e70987db09aa755.png",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shield Break Charge",
+          "description": "Become Charged with Light by breaking a combatant shield with the matching energy type.",
+          "icon": "/common/destiny2_content/icons/32b5e4b0719f6bec8e70987db09aa755.png"
+        }
+      ]
+    },
+    "3632726236": {
+      "name": "Empowered Finish",
+      "icon": "/common/destiny2_content/icons/a8e2913f5e424d4c8ed18c719c85c2db.png",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Empowered Finish",
+          "description": "Become Charged with Light by finishing a combatant, consuming one-tenth of your Super energy.",
+          "icon": "/common/destiny2_content/icons/a8e2913f5e424d4c8ed18c719c85c2db.png"
+        },
+        {}
+      ]
+    },
+    "3632726237": {
+      "name": "High-Energy Fire",
+      "icon": "/common/destiny2_content/icons/126c83604240748a98f807a85220b652.png",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "High-Energy Fire",
+          "description": "While Charged with Light, gain a bonus to weapon damage. Each defeated combatant consumes one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/126c83604240748a98f807a85220b652.png"
+        },
+        {}
+      ]
+    },
+    "1484685884": {
+      "name": "Quick Charge",
+      "icon": "/common/destiny2_content/icons/e80f0a325b78190e164810724044776e.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Quick Charge",
+          "description": "Become Charged with Light by rapidly defeating multiple combatants with Fusion Rifles or Shotguns.",
+          "icon": "/common/destiny2_content/icons/e80f0a325b78190e164810724044776e.png"
+        },
+        {
+          "name": "Ever Ready",
+          "description": "Greatly increases the ready speed of Fusion Rifles, Shotguns, Submachine Guns, and Swords.",
+          "icon": "/common/destiny2_content/icons/2bfe88fcfc87b63f66ccc221575a119c.png"
+        }
+      ]
+    },
+    "1484685885": {
+      "name": "Striking Light",
+      "icon": "/common/destiny2_content/icons/e1eb7cf6ad88c3311f775df370bd21e4.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Striking Light",
+          "description": "While Charged with Light, defeating combatants with melee damage and Swords spawns 1 Orb of Power for your allies and consumes one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/e1eb7cf6ad88c3311f775df370bd21e4.png"
+        },
+        {
+          "name": "Uncatchable",
+          "description": "Gain damage resistance against combatants while sprinting.",
+          "icon": "/common/destiny2_content/icons/1f7a7eae9f7f73281d1264e7b039d9d5.png"
+        }
+      ]
+    },
+    "1484685886": {
+      "name": "Heavy Handed",
+      "icon": "/common/destiny2_content/icons/c6d1db58becc093aa5d7b2534af41005.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 7,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Heavy Handed",
+          "description": "While Charged with Light, regain half of your melee energy when you use a charged melee ability, consuming one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/c6d1db58becc093aa5d7b2534af41005.png"
+        },
+        {
+          "name": "Lock and Load",
+          "description": "While surrounded by multiple combatants, defeating a combatant with a Fusion Rifle, Shotgun, Sidearm, or Submachine Gun adds ammo for that weapon to your reserves.",
+          "icon": "/common/destiny2_content/icons/a7662928a2273c34dee2533093bb2e14.png"
+        }
+      ]
+    },
+    "1484685887": {
+      "name": "Powerful Friends",
+      "icon": "/common/destiny2_content/icons/006460670f0ca57fbe5ee1af83dcfd4d.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Powerful Friends",
+          "description": "When you become Charged with Light, nearby allies also become Charged with Light, if they are not already.",
+          "icon": "/common/destiny2_content/icons/006460670f0ca57fbe5ee1af83dcfd4d.png"
+        },
+        {
+          "name": "Stat Increase",
+          "description": "+20 Mobility \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3185435909": {
+      "name": "Heal Thyself",
+      "icon": "/common/destiny2_content/icons/e7067bd91843c6a9a40cceba9d376683.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Heal Thyself",
+          "description": "While you are Charged with Light, grenade final blows heal you and consume one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/e7067bd91843c6a9a40cceba9d376683.png"
+        }
+      ]
+    },
+    "3185435908": {
+      "name": "Firepower",
+      "icon": "/common/destiny2_content/icons/070b7b77cd6fb8462dc6013764cb3709.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Firepower",
+          "description": "While Charged with Light, regain a portion of your grenade energy when you use your grenade, consuming one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/070b7b77cd6fb8462dc6013764cb3709.png"
+        }
+      ]
+    },
+    "3185435911": {
+      "name": "Blast Radius",
+      "icon": "/common/destiny2_content/icons/6b0d065905e6e640a2c23b1af25160d1.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Blast Radius",
+          "description": "Become Charged with Light by rapidly defeating multiple combatants with Grenade Launchers or Rocket Launchers.",
+          "icon": "/common/destiny2_content/icons/6b0d065905e6e640a2c23b1af25160d1.png"
+        }
+      ]
+    },
+    "3185435910": {
+      "name": "Charged Up",
+      "icon": "/common/destiny2_content/icons/ce29f32ba5ef8758d1b5f3cfad0944a6.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Charged Up",
+          "description": "Allows for 1 additional stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/ce29f32ba5ef8758d1b5f3cfad0944a6.png"
+        }
+      ]
+    },
+    "3523075120": {
+      "name": "Protective Light",
+      "icon": "/common/destiny2_content/icons/f9d3dcc86e0805401b6f0ce72b0847ba.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Protective Light",
+          "description": "While Charged with Light, you gain significant damage resistance against combatants when your shields are destroyed. This effect consumes all stacks of Charged with Light. The more stacks consumed, the longer the damage resistance lasts.",
+          "icon": "/common/destiny2_content/icons/f9d3dcc86e0805401b6f0ce72b0847ba.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Strength \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3523075121": {
+      "name": "Extra Reserves",
+      "icon": "/common/destiny2_content/icons/fc70edeb4ce73caf4021b67c0017794b.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Extra Reserves",
+          "description": "While Charged with Light, defeating combatants with Void damage grants a chance to drop Special ammo. This effect consumes all stacks of Charged with Light. The more stacks you have, the higher your chance of gaining the ammo drop.",
+          "icon": "/common/destiny2_content/icons/fc70edeb4ce73caf4021b67c0017794b.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Intellect \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3523075122": {
+      "name": "Precisely Charged",
+      "icon": "/common/destiny2_content/icons/13d7d5a897651438d055d64942c1ff4f.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Precisely Charged",
+          "description": "Become Charged with Light by getting multiple rapid precision final blows with Linear Fusion Rifles or Sniper Rifles.",
+          "icon": "/common/destiny2_content/icons/13d7d5a897651438d055d64942c1ff4f.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Discipline \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "3523075123": {
+      "name": "Stacks on Stacks",
+      "icon": "/common/destiny2_content/icons/519f5f15cddf0f17906e951fd3a9769b.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Stacks on Stacks",
+          "description": "Gain an extra stack of Charged with Light for every stack you gain.",
+          "icon": "/common/destiny2_content/icons/519f5f15cddf0f17906e951fd3a9769b.png"
+        },
+        {},
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Recovery \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "179977572": {
+      "name": "Global Reach",
+      "icon": "/common/destiny2_content/icons/9106c7e977dc578319d636c9566047de.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Global Reach",
+          "description": "Warmind Cells you create affect and damage targets at a greater distance.",
+          "icon": "/common/destiny2_content/icons/f8a4af76d3cdf6f153bf02cefceaef37.png"
+        }
+      ]
+    },
+    "179977573": {
+      "name": "Blessing of Rasputin",
+      "icon": "/common/destiny2_content/icons/3b89677660624c4c0bd27e89fe52649c.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Blessing of Rasputin",
+          "description": "Collecting a Warmind Cell increases the chances that your next final blow with a Seraph weapon will create a Warmind Cell.",
+          "icon": "/common/destiny2_content/icons/f9d22a274bd7b8480cb51b4fdb5ff220.png"
+        }
+      ]
+    },
+    "179977574": {
+      "name": "Light of the Fire",
+      "icon": "/common/destiny2_content/icons/bd59d9404b500d7dafb9038a149d8d1d.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Light of the Fire",
+          "description": "Rapidly defeating targets with the detonation of a Warmind Cell generates an Orb of Power.",
+          "icon": "/common/destiny2_content/icons/5d8cb8338857a820d9d0b824fdaaf476.png"
+        }
+      ]
+    },
+    "179977575": {
+      "name": "Warmind's Light",
+      "icon": "/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Warmind's Light",
+          "description": "Become Charged with Light by collecting a Warmind Cell.",
+          "icon": "/common/destiny2_content/icons/3f165be4b4afd67e3ce3ba7ab6153e24.png"
+        }
+      ]
+    },
+    "179977568": {
+      "name": "Grasp of the Warmind",
+      "icon": "/common/destiny2_content/icons/180ee0e9b32d2676a171dfbc606b14ba.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Grasp of the Warmind",
+          "description": "You can pick up, carry, and throw Warmind Cells. Once thrown, a Warmind Cell cannot be picked up again.",
+          "icon": "/common/destiny2_content/icons/13da2b9586486004945af534a015a9a5.png"
+        }
+      ]
+    },
+    "1789319806": {
+      "name": "Modular Lightning",
+      "icon": "/common/destiny2_content/icons/7c730a8f363a494fd25d3c98aa4111b8.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Modular Lightning",
+          "description": "Collecting a Warmind Cell creates a burst of chaining Arc energy around you.",
+          "icon": "/common/destiny2_content/icons/95788f0724e974e237f5115574fe74de.png"
+        }
+      ]
+    },
+    "1789319807": {
+      "name": "Strength of Rasputin",
+      "icon": "/common/destiny2_content/icons/20a81ffdf748de8cebd8c90973a5275e.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Strength of Rasputin",
+          "description": "Collecting a Warmind Cell grants you melee energy.",
+          "icon": "/common/destiny2_content/icons/fc57d25c7a55bfb6392977c3eb791a44.png"
+        }
+      ]
+    },
+    "1789319804": {
+      "name": "Sheltering Energy",
+      "icon": "/common/destiny2_content/icons/7e6816b6da94913a9743d2855191ee88.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Sheltering Energy",
+          "description": "Collecting a Warmind Cell grants you an overshield.",
+          "icon": "/common/destiny2_content/icons/4d14aac1d616d1d00cac0c0abe8db2da.png"
+        }
+      ]
+    },
+    "1789319805": {
+      "name": "Chosen of the Warmind",
+      "icon": "/common/destiny2_content/icons/0d11c3a259eb95eb3918bd2130b304ac.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Chosen of the Warmind",
+          "description": "Collecting or destroying a Warmind Cell creates a concussive blast that pushes enemies away.",
+          "icon": "/common/destiny2_content/icons/c711882424a4ea6eba503888e52701d7.png"
+        },
+        {
+          "name": "Chosen of the Warmind",
+          "description": "Collecting or destroying a Warmind Cell creates a concussive blast that pushes enemies away.",
+          "icon": "/common/destiny2_content/icons/c711882424a4ea6eba503888e52701d7.png"
+        }
+      ]
+    },
+    "2216063963": {
+      "name": "Burning Cells",
+      "icon": "/common/destiny2_content/icons/e51fc35efbfb77746846ff39157de297.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Burning Cells",
+          "description": "Destroying a Warmind Cell creates a burst of Solar energy that causes enemies to burn for several seconds.",
+          "icon": "/common/destiny2_content/icons/87b84c2322cb4d3ebcc377af6d6b8222.png"
+        },
+        {
+          "name": "Burning Cells",
+          "description": "Destroying a Warmind Cell creates a burst of Solar energy that causes enemies to burn for several seconds.",
+          "icon": "/common/destiny2_content/icons/87b84c2322cb4d3ebcc377af6d6b8222.png"
+        }
+      ]
+    },
+    "2216063962": {
+      "name": "Wrath of Rasputin",
+      "icon": "/common/destiny2_content/icons/5f066e7b42e77905e008511d02c2ea32.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Wrath of Rasputin",
+          "description": "Solar splash damage final blows have a chance to create Warmind Cells.",
+          "icon": "/common/destiny2_content/icons/87fdc75a17201a03168b9f47f802ebc8.png"
+        },
+        {}
+      ]
+    },
+    "2216063961": {
+      "name": "Fireteam Medic",
+      "icon": "/common/destiny2_content/icons/1b0357512d53319f63e5d2bf3c0a17b7.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Fireteam Medic",
+          "description": "Destroying a Warmind Cell creates a burst of healing for you and allies near you.",
+          "icon": "/common/destiny2_content/icons/00746db0bf9366f2813968b3bbed32b2.png"
+        }
+      ]
+    },
+    "2216063960": {
+      "name": "Rage of the Warmind",
+      "icon": "/common/destiny2_content/icons/41e2c3607cef7cc665417dde5172ea32.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Rage of the Warmind",
+          "description": "Adds additional Solar damage to the explosions of Warmind Cells you destroy.",
+          "icon": "/common/destiny2_content/icons/9c04bdd9c422aaa263a211411e582e8c.png"
+        },
+        {
+          "name": "Rage of the Warmind",
+          "description": "Adds additional Solar damage to the explosions of Warmind Cells you destroy.",
+          "icon": "/common/destiny2_content/icons/9c04bdd9c422aaa263a211411e582e8c.png"
+        }
+      ]
+    },
+    "2216063967": {
+      "name": "Incinerating Light",
+      "icon": "/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Incinerating Light",
+          "description": "Become Charged with Light by rapidly defeating multiple enemies with the explosion of a Warmind Cell.",
+          "icon": "/common/destiny2_content/icons/3f165be4b4afd67e3ce3ba7ab6153e24.png"
+        }
+      ]
+    },
+    "2597888510": {
+      "name": "Cellular Suppression",
+      "icon": "/common/destiny2_content/icons/ba4111a459ca971860571ef9ce5ca4ed.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Cellular Suppression",
+          "description": "Damaging a Warmind Cell creates a burst of suppressing Void energy. Additionally, you deal less damage to Warmind Cells.",
+          "icon": "/common/destiny2_content/icons/c45d968fbf7009cc54b2d11f9927613d.png"
+        },
+        {
+          "name": "Cellular Suppression",
+          "description": "Damaging a Warmind Cell creates a burst of suppressing Void energy. Additionally, you deal less damage to Warmind Cells.",
+          "icon": "/common/destiny2_content/icons/c45d968fbf7009cc54b2d11f9927613d.png"
+        },
+        {}
+      ]
+    },
+    "2597888511": {
+      "name": "Power of Rasputin",
+      "icon": "/common/destiny2_content/icons/75029cbc3eb965029197391d41ff9246.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Power of Rasputin",
+          "description": "You gain a bonus to weapon damage against enemies that are near Warmind Cells.",
+          "icon": "/common/destiny2_content/icons/c011213c74139dd2188184905ffdb9d4.png"
+        }
+      ]
+    },
+    "2597888508": {
+      "name": "Warmind's Protection",
+      "icon": "/common/destiny2_content/icons/9b3809c858edb260cdc2ae341c26601e.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Warmind's Protection",
+          "description": "You take reduced damage from enemies that are near Warmind Cells.",
+          "icon": "/common/destiny2_content/icons/b9151ea61b2be11412391505ff49d358.png"
+        }
+      ]
+    },
+    "2597888509": {
+      "name": "Warmind's Longevity",
+      "icon": "/common/destiny2_content/icons/5ea2d5af34ebe66b4c8919d0dbd69e4b.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Warmind's Longevity",
+          "description": "Warmind Cells you create last longer.",
+          "icon": "/common/destiny2_content/icons/9464ffc6bf7d65ba188168ad9db2aed9.png"
+        }
+      ]
+    },
+    "2597888506": {
+      "name": "Light from Darkness",
+      "icon": "/common/destiny2_content/icons/14dc085823df3d8819aedad8747bc09c.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Light from Darkness",
+          "description": "Become Charged with Light by rapidly defeating multiple enemies near a Warmind Cell using weapons or abilities.",
+          "icon": "/common/destiny2_content/icons/3f165be4b4afd67e3ce3ba7ab6153e24.png"
+        }
+      ]
+    },
+    "2979815164": {
+      "name": "Swift Charge",
+      "icon": "/common/destiny2_content/icons/80b1179638c3627864a1ab5247151305.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Swift Charge",
+          "description": "Become Charged with Light by rapidly defeating combatants with Pulse Rifles, Sidearms, or Submachine Guns.",
+          "icon": "/common/destiny2_content/icons/80b1179638c3627864a1ab5247151305.png"
+        },
+        {
+          "name": "Pulse Rifle Scavenger",
+          "description": "Defeating combatants with a Pulse Rifle grants a chance to drop Special ammo for your allies.",
+          "icon": "/common/destiny2_content/icons/b7686d2371da5ccc5c2d9b69d777d8cf.png"
+        }
+      ]
+    },
+    "2979815165": {
+      "name": "Lucent Blade",
+      "icon": "/common/destiny2_content/icons/b2863d7ca41af5bca31641ecc6c5998a.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Lucent Blade",
+          "description": "While Charged with Light, dealing damage with a Sword gives you bonus Sword damage for 5 seconds, consuming one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/b2863d7ca41af5bca31641ecc6c5998a.png"
+        },
+        {
+          "name": "Replenishing Guard",
+          "description": "Greatly increases the charge rate for your equipped Swords.",
+          "icon": "/common/destiny2_content/icons/a3e631c725cff782e67409c061557a20.png"
+        }
+      ]
+    },
+    "2979815166": {
+      "name": "Reactive Pulse",
+      "icon": "/common/destiny2_content/icons/19fc1544595d371c631855656c9f31b7.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Reactive Pulse",
+          "description": "While Charged with Light, when you take damage while surrounded by combatants, you emit a burst of damaging Arc energy, consuming one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/19fc1544595d371c631855656c9f31b7.png"
+        },
+        {
+          "name": "Finisher Bulwark",
+          "description": "Gain a powerful overshield while performing your finisher.",
+          "icon": "/common/destiny2_content/icons/799c7ce84daab1c9da98910a497684f4.png"
+        }
+      ]
+    },
+    "2979815167": {
+      "name": "Radiant Light",
+      "icon": "/common/destiny2_content/icons/b6649b05c177d25a0faae24fe727fbb9.png",
+      "tooltip": "This mod's secondary perk is active when at least one other Arc mod is socketed into this armor, or when at least one other Arc Charged With Light mod is socketed into another piece of armor you are wearing.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Radiant Light",
+          "description": "Casting your Super causes nearby allies to become Charged with Light.",
+          "icon": "/common/destiny2_content/icons/b6649b05c177d25a0faae24fe727fbb9.png"
+        },
+        {
+          "name": "Stat Increase",
+          "description": "+20 Strength \u25b2",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "4272180933": {
+      "name": "Sustained Charge",
+      "icon": "/common/destiny2_content/icons/900534ac5f6ffd274521ed7fc0e43e31.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Sustained Charge",
+          "description": "Become Charged with Light by rapidly defeating combatants with Auto Rifles, Trace Rifles, or Machine Guns. Additional copies of this mod increase the time allowed between combatants that are defeated.",
+          "icon": "/common/destiny2_content/icons/900534ac5f6ffd274521ed7fc0e43e31.png"
+        }
+      ]
+    },
+    "4272180932": {
+      "name": "Argent Ordnance",
+      "icon": "/common/destiny2_content/icons/9bc05cbb389498fb9ca99807c9b91b6b.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Argent Ordnance",
+          "description": "While Charged with Light, readying or firing a Rocket Launcher grants it increased damage and reload speed. Damaging a combatant with a rocket consumes one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/9bc05cbb389498fb9ca99807c9b91b6b.png"
+        },
+        {}
+      ]
+    },
+    "4272180935": {
+      "name": "Kindling the Flame",
+      "icon": "/common/destiny2_content/icons/cc1eb304baed451cbb4b8b5cfcab164f.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Kindling the Flame",
+          "description": "While Charged with Light, reviving a downed Guardian gives you a burst of healing, consuming one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/cc1eb304baed451cbb4b8b5cfcab164f.png"
+        }
+      ]
+    },
+    "4272180934": {
+      "name": "Supercharged",
+      "icon": "/common/destiny2_content/icons/7102cef97f85ae4fae1d34153c292973.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 5,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Supercharged",
+          "description": "You can have 2 additional stacks of Charged with Light, up to a maximum of 5.",
+          "icon": "/common/destiny2_content/icons/7102cef97f85ae4fae1d34153c292973.png"
+        }
+      ]
+    },
+    "2263321584": {
+      "name": "Precision Charge",
+      "icon": "/common/destiny2_content/icons/2614935a04f326038bddff44a374e996.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Precision Charge",
+          "description": "Become Charged with Light by rapidly defeating combatants with precision kills from Bows, Hand Cannons, and Scout Rifles.",
+          "icon": "/common/destiny2_content/icons/2614935a04f326038bddff44a374e996.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Strength \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "2263321585": {
+      "name": "Surprise Attack",
+      "icon": "/common/destiny2_content/icons/df471d6e132702ba8bdfc87b16d1c441.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Surprise Attack",
+          "description": "While Charged with Light, reloading or readying a Sidearm will consume all stacks of Charged with Light and convert them into stacks of a major damage buff, which are depleted as you damage combatants with that Sidearm.",
+          "icon": "/common/destiny2_content/icons/df471d6e132702ba8bdfc87b16d1c441.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Intellect \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "2263321586": {
+      "name": "Energy Converter",
+      "icon": "/common/destiny2_content/icons/e0b2cb5c2a1fd8ffa92f20c91ed5e7e0.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Energy Converter",
+          "description": "While Charged with Light, using your grenade attack grants you Super energy, consuming all stacks of Charged with Light. The more stacks you have, the more energy you gain, up to a maximum of 50% of your Super energy.",
+          "icon": "/common/destiny2_content/icons/e0b2cb5c2a1fd8ffa92f20c91ed5e7e0.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 Discipline \u25bc",
+          "icon": "/common/destiny2_content/icons/cd042d8338050f8837cd7e90ef1938db.jpg"
+        }
+      ]
+    },
+    "2263321587": {
+      "name": "Charge Harvester",
+      "icon": "/common/destiny2_content/icons/a8acc2b6cf36527f879051a38622e310.png",
+      "tooltip": "This mod imposes a stat penalty when socketed in exchange for a reduced energy cost.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Charge Harvester",
+          "description": "While you are not Charged with Light, any kill or assist has a small cumulative chance to cause you to become Charged with Light.",
+          "icon": "/common/destiny2_content/icons/a8acc2b6cf36527f879051a38622e310.png"
+        },
+        {
+          "name": "Stat Penalty",
+          "description": "-10 to the stat that governs your class ability recharge rate",
+          "icon": "/common/destiny2_content/icons/50c3a8893ef93f7db76d86b2649716ad.png"
+        }
+      ]
+    },
+    "3730619869": {
+      "name": "Elemental Charge",
+      "icon": "/common/destiny2_content/icons/ffc9d51dc0f442c535909eb2b4b8d1a2.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Elemental Charge",
+          "description": "Become Charged with Light by picking up an elemental well. If the elemental well's element type matches your subclass element, you gain 2 stacks of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/ffc9d51dc0f442c535909eb2b4b8d1a2.png"
+        },
+        {
+          "name": "Elemental Charge",
+          "description": "Become Charged with Light by picking up an elemental well. If the elemental well's element type matches your subclass element, you gain 2 stacks of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/ffc9d51dc0f442c535909eb2b4b8d1a2.png"
+        },
+        {
+          "name": "Elemental Charge",
+          "description": "Become Charged with Light by picking up an elemental well. If the elemental well's element type matches your subclass element, you gain 2 stacks of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/ffc9d51dc0f442c535909eb2b4b8d1a2.png"
+        },
+        {
+          "name": "Elemental Charge",
+          "description": "Become Charged with Light by picking up an elemental well. If the elemental well's element type matches your subclass element, you gain 2 stacks of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/ffc9d51dc0f442c535909eb2b4b8d1a2.png"
+        }
+      ]
+    },
+    "1515669996": {
+      "name": "Elemental Armaments",
+      "icon": "/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Elemental Armaments",
+          "description": "Weapons takedowns with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
+          "icon": "/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png"
+        },
+        {
+          "name": "Elemental Armaments",
+          "description": "Weapons takedowns with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
+          "icon": "/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png"
+        },
+        {
+          "name": "Elemental Armaments",
+          "description": "Weapons takedowns with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
+          "icon": "/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png"
+        },
+        {
+          "name": "Elemental Armaments",
+          "description": "Weapons takedowns with a damage type that matches your subclass element have an escalating chance to spawn an elemental well.",
+          "icon": "/common/destiny2_content/icons/447bcd67662b6036ba9807dbc528b8ca.png"
+        }
+      ]
+    },
+    "2823326549": {
+      "name": "Elemental Light",
+      "icon": "/common/destiny2_content/icons/034ae7c2c029209816088d3fa81f4a06.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Elemental Light",
+          "description": "Defeating a combatant with your Super spawns an elemental well that matches your subclass energy type.",
+          "icon": "/common/destiny2_content/icons/034ae7c2c029209816088d3fa81f4a06.png"
+        }
+      ]
+    },
+    "1824486242": {
+      "name": "Elemental Ordnance",
+      "icon": "/common/destiny2_content/icons/3b875aea848fe37d8b693418bf3effe0.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Elemental Ordnance",
+          "description": "Defeating a combatant with a grenade spawns an elemental well that matches your subclass energy type.",
+          "icon": "/common/destiny2_content/icons/3b875aea848fe37d8b693418bf3effe0.png"
+        }
+      ]
+    },
+    "1740246051": {
+      "name": "Font of Might",
+      "icon": "/common/destiny2_content/icons/d5dc170cb40ee6e43564cc35e8551e05.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Font of Might",
+          "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
+          "icon": "/common/destiny2_content/icons/d5dc170cb40ee6e43564cc35e8551e05.png"
+        },
+        {
+          "name": "Font of Might",
+          "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
+          "icon": "/common/destiny2_content/icons/d5dc170cb40ee6e43564cc35e8551e05.png"
+        },
+        {
+          "name": "Font of Might",
+          "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
+          "icon": "/common/destiny2_content/icons/d5dc170cb40ee6e43564cc35e8551e05.png"
+        },
+        {
+          "name": "Font of Might",
+          "description": "Picking up an elemental well that matches your subclass energy type grants a temporary bonus to weapon damage of that same elemental type.",
+          "icon": "/common/destiny2_content/icons/d5dc170cb40ee6e43564cc35e8551e05.png"
+        }
+      ]
+    },
+    "1196831979": {
+      "name": "Font of Wisdom",
+      "icon": "/common/destiny2_content/icons/5f0f125d9e6194cf156a257f20811bc3.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Font of Wisdom",
+          "description": "Picking up an elemental well that matches your subclass energy type grants you a temporary significant increase in your Intellect, improving the recharge rate of your Super.",
+          "icon": "/common/destiny2_content/icons/5f0f125d9e6194cf156a257f20811bc3.png"
+        }
+      ]
+    },
+    "1052528480": {
+      "name": "Shieldcrash Wellmaker",
+      "icon": "/common/destiny2_content/icons/8d746c762380714c0197d34ac30c7991.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Shieldcrash Wellmaker",
+          "description": "Breaking a shield with the matching weapon type creates an elemental well.",
+          "icon": "/common/destiny2_content/icons/8d746c762380714c0197d34ac30c7991.png"
+        }
+      ]
+    },
+    "3097132144": {
+      "name": "Overload Wellmaker",
+      "icon": "/common/destiny2_content/icons/52c7812bcf9f9398b8d99d2d2ee7034f.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 4,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Overload Wellmaker",
+          "description": "Defeating a combatant with a finisher spawns 2 Arc elemental wells.",
+          "icon": "/common/destiny2_content/icons/52c7812bcf9f9398b8d99d2d2ee7034f.png"
+        }
+      ]
+    },
+    "1680735357": {
+      "name": "Well of Ions",
+      "icon": "/common/destiny2_content/icons/d161b266370183f13a90e1a728964f3e.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Well of Ions",
+          "description": "Picking up an Arc elemental well causes your next melee to deal increased damage.",
+          "icon": "/common/destiny2_content/icons/d161b266370183f13a90e1a728964f3e.png"
+        }
+      ]
+    },
+    "825650462": {
+      "name": "Explosive Wellmaker",
+      "icon": "/common/destiny2_content/icons/478c4e5db2565e544ebe0795ed67aa3b.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Explosive Wellmaker",
+          "description": "Rapidly defeating combatants with explosive damage spawns a Solar elemental well.",
+          "icon": "/common/destiny2_content/icons/478c4e5db2565e544ebe0795ed67aa3b.png"
+        }
+      ]
+    },
+    "2164090163": {
+      "name": "Well of Life",
+      "icon": "/common/destiny2_content/icons/38aa387607eebecbd4d50a2f62b1b594.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Well of Life",
+          "description": "Picking up a Solar elemental well grants increased regeneration for a short period of time.",
+          "icon": "/common/destiny2_content/icons/38aa387607eebecbd4d50a2f62b1b594.png"
+        }
+      ]
+    },
+    "240958661": {
+      "name": "Reaping Wellmaker",
+      "icon": "/common/destiny2_content/icons/fe2fa521bc6fb32f25ac1e238ef59005.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Reaping Wellmaker",
+          "description": "After activating your class ability, your next weapon final blow spawns a Void elemental well.",
+          "icon": "/common/destiny2_content/icons/fe2fa521bc6fb32f25ac1e238ef59005.png"
+        }
+      ]
+    },
+    "3809244044": {
+      "name": "Well of Tenacity",
+      "icon": "/common/destiny2_content/icons/181af037e6420b92d9a491d0b0176e23.png",
+      "tooltip": "Picking up an elemental well grants energy to your ability with the lowest current energy. Picking up an elemental well whose element matches your subclass damage type grants energy to all of your abilities.",
+      "type": "Elemental Well Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Well of Tenacity",
+          "description": "Picking up a Void elemental well reduces the damage you take from combatants for a short period of time.",
+          "icon": "/common/destiny2_content/icons/181af037e6420b92d9a491d0b0176e23.png"
+        }
+      ]
+    },
+    "4132945796": {
+      "name": "Blast Radius",
+      "icon": "/common/destiny2_content/icons/ab4c24c82a476f9a83ce89e0680f4241.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Blast Radius",
+          "description": "Become Charged with Light by rapidly defeating multiple combatants with Grenade Launchers or Rocket Launchers.",
+          "icon": "/common/destiny2_content/icons/ab4c24c82a476f9a83ce89e0680f4241.png"
+        }
+      ]
+    },
+    "2072507548": {
+      "name": "Argent Ordnance",
+      "icon": "/common/destiny2_content/icons/aca54d83cf479b6cceb3c5f713524919.png",
+      "tooltip": "This mod's effects stack with other copies of this mod.",
+      "type": "Charged with Light Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Argent Ordnance",
+          "description": "While Charged with Light, readying or firing a Rocket Launcher grants it increased damage and reload speed. Damaging a combatant with a rocket consumes one stack of Charged with Light.",
+          "icon": "/common/destiny2_content/icons/aca54d83cf479b6cceb3c5f713524919.png"
+        },
+        {}
+      ]
+    },
+    "2788876189": {
+      "name": "Hammer of the Warmind",
+      "icon": "/common/destiny2_content/icons/59853880dcf3fceea4d2496575c24a98.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Hammer of the Warmind",
+          "description": "The detonations from Warmind Cells you destroy cause disruption, stunning combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against \ue071  Overload Champions  and [Stagger]  Unstoppable Champions.",
+          "icon": "/common/destiny2_content/icons/59853880dcf3fceea4d2496575c24a98.png"
+        },
+        {
+          "name": "Hammer of the Warmind",
+          "description": "The detonations from Warmind Cells you destroy cause disruption, stunning combatants, delaying ability energy regeneration and lowering combatant damage output.\n\nStrong against \ue071  Overload Champions  and [Stagger]  Unstoppable Champions.",
+          "icon": "/common/destiny2_content/icons/59853880dcf3fceea4d2496575c24a98.png"
+        }
+      ]
+    },
+    "282898303": {
+      "name": "Warmind's Decree",
+      "icon": "/common/destiny2_content/icons/72a81508706cea0160e5704c18c031df.png",
+      "tooltip": "Defeating a combatant with a Seventh Seraph or IKELOS weapon has a chance to drop a Warmind Cell. Multiple copies of this mod do not stack.",
+      "type": "Warmind Cell Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Warmind's Decree",
+          "description": "Void splash damage final blows have a chance to create Warmind Cells.",
+          "icon": "/common/destiny2_content/icons/72a81508706cea0160e5704c18c031df.png"
+        }
+      ]
+    }
+  },
+  "activities": {
+    "0": {
+      "name": "Empty Mod Socket",
+      "icon": "/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png",
+      "tooltip": "No mod currently selected.",
+      "type": "Legacy and Raids Armor Mod",
+      "investment": {
+        "cost": 0,
+        "affinity": "no"
+      },
+      "perks": [
+       
+      ]
+    },
+    "2142852459": {
+      "name": "Herd Thinner",
+      "icon": "/common/destiny2_content/icons/68e54e0d7beab4eaa228a522c85a6d60.png",
+      "tooltip": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+      "type": "Deep Stone Crypt Raid Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Herd Thinner",
+          "description": "Your weapons deal additional damage to non-powerful combatants.",
+          "icon": "/common/destiny2_content/icons/68e54e0d7beab4eaa228a522c85a6d60.png"
+        }
+      ]
+    },
+    "817361141": {
+      "name": "Enhanced Operator Augment",
+      "icon": "/common/destiny2_content/icons/24a82ebb135726111e3c99073871cdaa.png",
+      "tooltip": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+      "type": "Deep Stone Crypt Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Rapid Regen",
+          "description": "With the Operator Augment, you gain periodic bursts of healing when your health is depleted.",
+          "icon": "/common/destiny2_content/icons/24a82ebb135726111e3c99073871cdaa.png"
+        },
+        {
+          "name": "Conversionist",
+          "description": "With no augment, collecting Orbs of Power causes you to periodically spawn Heavy ammo.",
+          "icon": "/common/destiny2_content/icons/983255fa90e98c0e3f71be4ea7e887f5.png"
+        }
+      ]
+    },
+    "1578165808": {
+      "name": "Enhanced Scanner Augment",
+      "icon": "/common/destiny2_content/icons/e01f849d196fa1d63cfc95dede616038.png",
+      "tooltip": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+      "type": "Deep Stone Crypt Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Paint the Target",
+          "description": "With the scanner augment, powerful targets are marked by precision shots and take increased damage for a short period.",
+          "icon": "/common/destiny2_content/icons/e01f849d196fa1d63cfc95dede616038.png"
+        },
+        {
+          "name": "Supercharged",
+          "description": "With no augment, you gain a bonus to Resilience and Recovery, and your class ability recharges faster.",
+          "icon": "/common/destiny2_content/icons/8aff6f15761bf05763eb50e506f4af95.png"
+        }
+      ]
+    },
+    "1362793604": {
+      "name": "Enhanced Suppressor Augment",
+      "icon": "/common/destiny2_content/icons/3da4be3a2c3609aafbee3655e902c0b2.png",
+      "tooltip": "This mod's perks are only active in the \"Deep Stone Crypt\" raid.\n\nMultiple copies of this mod stack and improve its effects.",
+      "type": "Deep Stone Crypt Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Evasive Maneuvers",
+          "description": "With the Suppressor Augment, you take decreased damage from powerful foes.",
+          "icon": "/common/destiny2_content/icons/3da4be3a2c3609aafbee3655e902c0b2.png"
+        },
+        {
+          "name": "Stop, Stunnertime",
+          "description": "With no augment, grenades temporarily stun your targets.",
+          "icon": "/common/destiny2_content/icons/f64c12a4fe4b3208b1e66a6717679946.png"
+        }
+      ]
+    },
+    "3630287380": {
+      "name": "Enhanced Relay Defender",
+      "icon": "/common/destiny2_content/icons/0b055cf6c2f7f02012da6d32a735bbfc.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Relay Defender",
+          "description": "Gain a powerful increase to weapon damage while within 5 meters of an active Vex Relay.",
+          "icon": "/common/destiny2_content/icons/0b055cf6c2f7f02012da6d32a735bbfc.png"
+        }
+      ]
+    },
+    "865380761": {
+      "name": "Enhanced Voltaic Mote Collector",
+      "icon": "/common/destiny2_content/icons/cd34a7894d5ff58a61f407956f27e191.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Voltaic Mote Collector",
+          "description": "Gain an overshield after you collect 5 Motes. This mod's effect does not stack with other copies of this mod.",
+          "icon": "/common/destiny2_content/icons/cd34a7894d5ff58a61f407956f27e191.png"
+        }
+      ]
+    },
+    "2037533514": {
+      "name": "Enhanced Resistant Tether",
+      "icon": "/common/destiny2_content/icons/3b828293d2610ba0d9e987b14c4eeb75.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Resistant Tether",
+          "description": "Gain powerful damage resistance while part of a tether chain. Multiple copies of this mod stack to increase this benefit.",
+          "icon": "/common/destiny2_content/icons/3b828293d2610ba0d9e987b14c4eeb75.png"
+        }
+      ]
+    },
+    "4020036031": {
+      "name": "Enhanced Voltaic Ammo Collector",
+      "icon": "/common/destiny2_content/icons/7309f0e00f8c0f1ca7823a2d7321a154.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Voltaic Ammo Collector",
+          "description": "Greatly increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
+          "icon": "/common/destiny2_content/icons/7309f0e00f8c0f1ca7823a2d7321a154.png"
+        }
+      ]
+    },
+    "3415291596": {
+      "name": "Relay Defender",
+      "icon": "/common/destiny2_content/icons/9f71b7b4e5d75c12b11d4691b462d8ac.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Relay Defender",
+          "description": "Gain an increase to weapon damage while within 5 meters of an active Vex Relay. Multiple copies of this mod stack to increase this benefit.",
+          "icon": "/common/destiny2_content/icons/9f71b7b4e5d75c12b11d4691b462d8ac.png"
+        }
+      ]
+    },
+    "4134680615": {
+      "name": "Voltaic Mote Collector",
+      "icon": "/common/destiny2_content/icons/2cf09f03340c2ba8499e1d2e889ea88b.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Voltaic Mote Collector",
+          "description": "Gain an overshield after you collect 10 Motes. This mod's effect does not stack with other copies of this mod.",
+          "icon": "/common/destiny2_content/icons/2cf09f03340c2ba8499e1d2e889ea88b.png"
+        }
+      ]
+    },
+    "2887845822": {
+      "name": "Resistant Tether",
+      "icon": "/common/destiny2_content/icons/e7817ed2f532a95d1bc76e4274ea3459.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Resistant Tether",
+          "description": "Gain damage resistance while part of a tether chain. Multiple copies of this mod stack to increase this benefit.",
+          "icon": "/common/destiny2_content/icons/e7817ed2f532a95d1bc76e4274ea3459.png"
+        }
+      ]
+    },
+    "928186993": {
+      "name": "Voltaic Ammo Collector",
+      "icon": "/common/destiny2_content/icons/9311f85548666d1cca5f58ac911695c0.png",
+      "tooltip": "Active only in the \"Garden of Salvation\" raid.",
+      "type": "Garden of Salvation Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Voltaic Ammo Collector",
+          "description": "Increases the chances of finding Heavy ammo while you have the Voltaic Overflow buff. Multiple copies of this mod stack to increase this benefit.",
+          "icon": "/common/destiny2_content/icons/9311f85548666d1cca5f58ac911695c0.png"
+        }
+      ]
+    },
+    "3829100654": {
+      "name": "Supreme Nightmare Banisher",
+      "icon": "/common/destiny2_content/icons/690dfdf2c7feb86e7652c1956fbb2482.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Supreme Nightmare Banisher",
+          "description": "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/690dfdf2c7feb86e7652c1956fbb2482.png"
+        }
+      ]
+    },
+    "2045123179": {
+      "name": "Supreme Nightmare Crusher",
+      "icon": "/common/destiny2_content/icons/6d8794fb92f311a47ebd4b50f613303b.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Supreme Nightmare Crusher",
+          "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/6d8794fb92f311a47ebd4b50f613303b.png"
+        }
+      ]
+    },
+    "2023980600": {
+      "name": "Supreme Nightmare Breaker",
+      "icon": "/common/destiny2_content/icons/aaafc510dde4a0e443fa21d93cd713c9.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Supreme Nightmare Breaker",
+          "description": "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/aaafc510dde4a0e443fa21d93cd713c9.png"
+        }
+      ]
+    },
+    "1996040463": {
+      "name": "Enhanced Nightmare Banisher",
+      "icon": "/common/destiny2_content/icons/32e006cca4673a95d2c408f81521c774.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Nightmare Banisher",
+          "description": "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/32e006cca4673a95d2c408f81521c774.png"
+        }
+      ]
+    },
+    "1565861116": {
+      "name": "Enhanced Nightmare Crusher",
+      "icon": "/common/destiny2_content/icons/a9b2abd92cbe6b8c6129a74438cb173a.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Nightmare Crusher",
+          "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/a9b2abd92cbe6b8c6129a74438cb173a.png"
+        }
+      ]
+    },
+    "4193902249": {
+      "name": "Enhanced Nightmare Breaker",
+      "icon": "/common/destiny2_content/icons/7a237a0f09d5e96639f59c85dcdbb743.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Enhanced Nightmare Breaker",
+          "description": "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/7a237a0f09d5e96639f59c85dcdbb743.png"
+        }
+      ]
+    },
+    "2874957617": {
+      "name": "Nightmare Banisher",
+      "icon": "/common/destiny2_content/icons/e4c934e966caa5468288c8cec4b2a452.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "arc"
+      },
+      "perks": [
+        {
+          "name": "Nightmare Banisher",
+          "description": "Grants additional damage to your Super against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/e4c934e966caa5468288c8cec4b2a452.png"
+        }
+      ]
+    },
+    "3736152098": {
+      "name": "Nightmare Crusher",
+      "icon": "/common/destiny2_content/icons/f29b9b0a7d561cb107aa42c9edaae8df.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "void"
+      },
+      "perks": [
+        {
+          "name": "Nightmare Crusher",
+          "description": "Grants additional damage to your melee and grenade abilities against Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/f29b9b0a7d561cb107aa42c9edaae8df.png"
+        }
+      ]
+    },
+    "1560574695": {
+      "name": "Nightmare Breaker",
+      "icon": "/common/destiny2_content/icons/b68eee67333534132179cd96f6690d0e.png",
+      "type": "Nightmare Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "solar"
+      },
+      "perks": [
+        {
+          "name": "Nightmare Breaker",
+          "description": "Grants additional damage against shields created by Nightmare bosses. This benefit does not stack with other mods that provide the same or greater benefit.",
+          "icon": "/common/destiny2_content/icons/b68eee67333534132179cd96f6690d0e.png"
+        }
+      ]
+    },
+    "2859541905": {
+      "name": "Taken Armaments",
+      "icon": "/common/destiny2_content/icons/d365907deee1024944e9bc405a5c4bba.png",
+      "tooltip": "This mod's perks are only active in the \"Last Wish\" raid.",
+      "type": "Last Wish Raid Mod",
+      "investment": {
+        "cost": 3,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Taken Armaments",
+          "description": "Defeating a Taken enemy with a grenade grants Heavy ammo.\n\nThis mod's abilities cannot stack across multiple copies.",
+          "icon": "/common/destiny2_content/icons/146f7e574bcb0627fadd3ab9979c0267.png"
+        }
+      ]
+    },
+    "399528760": {
+      "name": "Taken Invigoration",
+      "icon": "/common/destiny2_content/icons/932b9937f783cb0e61061684c40592a1.png",
+      "tooltip": "This mod's perks are only active in the \"Last Wish\" raid.",
+      "type": "Last Wish Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Taken Invigoration",
+          "description": "Defeating a challenging Taken enemy refreshes your class ability.\n\nThis mod's abilities cannot stack across multiple copies.",
+          "icon": "/common/destiny2_content/icons/c82c3256fc5ccc34679328215b6aefb7.png"
+        }
+      ]
+    },
+    "3570105787": {
+      "name": "Taken Barrier",
+      "icon": "/common/destiny2_content/icons/6e112c563ecc78c1a674ef9edb8cb727.png",
+      "tooltip": "This mod's perks are only active in the \"Last Wish\" raid.",
+      "type": "Last Wish Raid Mod",
+      "investment": {
+        "cost": 1,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Taken Barrier",
+          "description": "Receiving Taken damage gives a 20% reduction in damage for 10 seconds.",
+          "icon": "/common/destiny2_content/icons/969a93db1c64fb082aa76dc15211bcce.png"
+        }
+      ]
+    },
+    "2589105944": {
+      "name": "Taken Repurposing",
+      "icon": "/common/destiny2_content/icons/9d54e2149f945b2c298020da443b70fa.png",
+      "tooltip": "This mod's perks are only active in the \"Last Wish\" raid.",
+      "type": "Last Wish Raid Mod",
+      "investment": {
+        "cost": 2,
+        "affinity": "no"
+      },
+      "perks": [
+        {
+          "name": "Taken Repurposing",
+          "description": "Destroying a Taken shield refreshes your grenade ability.",
+          "icon": "/common/destiny2_content/icons/88c9a96eaac0d3d34e9f5a2953d70c89.png"
+        }
+      ]
+    }
+  }
+}

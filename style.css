@@ -1,0 +1,149 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: hsl(240, 60%, 6%);
+}
+
+.spacer{
+    height: 30em;
+}
+
+.armor-image{
+    display: inline;
+}
+
+.energy-unit.empty {
+    background-color: transparent;
+}
+.energy-unit.full {
+    background-color: white;
+}
+.energy-unit{
+    width: 3.335em;
+    height: 1em;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: white;
+}
+.energy-bar{
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-gap: 0.125em;
+}
+.affinity-info{
+    display: inline-grid;
+}
+.affinity-selected{
+    display: inline-grid;
+}
+
+.sloted-mods{
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-gap: 0.05em;
+}
+
+.affinity-list{
+    display: none;
+    
+}
+
+.mod-list{
+    display: none;
+    
+    grid-template-columns: auto auto auto auto auto auto auto;
+    
+}
+
+
+.mod-slots{
+    display: inline-grid;
+    grid-auto-flow: column;
+}
+
+/*Mod simple image to be displayed*/
+.mod-socket{
+    display: inline-grid;
+    width: min-content;
+
+    position: relative;
+    
+}
+.mod-socket .mod-socket-img{
+    grid-row: 1 \ 1;
+    grid-column: 1 \ 1;
+}
+
+.mod-showcase{
+    width: min-content;
+    background-color: yellow;
+}
+
+/*On Hover shows mod card*/
+.mod-socket:hover .mod-card{
+    visibility: visible;
+    display: grid;
+    top: 100%;
+  left: 50%;
+  
+  
+}
+
+
+/*Mod full descripton card that should show on hover over mod*/
+
+.mod-card{
+    position: absolute;
+    visibility: hidden;
+    display: none;
+    background-color: rgb(46, 45, 45);
+    width: 30em;
+    grid-gap: 1em;
+    z-index: 2;
+}
+
+.mod-header{
+    background-color: rgb(131, 131, 131);
+    display: grid;
+    grid-gap: 0.5em;
+    padding: 0.5em;
+}
+
+.mod-name{
+    font-size: 2.5em;
+}
+
+.mod-type{
+    font-size: 1em;
+}
+
+
+
+.mod-body{
+    
+    display: grid;
+    grid-gap: 0.5em;
+    padding: 0.5em;
+}
+
+.mod-perks{
+    display: grid;
+    grid-gap: 0.5em;
+    padding: 0.5em;
+}
+
+.mod-perk{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    grid-gap: 1em;
+
+}
+
+.mod-perk-description{
+    display: grid;
+    
+}
+
+.mod-perk-name{
+    font-size: 1.25em;
+}

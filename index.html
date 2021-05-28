@@ -1,334 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
 <head>
-    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="main.js"></script>
 </head>
+
 <body>
-    <div style="display: flex;">
-        <div>
-            <div style="height: 200px;">
-                <h1 class="text">Destiny 2 BreadBuilds</h1>
-                <button onclick="resetBuild()">Reset Build</button>
-                <br>
-                <br>
-                <input type="text" name="build-string" id="build-string" style="width: 650px;">
-                <br>
-                <button onclick="buildToString()" >Export Build</button>
-                <button onclick="importBuild()" >Import Build</button>
-                <button onclick="getSharebleLink()" >Get Shareble link</button>
-            </div>
-            
-            
-            <div class="helmet armor" >
-                <div>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/898624eb5964b7456a03bfa70467fe2d.jpg" alt="titan-helmet">
-                    <table class="energy_counter">
-                        <tr>
-                            <td><div class="energy_unit u0 empty"></div></td>
-                            <td><div class="energy_unit u1 empty"></div></td>
-                            <td><div class="energy_unit u2 empty"></div></td>
-                            <td><div class="energy_unit u3 empty"></div></td>
-                            <td><div class="energy_unit u4 empty"></div></td>
-                            <td><div class="energy_unit u5 empty"></div></td>
-                            <td><div class="energy_unit u6 empty"></div></td>
-                            <td><div class="energy_unit u7 empty"></div></td>
-                            <td><div class="energy_unit u8 empty"></div></td>
-                            <td><div class="energy_unit u9 empty"></div></td>
-                            
-                        </tr>
-                        
-                    </table>
-                </div>
-                <div  class="selected">
-                    <div class="dropdown affinity">
-                        <div>
-                            <img src="https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png" alt="element-arc">
-                        </div>
-                    </div>
-                    <div class="dropdown general">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3a1e41ae2e2cbe33611481665f7d0378.png" alt="general-mod-slot">
-                    </div>
-                    <div class="dropdown armor-1">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/d89699e6307ac5d2a306cf054978e251.png" alt="helmet-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown armor-2">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/d89699e6307ac5d2a306cf054978e251.png" alt="helmet-mod-slot">
-                    </div>
-                    <div class="dropdown combat">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png" alt="combat-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown activity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png" alt="raid-mod-slot">
-                    </div>
-                </div>
-                <div class="selectors">
-                    <div class="dropdown-content affinity">
-                    </div>
-                    <div class="dropdown-content general">
-                        
-                    </div>
-                    <div class="dropdown-content armor-1">
-                        
-                    </div>
-                    <div class="dropdown-content armor-2">
-                        
-                    </div>
-                    <div class="dropdown-content combat">
-                        
-                    </div>
-                    <div class="dropdown-content activity">
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="spacer helmet" ></div>
-            <div class="error helmet text" ></div>
-            <div class="gauntlet armor">
-                <div>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/5adad1c8a4bf69befae8f3798802204e.jpg" alt="titan-gauntlets">
-                    <table class="energy_counter">
-                        <tr>
-                            <td><div class="energy_unit u0 empty"></div></td>
-                            <td><div class="energy_unit u1 empty"></div></td>
-                            <td><div class="energy_unit u2 empty"></div></td>
-                            <td><div class="energy_unit u3 empty"></div></td>
-                            <td><div class="energy_unit u4 empty"></div></td>
-                            <td><div class="energy_unit u5 empty"></div></td>
-                            <td><div class="energy_unit u6 empty"></div></td>
-                            <td><div class="energy_unit u7 empty"></div></td>
-                            <td><div class="energy_unit u8 empty"></div></td>
-                            <td><div class="energy_unit u9 empty"></div></td>
-                        </tr>
-                        
-                    </table>
-                </div>
-                
-                <div  class="selected">
-                    <div class="dropdown affinity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png" alt="element-arc">
-                    </div>
-                    <div class="dropdown general">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3a1e41ae2e2cbe33611481665f7d0378.png" alt="general-mod-slot">
-                    </div>
-                    <div class="dropdown armor-1" >
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/18bb744532b78a20164f150c770c5f89.png" alt="gauntlet-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown armor-2">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/18bb744532b78a20164f150c770c5f89.png" alt="gauntlet-mod-slot">
-                    </div>
-                    <div class="dropdown combat">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png" alt="combat-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown activity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png" alt="raid-mod-slot">
-                    </div>
-                </div>
-                <div class="selectors">
-                    <div class="dropdown-content affinity">
-                    </div>
-                    <div class="dropdown-content general">   
-                    </div>
-                    <div class="dropdown-content armor-1">   
-                    </div>
-                    <div class="dropdown-content armor-2">  
-                    </div>
-                    <div class="dropdown-content combat">   
-                    </div>
-                    <div class="dropdown-content activity">   
-                    </div>
-                </div>
-            </div>
-            <div class="spacer gauntlet" ></div>
-            <div class="chest armor">
-                <div>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/ab8935563ab99a73e4b7741d2563c266.jpg" alt="titan-chest">
-                    <table class="energy_counter">
-                        <tr>
-                            <td><div class="energy_unit u0 empty"></div></td>
-                            <td><div class="energy_unit u1 empty"></div></td>
-                            <td><div class="energy_unit u2 empty"></div></td>
-                            <td><div class="energy_unit u3 empty"></div></td>
-                            <td><div class="energy_unit u4 empty"></div></td>
-                            <td><div class="energy_unit u5 empty"></div></td>
-                            <td><div class="energy_unit u6 empty"></div></td>
-                            <td><div class="energy_unit u7 empty"></div></td>
-                            <td><div class="energy_unit u8 empty"></div></td>
-                            <td><div class="energy_unit u9 empty"></div></td>
-                        </tr>
-                        
-                    </table>
-                </div>
-                
-                <div  class="selected">
-                    <div class="dropdown affinity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png" alt="element-arc">
-                    </div>
-                    <div class="dropdown general">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3a1e41ae2e2cbe33611481665f7d0378.png" alt="general-mod-slot">
-                    </div>
-                    <div class="dropdown armor-1" >
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/6bf61607ffa8198cdabdf0fa3b5feab1.png" alt="chest-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown armor-2">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/6bf61607ffa8198cdabdf0fa3b5feab1.png" alt="chest-mod-slot">
-                    </div>
-                    <div class="dropdown combat">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png" alt="combat-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown activity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png" alt="raid-mod-slot">
-                    </div>
-                </div>
-                <div class="selectors">
-                    <div class="dropdown-content affinity">
-                    </div>
-                    <div class="dropdown-content general">   
-                    </div>
-                    <div class="dropdown-content armor-1">   
-                    </div>
-                    <div class="dropdown-content armor-2">  
-                    </div>
-                    <div class="dropdown-content combat">   
-                    </div>
-                    <div class="dropdown-content activity">   
-                    </div>
-                </div>
-            </div>
-            <div class="spacer chest" ></div>
-            <div class="boots armor">
-                <div>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/878e0a9a1ac7b5f81937ff574c3979ff.jpg" alt="titan-leg">
-                    <table class="energy_counter">
-                        <tr>
-                            <td><div class="energy_unit u0 empty"></div></td>
-                            <td><div class="energy_unit u1 empty"></div></td>
-                            <td><div class="energy_unit u2 empty"></div></td>
-                            <td><div class="energy_unit u3 empty"></div></td>
-                            <td><div class="energy_unit u4 empty"></div></td>
-                            <td><div class="energy_unit u5 empty"></div></td>
-                            <td><div class="energy_unit u6 empty"></div></td>
-                            <td><div class="energy_unit u7 empty"></div></td>
-                            <td><div class="energy_unit u8 empty"></div></td>
-                            <td><div class="energy_unit u9 empty"></div></td>
-                        </tr>
-                        
-                    </table>
-                </div>
-                
-                <div  class="selected">
-                    <div class="dropdown affinity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png" alt="element-arc">
-                    </div>
-                    <div class="dropdown general">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3a1e41ae2e2cbe33611481665f7d0378.png" alt="general-mod-slot">
-                    </div>
-                    <div class="dropdown armor-1" >
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/c4b573f9dd4892f6eb3bfb9b194170d0.png" alt="boots-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown armor-2">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/c4b573f9dd4892f6eb3bfb9b194170d0.png" alt="boots-mod-slot">
-                    </div>
-                    <div class="dropdown combat">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png" alt="combat-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown activity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png" alt="raid-mod-slot">
-                    </div>
-                </div>
-                <div class="selectors">
-                    <div class="dropdown-content affinity">
-                    </div>
-                    <div class="dropdown-content general">   
-                    </div>
-                    <div class="dropdown-content armor-1">   
-                    </div>
-                    <div class="dropdown-content armor-2">  
-                    </div>
-                    <div class="dropdown-content combat">   
-                    </div>
-                    <div class="dropdown-content activity">   
-                    </div>
-                </div>
-            </div>
-            <div class="spacer boots" ></div>
-            <div class="class armor">
-                <div>
-                    <img src="https://www.bungie.net/common/destiny2_content/icons/f6fa8c7171f6396f1dc6f8b14c17c927.jpg" alt="titan-mark">
-                    <table class="energy_counter">
-                        <tr>
-                            <td><div class="energy_unit u0 empty"></div></td>
-                            <td><div class="energy_unit u1 empty"></div></td>
-                            <td><div class="energy_unit u2 empty"></div></td>
-                            <td><div class="energy_unit u3 empty"></div></td>
-                            <td><div class="energy_unit u4 empty"></div></td>
-                            <td><div class="energy_unit u5 empty"></div></td>
-                            <td><div class="energy_unit u6 empty"></div></td>
-                            <td><div class="energy_unit u7 empty"></div></td>
-                            <td><div class="energy_unit u8 empty"></div></td>
-                            <td><div class="energy_unit u9 empty"></div></td>
-                        </tr>
-                        
-                    </table>
-                </div>
-                
-                <div  class="selected">
-                    <div class="dropdown affinity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png" alt="element-arc">
-                    </div>
-                    <div class="dropdown general">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3a1e41ae2e2cbe33611481665f7d0378.png" alt="general-mod-slot">
-                    </div>
-                    <div class="dropdown armor-1" >
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3cfff0f2aa68784762f553eb7997e909.png" alt="class-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown armor-2">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/3cfff0f2aa68784762f553eb7997e909.png" alt="class-mod-slot">
-                    </div>
-                    <div class="dropdown combat">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/53fa0b010b6b5e4b6bf9b8367d2980e0.png" alt="combat-mod-slot">
-                    </div>
-                    
-                    <div class="dropdown activity">
-                        <img src="https://www.bungie.net/common/destiny2_content/icons/aa09438250638a654652801673cce7d8.png" alt="raid-mod-slot">
-                    </div>
-                </div>
-                <div class="selectors">
-                    <div class="dropdown-content affinity">
-                    </div>
-                    <div class="dropdown-content general">   
-                    </div>
-                    <div class="dropdown-content armor-1">   
-                    </div>
-                    <div class="dropdown-content armor-2">  
-                    </div>
-                    <div class="dropdown-content combat">   
-                    </div>
-                    <div class="dropdown-content activity">   
-                    </div>
-                </div>
-            </div>
-            <div class="spacer class" ></div>
-            
-        </div>
-        <div class="tooltip text">
-        </div>
-    </div>
-    <div class="text">
-        <p>Any issues or suggestions just post an issue or dm me on <a href="https://twitter.com/CaoticHazard "> Twitter</a> </p>
-        <h3>Future stuff</h3>
-        <p>   
-            - Tooltips <br>
-            -- Example: when equipping a warmind cell mod warns you to equip a ikelos or seveth seraph weapon <br><br>
-            - Class Armor Selection <br>
+    <div>
+        <h1>Destiny 2 BreadBuilds</h1>
+        <p>
+            This site was made with the purpose of making it easier to theorycraft and make builds, and also facilitate sharing these builds
+        <br>
+            To make this as intuitive as possible I worked hard to immitate the UI ingame
+        </p>
+        <p>
+            I made this entirely of pure html/css/js, no external libraries (except jquery), I did this just to have a 
+            MVP (Minimum Viable Product) and also have something to work with as a base, my next plan is to remake this with ReactJs
+            and maybe in the future, host it somewhere else instead of github pages.
+        </p>
+        <p>
+            Also don't forget to check my other Destiny 2 related project <a href="https://twitter.com/D2WeeklyRolls">D2 Weekly Armor Rolls</a>
+            on twitter
+        </p>
+        <p>
+            To export a build, just click on the export button, it will create a long line of letters, just copy that and send to 
+            anyone you want to share the build with.
+            If you have that line of letters, just drop that on the text box bellow and click import build and it will fill out 
+            everything
+            (the build string as I call it is really long, specially when you fill it with mods)
+            <br>
+            <br>
+            if you want to test it, try using this build
+            <br>
+            <br>
+            0/2ā/Āą/352307512ą|1/ē3ĄėĀ3632726Ċ8Ą|ĂēēĆĀ17997čĞģĖĦĘė22160ě9Ġģ4Ĕ/5ĴĀĶĸĺ3ļą
+            <br>
+            <br>
+            the bread and butter of warmind cell with a pinch of charged with light 
+
+
         </p>
     </div>
+    <div>
+        <input type="text" id="build-string" style="width: 50em;"></input>
+        <button onclick="ExportBuild()">Export Build</button>
+        <button onclick="ImportBuild()">Import Build</button>
+    </div>
+
+    <br>
+    <div id="teste"></div>
+    <div class="spacer"></div>
+
+
+    
+    <!--
+    <div id="helmet">
+        <div class="armor-image">
+            <img src="https://www.bungie.net/common/destiny2_content/icons/898624eb5964b7456a03bfa70467fe2d.jpg" alt="titan-helmet">
+        </div>
+        <br>
+        <div class="energy-bar" id="helmet-energy-bar">
+            <div class="energy-unit full" id="helmet-energy-1"></div>
+            <div class="energy-unit full" id="helmet-energy-2"></div>
+            <div class="energy-unit full" id="helmet-energy-3"></div>
+            <div class="energy-unit empty" id="helmet-energy-4"></div>
+            <div class="energy-unit empty" id="helmet-energy-5"></div>
+            <div class="energy-unit empty" id="helmet-energy-6"></div>
+            <div class="energy-unit empty" id="helmet-energy-7"></div>
+            <div class="energy-unit empty" id="helmet-energy-8"></div>
+            <div class="energy-unit empty" id="helmet-energy-9"></div>
+            <div class="energy-unit empty" id="helmet-energy-10"></div>
+            
+        </div>
+        <br>
+        <div class="affinity-info">
+            <div class="affinity-selected">
+                <div id="helmet-affinity-selected">
+                    <div class="affinty-socket">
+                        <img src="https://www.bungie.net/common/destiny2_content/icons/91fe40e7d2ed2edbce42aa0b1917fd73.png"
+                            alt="affinity">
+                    </div>
+    
+                </div>
+            </div>
+            <div id="helmet-affinity-list" class="affinity-list">
+                <div class="affinty-socket">
+                    <img src="https://www.bungie.net/common/destiny2_content/icons/d0b6369c27cea3a71f059665ba397720.png"
+                        alt="affinity">
+                </div>
+                <div class="affinty-socket">
+                    <img src="https://www.bungie.net/common/destiny2_content/icons/ea89705796a93504412e041c1b5931c0.png"
+                        alt="affinity">
+                </div>
+            </div>
+                
+            
+        </div>
+        
+        
+        <div class="sloted-mods">
+            <div class="sloted-mod" id="helmet-mod-general-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sloted-mod" id="helmet-mod-armor1-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sloted-mod" id="helmet-mod-armor2-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sloted-mod" id="helmet-mod-combat-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sloted-mod" id="helmet-mod-activities-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mod-lists">
+            <div id="helmet-mod-general-list" class="mod-list">
+
+            </div>
+
+            <div id="helmet-mod-armor1-list" class="mod-list">
+
+            </div>
+            <div id="helmet-mod-armor2-list" class="mod-list">
+
+            </div>
+            <div id="helmet-mod-combat-list" class="mod-list">
+
+            </div>
+            <div id="helmet-mod-activities-list" class="mod-list">
+
+            </div>
+        </div>
+        
+    </div>
+    -->
+    <!--
+    <div class="arms">
+        <div class="sloted-mods">
+            <div class="sloted-mod" id="arms-general-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sloted-mod" id="arms-armor1-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sloted-mod" id="arms-armor2-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sloted-mod" id="arms-combat-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sloted-mod" id="arms-activities-selected">
+                <div class="mod-socket"><img class="mod-socket-img"
+                        src="https://www.bungie.net/common/destiny2_content/icons/b4d05ef69d0c3227a7d4f7f35bbc2848.png"
+                        alt="mod">
+                    <div class="mod-card">
+                        <div class="mod-header"><span class="mod-name">Empty Mod Socket</span><span
+                                class="mod-type">General
+                                Armor Mod</span></div>
+                        <div class="mod-body"><span>No mod currently selected.</span>
+                            <div class="mod-perks"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mod-lists">
+            <div id="arms-general-list" class="mod-list">
+
+            </div>
+
+            <div id="arms-armor1-list" class="mod-list">
+
+            </div>
+            <div id="arms-armor2-list" class="mod-list">
+
+            </div>
+            <div id="arms-combat-list" class="mod-list">
+
+            </div>
+            <div id="arms-activities-list" class="mod-list">
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="mod-slots">
+
+        <div class="mod-socket">
+            <img class="mod-socket-img"
+                src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                alt="mod">
+            <img class="mod-socket-img" src="imgs/mods/costs/mod_cost_3.png" alt="cost">
+            <img class="mod-socket-img" src="imgs/mods/affinities/solar_affinity.png" alt="affinity">
+            <div class="mod-card">
+                <div class="mod-header">
+                    <span class="mod-name">Impact Induction</span>
+                    <span class="mod-type">Arms Armor Mod</span>
+                </div>
+                <div class="mod-body">
+                    <div class="mod-perks">
+                        <div class="mod-perk">
+                            <img src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                                alt="mod">
+                            <div class="mod-perk-description">
+                                <span class="mod-perk-name">Impact Induction</span>
+                                <span>Causing damage with a melee attack reduces your grenade cooldown.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mod-socket">
+            <img class="mod-socket-img"
+                src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                alt="mod">
+            <img class="mod-socket-img" src="imgs/mods/costs/mod_cost_3.png" alt="cost">
+            <img class="mod-socket-img" src="imgs/mods/affinities/solar_affinity.png" alt="affinity">
+            <div class="mod-card">
+                <div class="mod-header">
+                    <span class="mod-name">Impact Induction</span>
+                    <span class="mod-type">Arms Armor Mod</span>
+                </div>
+                <div class="mod-body">
+                    <div class="mod-perks">
+                        <div class="mod-perk">
+                            <img src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                                alt="mod">
+                            <div class="mod-perk-description">
+                                <span class="mod-perk-name">Impact Induction</span>
+                                <span>Causing damage with a melee attack reduces your grenade cooldown.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mod-socket">
+            <img class="mod-socket-img"
+                src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                alt="mod">
+            <img class="mod-socket-img" src="imgs/mods/costs/mod_cost_3.png" alt="cost">
+            <img class="mod-socket-img" src="imgs/mods/affinities/solar_affinity.png" alt="affinity">
+            <div class="mod-card">
+                <div class="mod-header">
+                    <span class="mod-name">Impact Induction</span>
+                    <span class="mod-type">Arms Armor Mod</span>
+                </div>
+                <div class="mod-body">
+                    <div class="mod-perks">
+                        <div class="mod-perk">
+                            <img src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                                alt="mod">
+                            <div class="mod-perk-description">
+                                <span class="mod-perk-name">Impact Induction</span>
+                                <span>Causing damage with a melee attack reduces your grenade cooldown.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mod-socket">
+            <img class="mod-socket-img"
+                src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                alt="mod">
+            <img class="mod-socket-img" src="imgs/mods/costs/mod_cost_3.png" alt="cost">
+            <img class="mod-socket-img" src="imgs/mods/affinities/solar_affinity.png" alt="affinity">
+            <div class="mod-card">
+                <div class="mod-header">
+                    <span class="mod-name">Impact Induction</span>
+                    <span class="mod-type">Arms Armor Mod</span>
+                </div>
+                <div class="mod-body">
+                    <div class="mod-perks">
+                        <div class="mod-perk">
+                            <img src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                                alt="mod">
+                            <div class="mod-perk-description">
+                                <span class="mod-perk-name">Impact Induction</span>
+                                <span>Causing damage with a melee attack reduces your grenade cooldown.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mod-socket">
+            <img class="mod-socket-img"
+                src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                alt="mod">
+            <img class="mod-socket-img" src="imgs/mods/costs/mod_cost_3.png" alt="cost">
+            <img class="mod-socket-img" src="imgs/mods/affinities/solar_affinity.png" alt="affinity">
+            <div class="mod-card">
+                <div class="mod-header">
+                    <span class="mod-name">Impact Induction</span>
+                    <span class="mod-type">Arms Armor Mod</span>
+                </div>
+                <div class="mod-body">
+                    <div class="mod-perks">
+                        <div class="mod-perk">
+                            <img src="https://www.bungie.net/common/destiny2_content/icons/e00ae3014d71f672690e493cb814e9bf.png"
+                                alt="mod">
+                            <div class="mod-perk-description">
+                                <span class="mod-perk-name">Impact Induction</span>
+                                <span>Causing damage with a melee attack reduces your grenade cooldown.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+
 </body>
+
+</html>
